@@ -1,0 +1,1178 @@
+# Formato: '# Marca' abre una marca; cada línea 'Modelo | versión; versión; ...' es un modelo con sus versiones.
+# Las versiones son motorizaciones y variantes habituales; en la web siempre se puede escribir otra a mano.
+# Abarth
+124 Spider | 1.4 MultiAir 170 CV
+500 | 1.4 T-Jet 135 CV; 1.4 T-Jet 140 CV; 1.4 T-Jet 160 CV; 1.4 T-Jet 165 CV; 1.4 T-Jet 180 CV; 595; 595 Competizione; 595 Turismo; 595C; 695 Biposto; 695 Tributo
+500e | Turismo
+595 | 1.4 T-Jet 145 CV; 1.4 T-Jet 160 CV; 1.4 T-Jet 180 CV; Competizione; Turismo; Pista
+695 | 1.4 T-Jet 180 CV; 1.4 T-Jet 190 CV; Tributo 131 Rally; Biposto
+Grande Punto | 1.4 T-Jet 155 CV
+Punto Evo | 1.4 MultiAir 165 CV
+# Aiways
+U5
+U6
+# Aixam
+City | 0.4 Diésel 5 CV; Eléctrico 6 kW
+Coupé | 0.4 Diésel 5 CV; GTI
+Crossline | 0.4 Diésel 5 CV
+Crossover | 0.4 Diésel 5 CV
+Minauto | 0.5 Diésel
+Scouty | 0.4 Diésel 5 CV; R
+# Alfa Romeo
+145 | 1.4 T.Spark; 1.6 T.Spark; 1.9 JTD
+146 | 1.4 T.Spark; 1.6 T.Spark; 1.9 JTD
+147 | 1.6 T.Spark 120 CV; 1.9 JTD 115 CV; 1.9 JTD 120 CV; 1.9 JTD 140 CV; 2.0 T.Spark 150 CV; 3.2 GTA 250 CV
+156 | 1.6 T.Spark; 1.8 T.Spark; 2.0 T.Spark; 1.9 JTD 105 CV; 1.9 JTD 115 CV; 2.4 JTD 140 CV; 2.5 V6
+159 | 1.7 TBi 200 CV; 1.9 JTDM 120 CV; 1.9 JTDM 150 CV; 2.0 JTDM 136 CV; 2.0 JTDM 170 CV; 2.4 JTDM 200 CV; 3.2 JTS Q4
+164 | 2.0 TS; 2.5 TD; 3.0 V6
+166 | 2.0 T.Spark; 2.4 JTD; 2.5 V6; 3.0 V6
+33 | 1.3; 1.5; 1.7 16V
+4C | 1.75 TBi 240 CV; Spider
+75 | 1.8; 2.0; 3.0 V6; 2.4 TD
+8C Competizione | 4.7 V8
+Brera | 2.2 JTS 185 CV; 3.2 JTS V6 260 CV; 2.4 JTDM 200 CV
+Giulia | 2.0 Turbo 200 CV; 2.0 Turbo 280 CV; 2.2 Diésel 136 CV; 2.2 Diésel 160 CV; 2.2 Diésel 190 CV; 2.9 V6 Biturbo Quadrifoglio 510 CV; Veloce; Competizione
+Giulietta | 1.4 TB 120 CV; 1.4 MultiAir 150 CV; 1.4 MultiAir 170 CV; 1.6 JTDM 105 CV; 1.6 JTDM 120 CV; 1.75 TBi 235 CV; 2.0 JTDM 150 CV; 2.0 JTDM 175 CV; Veloce; Quadrifoglio Verde
+GT | 1.9 JTD 150 CV; 2.0 JTS 165 CV; 3.2 V6
+GTV | 2.0 TS; 3.0 V6
+Junior | Hybrid 136 CV; Elettrica 156 CV; Speciale; Veloce
+MiTo | 0.9 TwinAir 105 CV; 1.3 JTDM 85 CV; 1.4 T 120 CV; 1.4 MultiAir 135 CV; 1.4 MultiAir 170 CV; 1.6 JTDM 120 CV; Quadrifoglio Verde
+Spider | 2.2 JTS; 3.2 JTS V6; 2.4 JTDM
+Spider clásico | 1.6; 1.8; 2.0
+Stelvio | 2.0 Turbo 200 CV; 2.0 Turbo 280 CV; 2.2 Diésel 160 CV; 2.2 Diésel 190 CV; 2.2 Diésel 210 CV; 2.9 V6 Quadrifoglio 510 CV; Veloce
+Tonale | 1.3 PHEV Q4 280 CV; 1.5 Hybrid 130 CV; 1.6 Diésel 130 CV; 1.5 Hybrid 160 CV; Veloce
+# Alpina
+B3 | 3.0 Biturbo 410 CV; 3.0 Biturbo 462 CV; S Biturbo 3.0 BMW; Touring
+B4 | 3.0 Biturbo 410 CV; 3.0 Biturbo 462 CV; Gran Coupé; Cabrio
+B5 | 4.4 V8 Biturbo 608 CV; 4.4 V8 Biturbo 540 CV; 4.4 V8 Biturbo 507 CV; Touring
+B7 | 4.4 V8 Biturbo 608 CV
+D3 | 3.0 BiTurbo Diesel 350 CV; 3.0 BiTurbo Diesel 355 CV; Touring
+D4 | 3.0 BiTurbo Diesel 350 CV; 3.0 BiTurbo Diesel 355 CV; Gran Coupé
+D5 | 3.0 BiTurbo Diesel 350 CV; 3.0 BiTurbo Diesel 355 CV; Touring
+XB7 | 4.4 V8 Biturbo 621 CV
+XD3 | 3.0 BiTurbo Diesel 355 CV
+XD4 | 3.0 BiTurbo Diesel 355 CV
+# Alpine
+A110 | 1.8 Turbo 252 CV; 1.8 Turbo 292 CV; 1.8 Turbo 300 CV; GT; R
+A290 | GT
+# Aston Martin
+DB11 | 4.0 V8 510 CV; 5.2 V12 608 CV; Volante
+DB12 | 4.0 V8 680 CV
+DB9 | 5.9 V12
+DBS | Superleggera 5.2 V12 725 CV; Volante
+DBX | 4.0 V8 550 CV; DBX707
+Rapide | 6.0 V12
+Valhalla | 4.0 V8 PHEV
+Vanquish | 5.9 V12 573 CV
+Vantage | 4.0 V8 510 CV; 4.7 V8; 4.3 V8
+# Audi
+100 | 2.0 E; 2.5 TDI
+200 | 2.2 Turbo
+80 | 1.8; 1.9 TDI; 2.0 E
+90 | 2.0; 2.3
+A1 | 1.0 TFSI 95 CV; 1.0 TFSI 110 CV; 1.2 TFSI 86 CV; 1.4 TFSI 122 CV; 1.4 TDI 90 CV; 1.6 TDI 90 CV; 1.6 TDI 116 CV; 25 TFSI; 30 TFSI; 35 TFSI; 40 TFSI
+A2 | 1.4 TDI 75 CV; 1.4 FSI 90 CV; 1.2 TDI 3L
+A3 | 1.0 TFSI 115 CV; 1.2 TFSI 105 CV; 1.4 TFSI 125 CV; 1.4 TFSI 140 CV; 1.5 TFSI 150 CV; 1.6 TDI 105 CV; 1.6 TDI 110 CV; 1.9 TDI 105 CV; 2.0 TDI 136 CV; 2.0 TDI 150 CV; 2.0 TDI 184 CV; 30 TFSI; 35 TFSI; 35 TDI; 40 TFSI e; 40 TDI; 45 TFSI; S3; RS3; Sportback; Cabrio
+A4 | 1.8 TFSI 120 CV; 1.8 TFSI 160 CV; 2.0 TFSI 180 CV; 2.0 TFSI 211 CV; 1.9 TDI 116 CV; 1.9 TDI 130 CV; 2.0 TDI 136 CV; 2.0 TDI 143 CV; 2.0 TDI 150 CV; 2.0 TDI 163 CV; 2.0 TDI 177 CV; 2.0 TDI 190 CV; 2.7 TDI V6; 3.0 TDI V6 204 CV; 3.0 TDI V6 245 CV; 30 TDI; 35 TDI; 40 TDI quattro; 35 TFSI; 40 TFSI; 45 TFSI quattro; S4; RS4 Avant; Avant
+A5 | 1.8 TFSI 170 CV; 2.0 TFSI 180 CV; 2.0 TFSI 211 CV; 2.0 TDI 150 CV; 2.0 TDI 177 CV; 2.0 TDI 190 CV; 3.0 TDI 245 CV; 35 TFSI; 40 TFSI; 40 TDI; 45 TFSI; S5; RS5; Sportback; Coupé; Cabrio
+A6 | 2.0 TFSI 180 CV; 2.0 TDI 140 CV; 2.0 TDI 170 CV; 2.0 TDI 177 CV; 2.0 TDI 190 CV; 2.7 TDI 190 CV; 3.0 TDI 204 CV; 3.0 TDI 218 CV; 3.0 TDI 245 CV; 3.0 TDI 272 CV; 40 TDI; 45 TDI; 50 TDI; 55 TFSI; S6; RS6 Avant; Avant
+A7 | 3.0 TDI 204 CV; 3.0 TDI 245 CV; 3.0 TDI 272 CV; 3.0 TFSI 300 CV; 40 TDI; 45 TDI; 50 TDI; 55 TFSI; S7; RS7 Sportback; Sportback
+A8 | 3.0 TDI 250 CV; 3.0 TDI 258 CV; 4.2 TDI 350 CV; 3.0 TFSI 310 CV; 50 TDI; 55 TFSI; 60 TFSIe; S8; Long
+Allroad
+Cabriolet | 2.3; 2.6
+Coupé | 2.3
+e-tron | 50 quattro 313 CV; 55 quattro 408 CV; Sportback
+e-tron GT | quattro 476 CV; RS 646 CV
+Q2 | 1.0 TFSI 116 CV; 1.4 TFSI 150 CV; 1.6 TDI 116 CV; 2.0 TDI 150 CV; 30 TFSI; 35 TFSI; 30 TDI; 35 TDI; 40 TFSI quattro; SQ2
+Q3 | 1.4 TFSI 150 CV; 2.0 TFSI 170 CV; 2.0 TFSI 211 CV; 2.0 TDI 140 CV; 2.0 TDI 177 CV; 35 TFSI; 35 TDI; 40 TDI quattro; 45 TFSI quattro; 45 TFSIe; RS Q3; Sportback
+Q4 e-tron | 35 e-tron 170 CV; 40 e-tron 204 CV; 45 e-tron quattro 265 CV; 50 e-tron quattro 299 CV; Sportback
+Q5 | 2.0 TFSI 211 CV; 2.0 TDI 143 CV; 2.0 TDI 150 CV; 2.0 TDI 163 CV; 2.0 TDI 170 CV; 2.0 TDI 177 CV; 2.0 TDI 190 CV; 3.0 TDI 245 CV; 35 TDI; 40 TDI quattro; 45 TFSI quattro; 50 TFSIe; SQ5; Sportback
+Q6 e-tron | Performance; SQ6
+Q7 | 3.0 TDI 204 CV; 3.0 TDI 233 CV; 3.0 TDI 245 CV; 3.0 TDI 272 CV; 3.0 TFSI 333 CV; 3.6 FSI; 4.2 TDI 340 CV; 45 TDI; 50 TDI; 55 TFSI; 60 TFSIe; SQ7
+Q8 | 50 TDI; 55 TFSI; 60 TFSIe; SQ8; RS Q8
+R8 | 4.2 V8 420 CV; 5.2 V10 525 CV; 5.2 V10 Plus 610 CV; Spyder
+TT | 1.8 TFSI 160 CV; 1.8 TFSI 180 CV; 2.0 TFSI 200 CV; 2.0 TFSI 230 CV; 2.0 TDI 184 CV; 40 TFSI; 45 TFSI; Roadster
+# Bentley
+Bentayga | 4.0 V8; 6.0 W12; Hybrid; Speed
+Continental GT | 4.0 V8 550 CV; 6.0 W12 635 CV; Speed; Convertible
+Flying Spur | 4.0 V8; 6.0 W12; Hybrid
+Mulsanne | 6.75 V8
+# BMW
+i3 | 94 Ah; 120 Ah; i3s
+i4 | eDrive35; eDrive40; M50
+i5 | eDrive40; M60 xDrive
+i7 | xDrive60; M70 xDrive
+i8 | Coupé; Roadster
+iX | xDrive40; xDrive50; M60
+iX1 | eDrive20; xDrive30
+iX3
+M2 | Coupé 370 CV; Coupé 460 CV
+M3 | E36 3.0; E46 3.2; E90 4.0 V8; F80 3.0 Competition; G80 Competition; Touring
+M4 | F82 431 CV; Competition 450 CV; Competition 510 CV
+M5 | E39 4.9 V8; E60 5.0 V10; F10 4.4 V8; F90 Competition
+M6 | E63 5.0 V10; F13 4.4 V8
+Serie 1 | 114i; 116i; 118i; 120i; 125i; M135i; 116d; 118d; 120d; 123d; 114d; 116d EfficientDynamics; M140i
+Serie 2 | 216i; 218i; 220i; 230i; M235i; M240i; 216d; 218d; 220d; 225d; Active Tourer; Gran Tourer; Gran Coupé; Coupé; Cabrio; 225xe iPerformance
+Serie 3 | 316i; 318i; 320i; 323i; 325i; 328i; 330i; 335i; M340i; 316d; 318d; 320d; 325d; 330d; 335d; 340d; 320d xDrive; 330e; 320e; Touring; Gran Turismo; Compact; Coupé; Cabrio
+Serie 4 | 418i; 420i; 428i; 430i; 435i; 440i; M440i; 418d; 420d; 425d; 430d; 435d; 440d; Coupé; Cabrio; Gran Coupé
+Serie 5 | 518i; 520i; 523i; 525i; 528i; 530i; 535i; 540i; 550i; 518d; 520d; 525d; 530d; 535d; 540d; 530e; 545e; Touring; Gran Turismo; M550i
+Serie 6 | 630i; 640i; 650i; 640d; Coupé; Cabrio; Gran Coupé; Gran Turismo; M6
+Serie 7 | 725d; 730d; 730Ld; 740d; 740Ld; 740i; 750i; 760i; 745e; 740e; Long; M760Li
+Serie 8 | 840i; 840d; 850i; M850i; Coupé; Cabrio; Gran Coupé
+X1 | sDrive16d; sDrive18i; sDrive18d; sDrive20i; sDrive20d; xDrive18d; xDrive20d; xDrive23d; xDrive25i; xDrive25d; xDrive25e; xDrive30e
+X2 | sDrive16d; sDrive18i; sDrive18d; sDrive20i; xDrive20d; xDrive25e; M35i
+X3 | sDrive18d; xDrive20d; xDrive30d; xDrive35d; xDrive20i; xDrive30i; xDrive30e; xDrive20e; M40i; M40d
+X4 | xDrive20d; xDrive30d; xDrive20i; xDrive30i; M40i; M40d
+X5 | xDrive25d; xDrive30d; xDrive40d; xDrive40i; xDrive45e; xDrive50i; M50d; M50i
+X6 | xDrive30d; xDrive40d; xDrive40i; xDrive50i; M50d
+X7 | xDrive30d; xDrive40d; xDrive40i; M60i; M50d
+Z3 | 1.9; 2.0; 2.8
+Z4 | 2.0i; 2.2i; 2.5i; 3.0i; sDrive18i; sDrive20i; sDrive23i; sDrive28i; sDrive30i; sDrive35i; M40i; Roadster
+Z8 | 4.9 V8
+# BYD
+Atto 3
+Dolphin
+Han
+Seagull
+Seal
+Seal U
+Sealion 7
+Tang | AWD 7 plazas
+# Cadillac
+ATS | 2.0 Turbo; 3.6 V6
+BLS | 1.9 TiD; 2.0 T
+CTS | 3.0 V6; 3.6 V6; 2.0 Turbo
+Escalade | 6.2 V8
+Seville
+SRX | 3.0 V6; 2.8 Turbo
+XT5 | 2.0 Turbo; 3.6 V6
+# Chevrolet
+Aveo | 1.2; 1.4; 1.3 D
+Camaro | 3.6 V6; 6.2 V8 SS
+Captiva | 2.2 VCDi 163 CV; 2.0 VCDi 150 CV; 2.4; 3.0 V6
+Corvette | C5; C6; C7; C8
+Cruze | 1.6; 1.8; 1.4 Turbo; 2.0 VCDi 125 CV; 2.0 VCDi 163 CV
+Kalos | 1.2; 1.4
+Lacetti | 1.4; 1.6; 1.8; 2.0 VCDi
+Matiz | 0.8; 1.0
+Orlando | 1.8; 2.0 VCDi 130 CV; 2.0 VCDi 163 CV
+Silverado | 5.3 V8; 6.2 V8
+Spark | 1.0; 1.2
+Tahoe | 5.3 V8
+Trax | 1.4 Turbo; 1.7 VCDi
+Volt | 1.4 Hybrid
+# Chrysler
+300C | 3.0 CRD; 3.5 V6; 5.7 V8 Hemi; 6.1 SRT8
+Crossfire | 3.2 V6; SRT-6
+Delta | 1.4 T; 1.6 MJet; 1.9 MJet
+Neon | 2.0
+PT Cruiser | 2.0; 2.2 CRD; 2.4 Turbo
+Sebring | 2.0; 2.0 CRD; 2.7
+Stratus | 2.0; 2.5
+Voyager | 2.5 CRD; 2.8 CRD; 3.3; 3.8
+Ypsilon | 1.2; 1.4
+# Citroën
+2CV | 2CV6
+Ami | 6 kW eléctrico
+AX | 1.0; 1.1; 1.4 D; 1.5 D
+Berlingo | 1.4; 1.9 D; 1.6 HDi 75 CV; 1.6 HDi 90 CV; 1.6 HDi 110 CV; 1.6 BlueHDi 100 CV; 1.5 BlueHDi 100 CV; 1.5 BlueHDi 130 CV; PureTech 110
+BX | 1.4; 1.6; 1.9 D; 1.9 TRD
+C1 | 1.0 VTi 68 CV; 1.2 VTi 82 CV; 1.4 HDi 54 CV; PureTech 72; PureTech 82
+C2 | 1.1; 1.4; 1.6 VTS; 1.4 HDi
+C3 | 1.1; 1.2 PureTech 68 CV; 1.2 PureTech 82 CV; 1.2 PureTech 110 CV; 1.4; 1.4 HDi; 1.6 HDi 75 CV; 1.6 BlueHDi 75 CV; 1.6 BlueHDi 100 CV; 1.5 BlueHDi 100 CV
+C3 Aircross | 1.2 PureTech 82 CV; 1.2 PureTech 110 CV; 1.2 PureTech 130 CV; 1.5 BlueHDi 100 CV; 1.5 BlueHDi 120 CV
+C3 Picasso | 1.4 VTi; 1.6 VTi 120 CV; 1.6 HDi 90 CV; 1.6 HDi 110 CV; 1.6 e-HDi
+C4 | 1.4 VTi; 1.6 VTi; 1.6 THP 150 CV; 1.6 HDi 90 CV; 1.6 HDi 110 CV; 2.0 HDi 136 CV; 1.2 PureTech 110 CV; 1.2 PureTech 130 CV; 1.5 BlueHDi 110 CV; 1.5 BlueHDi 130 CV; ë-C4 136 CV
+C4 Cactus | 1.2 PureTech 82 CV; 1.2 PureTech 110 CV; 1.2 PureTech 130 CV; 1.6 BlueHDi 100 CV; 1.6 BlueHDi 120 CV
+C4 Picasso | 1.6 e-HDi 115 CV; 1.6 THP 155 CV; 1.6 BlueHDi 120 CV; 2.0 HDi 150 CV; 1.2 PureTech 130 CV; Grand C4 Picasso; Grand C4 SpaceTourer
+C4 X | PureTech 130; ë-C4 X
+C5 | 1.6 HDi 110 CV; 1.8; 2.0 HDi 110 CV; 2.0 HDi 136 CV; 2.2 HDi 170 CV; 2.7 HDi V6; 3.0 V6; Tourer
+C5 Aircross | 1.2 PureTech 130 CV; 1.6 PureTech 180 CV; 1.5 BlueHDi 130 CV; 2.0 BlueHDi 180 CV; Hybrid 225
+C6 | 2.7 HDi V6; 3.0 V6
+C8 | 2.0 HDi 120 CV; 2.0 HDi 163 CV; 2.2 HDi 130 CV; 2.2 HDi 170 CV
+Dispatch | 1.6 HDi; 2.0 HDi
+DS3 | 1.2 PureTech 82 CV; 1.2 PureTech 110 CV; 1.6 THP 155 CV; 1.6 VTi 120 CV; 1.6 e-HDi 90 CV; 1.6 BlueHDi 100 CV; Cabrio
+DS4 | 1.6 THP 155 CV; 1.6 VTi 120 CV; 1.6 e-HDi 115 CV; 2.0 HDi 160 CV
+DS5 | 1.6 THP 155 CV; 2.0 HDi 160 CV; Hybrid4
+Evasion | 2.0; 2.1 TD; 1.9 TD
+Jumper | 2.0 HDi; 2.2 HDi 110 CV; 2.2 HDi 130 CV; 2.2 BlueHDi 140 CV; 2.0 BlueHDi 130 CV
+Jumpy | 1.6 HDi 90 CV; 1.6 HDi 115 CV; 2.0 HDi 120 CV; 2.0 BlueHDi 120 CV; 2.0 BlueHDi 150 CV; Combi; Furgón
+Nemo | 1.3 HDi 75 CV; 1.4 HDi 70 CV
+Saxo | 1.0; 1.1; 1.4; 1.6 VTS; 1.5 D
+SpaceTourer | 1.5 BlueHDi 120 CV; 2.0 BlueHDi 150 CV
+Synergie | 2.0; 2.1 TD
+Xantia | 1.8; 2.0; 1.9 TD; 2.0 HDi
+XM | 2.0; 2.5 TD; 3.0 V6
+Xsara | 1.4; 1.6; 1.8; 2.0 HDi 90 CV; 1.9 D; 1.4 HDi
+Xsara Picasso | 1.8; 2.0 HDi 90 CV; 2.0 HDi 110 CV; 1.6 HDi 110 CV
+# Cupra
+Ateca | 2.0 TSI 300 CV; 4Drive
+Born | 58 kWh 204 CV; 77 kWh 231 CV
+Formentor | 1.4 e-Hybrid 204 CV; 1.5 TSI 150 CV; 2.0 TSI 190 CV; 2.0 TSI 245 CV; 2.0 TSI 310 CV; 2.0 TDI 150 CV; VZ5
+Leon | 1.4 e-Hybrid 204 CV; 1.5 eTSI 150 CV; 2.0 TSI 245 CV; 2.0 TSI 300 CV; 2.0 TSI 310 CV; Sportstourer
+Tavascan
+Terramar | 1.5 eTSI; 2.0 TSI; 1.5 e-Hybrid
+# Dacia
+Bigster | Hybrid 155; TCe 130; Eco-G 120
+Dokker | 1.2 TCe 115 CV; 1.5 dCi 75 CV; 1.5 dCi 90 CV; 1.5 dCi 95 CV
+Duster | 1.0 TCe 100 CV; 1.2 TCe 125 CV; 1.3 TCe 130 CV; 1.3 TCe 150 CV; 1.6 SCe 115 CV; 1.5 dCi 90 CV; 1.5 dCi 110 CV; 1.5 Blue dCi 115 CV; 1.6 Hybrid 140 CV; Eco-G 100
+Jogger | 1.0 TCe 110 CV; 1.0 ECO-G 100; Hybrid 140; 5 plazas; 7 plazas
+Lodgy | 1.2 TCe 115 CV; 1.5 dCi 90 CV; 1.5 dCi 110 CV; 1.6 85; 5 plazas; 7 plazas
+Logan | 1.0 SCe 75 CV; 1.2 16V; 1.4; 1.5 dCi 70 CV; 1.5 dCi 90 CV; 0.9 TCe 90 CV
+Sandero | 1.0 SCe 65 CV; 1.0 SCe 75 CV; 1.0 TCe 90 CV; 1.0 TCe 100 CV ECO-G; 0.9 TCe 90 CV; 1.2 16V 75 CV; 1.5 dCi 75 CV; 1.5 dCi 90 CV; 1.5 Blue dCi 95 CV
+Spring | Electric 45; Electric 65
+# Daewoo
+Kalos | 1.2; 1.4
+Lanos | 1.3; 1.5; 1.6
+Leganza | 2.0
+Matiz | 0.8; 1.0
+Nubira | 1.6; 1.8; 2.0
+Tacuma | 1.6; 2.0
+# Daihatsu
+Charade | 1.0; 1.3; 1.5
+Copen | 1.3 Turbo
+Cuore | 1.0; 0.8; 1.0 Plus
+Feroza | 1.6
+Materia | 1.5
+Rocky | 2.8 TD
+Sirion | 1.0; 1.3; 1.5
+Terios | 1.3; 1.5
+YRV | 1.3 Turbo
+# DFSK
+Fengon 500 | 1.5 T; Eléctrico
+Glory 560 | 1.5 T 150 CV
+Glory 580 | 1.5 T 150 CV; 1.5 T 150 CV CVT
+Seres 3 | Eléctrico 52 kWh 109 CV
+# Dodge
+Avenger | 2.0; 2.0 CRD; 2.4
+Caliber | 1.8; 2.0; 2.0 CRD
+Challenger | 3.6 V6; 5.7 V8 R/T; 6.4 V8 SRT; 6.2 V8 Hellcat
+Charger | 3.6 V6; 5.7 V8; 6.4 V8
+Journey | 2.0 CRD; 2.4; 3.6 V6
+Nitro | 2.8 CRD; 3.7 V6
+RAM | 1500 5.7 V8; 2500 6.7 Cummins
+Viper | 8.4 V10
+# DS
+DS 3 | PureTech 100; PureTech 130; BlueHDi 100; E-Tense 156 CV
+DS 4 | PureTech 130; PureTech 180; BlueHDi 130; E-Tense 225
+DS 7 | PureTech 130; PureTech 180; PureTech 225; BlueHDi 130; BlueHDi 180; E-Tense 225; E-Tense 4x4 300
+DS 9 | PureTech 225; E-Tense 225; E-Tense 250
+# Ferrari
+296
+308
+328
+348
+355 | F1; Spider
+360 | Spider
+430 | F430; Spider
+458 | Spider; Speciale
+488 | Spider; Pista
+599
+612 Scaglietti | 5.7 V12
+812 | Competizione
+California | 4.3 V8; 30
+Enzo | 6.0 V12
+F12
+F8 | Spider
+GTC4Lusso | V12; T V8
+LaFerrari | Hybrid
+Portofino | 3.9 V8 600 CV; M
+Purosangue | 6.5 V12
+Roma | 3.9 V8 620 CV; Spider
+SF90 | Spider
+Testarossa | 4.9 Flat-12
+# Fiat
+124 Spider | 1.4 MultiAir 140 CV
+126 | 650
+127 | 903; 1050
+500 | 0.9 TwinAir 85 CV; 0.9 TwinAir 105 CV; 1.2 69 CV; 1.2 8v; 1.3 Multijet 95 CV; 1.4 16v 100 CV; 1.0 Hybrid 70 CV; 500C Cabrio
+500e | 24 kWh 95 CV; 42 kWh 118 CV
+500L | 0.9 TwinAir 105 CV; 1.3 Multijet 85 CV; 1.4 16v 95 CV; 1.6 Multijet 105 CV; 1.6 Multijet 120 CV
+500X | 1.0 FireFly 120 CV; 1.3 FireFly 150 CV; 1.4 MultiAir 140 CV; 1.6 E-torQ; 1.6 Multijet 120 CV; 2.0 Multijet 140 CV
+600 | Hybrid 100 CV; Hybrid 145 CV; 600e 156 CV
+600e
+Barchetta | 1.8
+Brava | 1.2; 1.6; 1.9 JTD
+Bravo | 1.4 T-Jet 120 CV; 1.4 16v 90 CV; 1.6 Multijet 105 CV; 1.6 Multijet 120 CV; 1.9 Multijet 120 CV; 1.9 Multijet 150 CV
+Cinquecento | 0.9; 1.1
+Coupé | 2.0 16v Turbo; 2.0 20v Turbo
+Croma | 1.8; 1.9 Multijet 120 CV; 1.9 Multijet 150 CV; 2.2
+Doblò | 1.4 95 CV; 1.4 T-Jet; 1.3 Multijet 90 CV; 1.6 Multijet 105 CV; 1.6 Multijet 120 CV; 2.0 Multijet 135 CV; Combi
+Ducato | 2.0 Multijet 110 CV; 2.3 Multijet 130 CV; 2.3 Multijet 150 CV; 2.3 Multijet 160 CV; 3.0 Multijet 180 CV; 2.2 Multijet 140 CV; 2.2 Multijet 180 CV
+Fiorino | 1.3 Multijet 75 CV; 1.4
+Freemont | 2.0 Multijet 140 CV; 2.0 Multijet 170 CV; 3.6 V6
+Grande Panda | Hybrid 110 CV; Electric 113 CV
+Grande Punto | 1.2 65 CV; 1.4 77 CV; 1.4 T-Jet 120 CV; 1.3 Multijet 75 CV; 1.3 Multijet 90 CV; 1.9 Multijet 120 CV
+Idea | 1.2; 1.4; 1.3 Multijet; 1.9 JTD
+Linea | 1.4 T-Jet 120 CV; 1.3 Multijet 90 CV; 1.6 Multijet 105 CV
+Marea | 1.6; 1.8; 1.9 JTD; 2.0
+Multipla | 1.6; 1.9 JTD
+Panda | 0.9 TwinAir 80 CV; 0.9 TwinAir 85 CV; 1.0 Hybrid 70 CV; 1.1 54 CV; 1.2 60 CV; 1.2 69 CV; 1.3 Multijet 75 CV; 1.3 Multijet 95 CV; Cross 4x4; 4x4
+Punto | 1.2 8v 60 CV; 1.2 8v 69 CV; 1.2 16v 80 CV; 1.4 77 CV; 1.4 T-Jet 120 CV; 1.3 Multijet 75 CV; 1.3 Multijet 95 CV; 1.9 JTD 80 CV; 1.9 JTD 100 CV; 1.9 JTD 130 CV; 0.9 TwinAir 85 CV
+Punto Evo | 1.2 65 CV; 1.4 77 CV; 1.4 MultiAir 105 CV; 1.3 Multijet 75 CV; 1.3 Multijet 95 CV; 1.6 Multijet 120 CV
+Qubo | 1.3 Multijet 75 CV; 1.4 77 CV
+Scudo | 1.6 Multijet 90 CV; 2.0 Multijet 120 CV; 2.0 Multijet 165 CV; 2.0 BlueHDi 145 CV
+Sedici | 1.6; 1.9 Multijet; 4x4
+Seicento | 0.9; 1.1
+Stilo | 1.2 16v; 1.4 16v; 1.6 16v; 1.8 16v; 1.9 JTD 80 CV; 1.9 JTD 115 CV; 1.9 Multijet 120 CV; 1.9 Multijet 140 CV
+Strada | 1.3 Multijet; 1.4
+Talento | 1.6 Multijet 120 CV; 1.6 Multijet 145 CV; 2.0 Multijet
+Tempra | 1.6; 1.8; 2.0
+Tipo | 1.0 T3 100 CV; 1.3 Multijet 95 CV; 1.4 T-Jet 120 CV; 1.4 16v 95 CV; 1.6 Multijet 120 CV; 1.5 Hybrid 130 CV; Sedán; Hatchback
+Topolino | 5.5 kW eléctrico
+Ulysse | 2.0 JTD; 2.2 JTD
+Uno | 1.0; 1.3; 1.4 Turbo; 1.7 D
+# Ford
+Bronco | 2.7 V6 EcoBoost; 2.3 EcoBoost; Raptor
+C-Max | 1.0 EcoBoost 125 CV; 1.5 EcoBoost 150 CV; 1.6 TDCi 115 CV; 2.0 TDCi 140 CV; Hybrid
+Capri
+Cougar | 2.0 16v; 2.5 V6
+EcoSport | 1.0 EcoBoost 100 CV; 1.0 EcoBoost 125 CV; 1.5 TDCi 95 CV; 1.5 TDCi 100 CV; 1.5 Ti-VCT 112 CV
+Edge | 2.0 TDCi 180 CV; 2.0 TDCi 210 CV; 2.0 EcoBlue 238 CV; Vignale
+Escort | 1.3; 1.4; 1.6; 1.8 D; 1.8 TD
+Explorer | 3.0 PHEV 457 CV; 2.3 EcoBoost; 3.5 V6; Electric
+F-150 | 3.5 EcoBoost; 5.0 V8; 3.5 PowerBoost Hybrid; Raptor
+Fiesta | 1.0 EcoBoost 100 CV; 1.0 EcoBoost 125 CV; 1.0 EcoBoost 140 CV; 1.0 EcoBoost Hybrid 125 CV; 1.1 Ti-VCT 70 CV; 1.1 Ti-VCT 85 CV; 1.25 60 CV; 1.25 82 CV; 1.4 80 CV; 1.4 TDCi 68 CV; 1.5 TDCi 75 CV; 1.5 TDCi 85 CV; 1.6 TDCi 95 CV; 1.6 Ti-VCT 105 CV; 1.5 EcoBoost ST 200 CV; 1.6 EcoBoost ST 182 CV; Vignale; ST
+Focus | 1.0 EcoBoost 100 CV; 1.0 EcoBoost 125 CV; 1.0 EcoBoost Hybrid 125 CV; 1.5 EcoBoost 150 CV; 1.5 EcoBoost 182 CV; 1.6 Ti-VCT 105 CV; 1.6 Ti-VCT 125 CV; 1.6 TDCi 95 CV; 1.6 TDCi 115 CV; 1.5 TDCi 95 CV; 1.5 TDCi 120 CV; 1.5 EcoBlue 120 CV; 1.8 TDCi 115 CV; 2.0 TDCi 110 CV; 2.0 TDCi 136 CV; 2.0 TDCi 140 CV; 2.0 TDCi 150 CV; 2.0 EcoBlue 150 CV; 2.0 EcoBoost ST 250 CV; 2.3 EcoBoost RS 350 CV; Vignale; ST; RS
+Focus C-Max | 1.6 TDCi 109 CV; 1.8 TDCi 115 CV; 2.0 TDCi 136 CV
+Fusion | 1.4; 1.6 TDCi; 1.4 TDCi
+Galaxy | 1.5 EcoBoost 160 CV; 2.0 TDCi 115 CV; 2.0 TDCi 150 CV; 2.0 TDCi 180 CV; 2.0 TDCi 210 CV; 2.0 EcoBlue 150 CV; 2.0 EcoBlue 190 CV; 2.5 Hybrid 190 CV
+Grand C-Max | 1.0 EcoBoost 125 CV; 1.5 EcoBoost 150 CV; 1.6 TDCi 115 CV; 2.0 TDCi 115 CV; 2.0 TDCi 140 CV
+GT | 3.5 V6 EcoBoost
+Ka | 1.3; 1.2 Ti-VCT 70 CV; 1.2 Ti-VCT 85 CV; 1.2 69 CV
+Ka+ | 1.2 Ti-VCT 70 CV; 1.2 Ti-VCT 85 CV; 1.5 TDCi 95 CV
+Kuga | 1.5 EcoBoost 120 CV; 1.5 EcoBoost 150 CV; 1.5 EcoBoost 182 CV; 1.5 TDCi 120 CV; 1.6 EcoBoost 150 CV; 2.0 TDCi 140 CV; 2.0 TDCi 150 CV; 2.0 TDCi 180 CV; 2.0 EcoBlue 120 CV; 2.0 EcoBlue 150 CV; 2.0 EcoBlue Hybrid 150 CV; 2.5 Duratec PHEV 225 CV; 2.5 FHEV 190 CV; Vignale
+Maverick | 2.5 Hybrid; 2.0 EcoBoost
+Mondeo | 1.6 Ti-VCT 125 CV; 1.5 EcoBoost 160 CV; 1.5 TDCi 120 CV; 2.0 TDCi 115 CV; 2.0 TDCi 140 CV; 2.0 TDCi 150 CV; 2.0 TDCi 180 CV; 2.0 TDCi 210 CV; 2.0 Hybrid 187 CV; 2.0 EcoBoost 240 CV; 1.8 TDCi 125 CV; 2.2 TDCi 175 CV; 2.5 T 220 CV; Vignale
+Mustang | 2.3 EcoBoost 317 CV; 5.0 V8 GT 421 CV; 5.0 V8 GT 450 CV; Mach 1; Shelby GT500; Convertible
+Mustang Mach-E | GT
+Orion | 1.4; 1.6
+Probe | 2.0; 2.5 V6
+Puma | 1.0 EcoBoost 95 CV; 1.0 EcoBoost Hybrid 125 CV; 1.0 EcoBoost Hybrid 155 CV; 1.5 EcoBlue 120 CV; Vignale; ST
+Puma Coupé | 1.4; 1.7
+Ranger | 2.2 TDCi 125 CV; 2.2 TDCi 150 CV; 2.2 TDCi 160 CV; 3.2 TDCi 200 CV; 2.0 EcoBlue 170 CV; 2.0 EcoBlue 213 CV; 3.0 V6 EcoBlue 240 CV; 2.3 EcoBoost; 3.0 V6 Raptor 292 CV; Raptor; Wildtrak; Doble cabina; Cabina extra
+S-Max | 1.5 EcoBoost 165 CV; 2.0 EcoBoost 240 CV; 2.0 TDCi 120 CV; 2.0 TDCi 150 CV; 2.0 TDCi 180 CV; 2.0 TDCi 210 CV; 2.2 TDCi 175 CV; 2.0 EcoBlue 150 CV; 2.0 EcoBlue 190 CV; 2.5 Hybrid 190 CV; Vignale
+Scorpio | 2.0; 2.3; 2.9 V6
+Sierra | 1.6; 2.0; 2.3 D
+Tourneo Connect | 1.0 EcoBoost; 1.5 EcoBlue 100 CV; 1.5 EcoBlue 120 CV; 1.6 TDCi
+Tourneo Courier | 1.0 EcoBoost 100 CV; 1.5 TDCi 75 CV; 1.5 TDCi 100 CV
+Tourneo Custom | 2.0 EcoBlue 130 CV; 2.0 EcoBlue 150 CV; 2.0 EcoBlue 185 CV; 2.2 TDCi; PHEV
+Transit | 2.0 EcoBlue 105 CV; 2.0 EcoBlue 130 CV; 2.0 EcoBlue 170 CV; 2.2 TDCi 100 CV; 2.2 TDCi 125 CV; 2.2 TDCi 155 CV; 2.4 TDCi; 2.0 TDCi; Furgón; Kombi; Chasis cabina
+Transit Connect | 1.5 EcoBlue 75 CV; 1.5 EcoBlue 100 CV; 1.5 EcoBlue 120 CV; 1.6 TDCi 75 CV; 1.6 TDCi 95 CV; 1.8 TDCi
+Transit Courier | 1.0 EcoBoost 100 CV; 1.5 TDCi 75 CV; 1.5 TDCi 100 CV; 1.5 EcoBlue 100 CV
+Transit Custom | 2.0 EcoBlue 105 CV; 2.0 EcoBlue 130 CV; 2.0 EcoBlue 170 CV; 2.2 TDCi 100 CV; 2.2 TDCi 125 CV; 2.2 TDCi 155 CV; PHEV; Kombi
+# Genesis
+G70 | 2.0 T 245 CV; 2.2 D 200 CV; 3.3 T 370 CV; Shooting Brake
+G80 | 2.5 T 304 CV; 3.5 T 380 CV; 2.2 D 210 CV; Electrified G80
+G90 | 3.5 T 380 CV
+GV60 | Standard 229 CV; AWD 314 CV; Performance
+GV70 | 2.5 T 304 CV; 2.2 D 210 CV; Electrified GV70
+GV80 | 2.5 T 304 CV; 3.5 T 380 CV; 3.0 D 278 CV
+# Great Wall
+Hover | 2.0 Diesel 143 CV; 2.4 Gasolina
+Steed | 2.0 Diesel 143 CV
+Wingle 5 | 2.0 GW4D20 143 CV; 2.0 Diesel 143 CV
+# Honda
+Accord | 2.0 i-VTEC 155 CV; 2.0 i-VTEC 156 CV; 2.2 i-DTEC 150 CV; 2.2 i-CTDi 140 CV; 2.4 i-VTEC 201 CV; 2.0 Hybrid; Tourer
+Civic | 1.0 VTEC Turbo 129 CV; 1.5 VTEC Turbo 182 CV; 1.6 i-DTEC 120 CV; 1.6 i-DTEC 125 CV; 2.2 i-CTDi 140 CV; 1.4 i-VTEC 99 CV; 1.8 i-VTEC 140 CV; 2.0 i-VTEC Type R 320 CV; 2.0 VTEC Turbo Type R 310 CV; 2.0 e:HEV 184 CV; Hybrid; Sedán; Tourer; Type R
+Concerto | 1.5; 1.6
+CR-V | 2.0 i-VTEC 155 CV; 2.0 i-MMD Hybrid 184 CV; 2.0 e:HEV 184 CV; 2.0 e:PHEV 184 CV; 1.5 i-VTEC Turbo 173 CV; 1.6 i-DTEC 120 CV; 1.6 i-DTEC 160 CV; 2.2 i-DTEC 150 CV; 2.2 i-CTDi 140 CV; 2.4 i-VTEC 190 CV
+CR-Z | 1.5 IMA Hybrid
+e | 136 CV
+e:Ny1
+FR-V | 1.7; 2.0; 2.2 i-CTDi
+HR-V | 1.5 i-VTEC 130 CV; 1.6 i-DTEC 120 CV; 1.5 e:HEV 131 CV; 1.6 i-VTEC
+Insight | 1.3 IMA
+Integra | 1.8 VTEC; Type R
+Jazz | 1.2 90 CV; 1.3 i-VTEC 100 CV; 1.4 i-VTEC 100 CV; 1.5 i-VTEC 130 CV; 1.5 e:HEV 109 CV; 1.5 i-MMD Hybrid
+Legend | 3.5 V6; Hybrid
+NSX | 3.0 V6; 3.5 V6 Hybrid
+Prelude | 2.0 16v; 2.2 VTEC; 2.3
+S2000 | 2.0 VTEC 240 CV; 2.2 VTEC 242 CV
+Shuttle | 2.2 D
+Stream | 1.7; 2.0
+ZR-V | 2.0 e:HEV 184 CV; 2.0 e:HEV Sport
+# Hummer
+H1 | 6.5 Turbodiésel
+H2 | 6.0 V8; 6.2 V8
+H3 | 3.5; 3.7; 5.3 V8
+# Hyundai
+Accent | 1.3; 1.5; 1.6; 1.5 CRDi
+Bayon | 1.0 T-GDI 100 CV; 1.0 T-GDI 120 CV; 1.2 MPI 84 CV
+Coupé | 2.0 SIII; 2.7 V6; 1.6 FX
+Elantra | 1.6; 1.8; 2.0
+Galloper | 2.5 TD
+Getz | 1.1; 1.3; 1.4; 1.5 CRDi; 1.6
+H-1 | 2.5 CRDi 136 CV; 2.5 CRDi 170 CV
+H350 | 2.5 CRDi
+i10 | 1.0 67 CV; 1.0 MPI 67 CV; 1.2 MPI 79 CV; 1.2 87 CV; 1.1; 1.25 Style
+i20 | 1.0 T-GDI 100 CV; 1.0 T-GDI 120 CV; 1.2 MPI 75 CV; 1.2 MPI 84 CV; 1.4 CRDi 90 CV; 1.1 CRDi 75 CV; 1.4 MPI 100 CV; 1.0 T-GDI MHEV 100 CV
+i30 | 1.0 T-GDI 120 CV; 1.0 T-GDI 120 CV Mild Hybrid; 1.4 T-GDI 140 CV; 1.5 T-GDI 160 CV; 1.5 DPI 110 CV; 1.6 CRDi 110 CV; 1.6 CRDi 115 CV; 1.6 CRDi 136 CV; 1.6 CRDi 85 CV; 1.4 CRDi 90 CV; 2.0 T-GDI N 275 CV; 2.0 T-GDI N 280 CV; 1.6 GDI 135 CV; 1.6 MPI 128 CV; 1.6 CRDi 110 CV Mild Hybrid; SW
+i40 | 1.6 GDI 135 CV; 1.7 CRDi 115 CV; 1.7 CRDi 141 CV; 2.0 GDI 177 CV; SW
+IONIQ | Hybrid 141 CV; Plug-in 141 CV; Eléctrico 28 kWh 120 CV
+IONIQ 5 | 58 kWh RWD 170 CV; 72,6 kWh RWD 217 CV; 77,4 kWh AWD 325 CV; 84 kWh RWD; N 650 CV
+IONIQ 6 | 53 kWh RWD 151 CV; 77,4 kWh RWD 229 CV; 77,4 kWh AWD 325 CV
+IONIQ 9
+ix20 | 1.4 90 CV; 1.6 125 CV; 1.4 CRDi 90 CV; 1.6 CRDi 115 CV
+ix35 | 1.6 GDI 135 CV; 1.7 CRDi 115 CV; 2.0 CRDi 136 CV; 2.0 CRDi 184 CV; 2.0 GDI 163 CV
+Kona | 1.0 T-GDI 120 CV 48V; 1.6 T-GDI 177 CV; 1.6 CRDi 115 CV; 1.6 CRDi 136 CV; 1.6 GDI Hybrid 141 CV; Eléctrico 39 kWh 136 CV; Eléctrico 64 kWh 204 CV; Eléctrico 48,4 kWh 156 CV; Eléctrico 65,4 kWh 218 CV
+Matrix | 1.5 CRDi; 1.6; 1.8
+Nexo | Hidrógeno 163 CV
+Santa Fe | 2.0 CRDi 150 CV; 2.0 CRDi 185 CV; 2.2 CRDi 155 CV; 2.2 CRDi 197 CV; 2.2 CRDi 200 CV; 2.4 GDI; 1.6 T-GDI HEV 230 CV; 1.6 T-GDI PHEV 265 CV; 2.5 T-GDI 281 CV; 7 plazas
+Staria | 2.2 CRDi 177 CV; 3.5 V6; Hybrid; Eléctrico
+Terracan | 2.9 CRDi; 3.5 V6
+Tucson | 1.6 T-GDI 150 CV; 1.6 T-GDI 177 CV; 1.6 T-GDI 180 CV; 1.6 T-GDI HEV 230 CV; 1.6 T-GDI PHEV 265 CV; 1.6 CRDi 115 CV; 1.6 CRDi 136 CV; 1.6 CRDi 48V 136 CV; 1.7 CRDi 115 CV; 1.7 CRDi 141 CV; 2.0 CRDi 136 CV; 2.0 CRDi 185 CV; 2.0 GDI 163 CV; 2.0 MPI 156 CV
+# Ineos
+Grenadier | 3.0 Gasolina 286 CV; 3.0 Diésel 249 CV
+# Infiniti
+Q30 | 1.6 T 122 CV; 2.0 T 211 CV; 1.5 d 109 CV; 2.2 d 170 CV
+Q50 | 2.0 T 211 CV; 2.2 d 170 CV; 3.5 Hybrid 364 CV; 3.0 t 405 CV
+Q60 | 2.0 T 211 CV; 3.0 t 405 CV
+QX30 | 1.6 T; 2.0 T; 2.2 d
+QX50 | 2.5 V6; 2.0 VC-Turbo 268 CV
+QX70 | 3.0 d V6; 3.7 V6; 5.0 V8
+# Isuzu
+D-Max | 1.9 Ddi 163 CV; 2.5 TD 163 CV; 3.0 TD 130 CV; Doble cabina; Cabina extra; Cabina simple
+MU-X | 3.0 D; 1.9 Ddi
+Rodeo | 2.5 TD; 3.0 TD
+Trooper | 3.0 TD; 3.5 V6
+# Iveco
+Daily | 35S12 2.3 116 CV; 35S14 2.3 136 CV; 35S16 2.3 156 CV; 35S18 3.0 176 CV; 35C14; 35C16; 35C18; 50C15; 50C18; 65C18; 70C18; 72C18; Furgón; Combi; Chasis cabina
+eDaily | 2024 eléctrico
+Eurocargo | ML75E16; ML120E22; ML150E28
+Massif | 3.0 HPI
+S-Way | 460; 510
+Stralis | 440S42; 460S46
+# Jaecoo
+7 | 1.6 T-GDI 147 CV; 1.6 T-GDI AWD; Hybrid 7 SHS
+# Jaguar
+E-Pace | 2.0 D 150 CV; 2.0 D 180 CV; 2.0 D 240 CV; 2.0 P 200 CV; 2.0 P 249 CV; 2.0 P 300 CV; P160; P200; P250; P300; D165; D200; D240
+F-Pace | 2.0 D 163 CV; 2.0 D 180 CV; 2.0 D 204 CV; 2.0 P 250 CV; 3.0 D 300 CV; 3.0 V6 S 380 CV; 5.0 V8 SVR 550 CV; P400e PHEV
+F-Type | 2.0 P 300 CV; 3.0 V6 S/C 340 CV; 3.0 V6 S/C 380 CV; 5.0 V8 S/C 495 CV; 5.0 V8 R 550 CV; Coupé; Cabrio
+I-Pace | EV400 S; EV400 SE; EV400 HSE
+S-Type | 2.5 V6; 3.0 V6; 2.7 D V6; 4.2 V8
+X-Type | 2.0 V6; 2.5 V6; 3.0 V6; 2.0 D; 2.2 D; Estate
+XE | 2.0 D 163 CV; 2.0 D 180 CV; 2.0 P 200 CV; 2.0 P 250 CV; 2.0 D 240 CV; 3.0 V6 S 340 CV; 2.2 D 163 CV
+XF | 2.0 D 163 CV; 2.0 D 180 CV; 2.2 D 190 CV; 2.2 D 163 CV; 3.0 D 240 CV; 3.0 D V6 S 275 CV; 2.0 P 250 CV; 5.0 V8 R 550 CV; Sportbrake
+XJ | 2.0 P 300 CV; 2.0 D 240 CV; 3.0 D V6 275 CV; 3.0 D V6 300 CV; 3.0 V6 S/C 340 CV; 5.0 V8 S/C 510 CV
+XK | 3.5 V8; 5.0 V8 R 510 CV; Coupé; Cabrio
+# Jeep
+Avenger | 1.2 Turbo 100 CV; 1.2 Turbo 100 CV MHEV; 1.2 Turbo e-Hybrid 100 CV; Elétrico 156 CV; Longitude
+Cherokee | 2.0 MultiJet 140 CV; 2.0 MultiJet 170 CV; 2.2 MultiJet 195 CV; 2.4 Tigershark; 3.2 V6; 2.5 CRD; 3.7 V6; 2.8 CRD; Trailhawk; Overland
+Commander | 3.0 CRD V6 218 CV; 5.7 V8; 4.7 V8
+Compass | 1.3 T4 150 CV; 1.3 T4 150 CV Hybrid; 1.4 MultiAir 140 CV; 1.4 MultiAir 170 CV; 1.6 MultiJet 120 CV; 2.0 MultiJet 140 CV; 2.0 MultiJet 170 CV; 4xe PHEV 190 CV; 4xe PHEV 240 CV; Longitude; Trailhawk
+Gladiator | 3.0 V6 CRD; 3.6 V6; Rubicon; Overland
+Grand Cherokee | 3.0 CRD V6 190 CV; 3.0 CRD V6 241 CV; 3.0 V6 Multijet 250 CV; 3.6 V6 286 CV; 5.7 V8 Hemi 352 CV; 6.4 V8 SRT 468 CV; 4xe PHEV 380 CV; 2.7 CRD; 4.7 V8; 6.2 V8 Trackhawk 710 CV; Overland
+Patriot | 2.0 CRD 140 CV; 2.4; 2.2 CRD
+Recon | Eléctrico 4xe
+Renegade | 1.0 T3 120 CV; 1.3 T4 150 CV; 1.3 T4 180 CV; 1.4 MultiAir 140 CV; 1.4 MultiAir 170 CV; 1.6 MultiJet 120 CV; 2.0 MultiJet 140 CV; 2.0 MultiJet 170 CV; 4xe PHEV 190 CV; 4xe PHEV 240 CV; Longitude; Trailhawk
+Wagoneer | 3.0 Hurricane; 6.4 V8
+Wrangler | 2.0 T 272 CV; 2.2 CRD 200 CV; 2.8 CRD 200 CV; 3.6 V6 284 CV; 2.5 Sport; 2.4; 4.0; 4xe PHEV 380 CV; Sahara; Rubicon; Overland
+# KGM
+Actyon | 1.5 T-GDi Hybrid
+Korando | 1.5 T-GDi 163 CV; 1.6 e-XDi 136 CV; 1.6 e-XGDI 128 CV; e-Motion 190 CV
+Musso | 2.2 e-XDi 181 CV
+Rexton | 2.2 e-XDi 202 CV; 2.2 e-XDi 181 CV; 2.2 DID 202 CV
+Tivoli | 1.5 T-GDi 163 CV; 1.6 e-XGDI 128 CV; 1.6 e-XDi 115 CV; 1.6 e-XDi 136 CV; 1.6 Diesel 115 CV
+Torres | 1.5 T-GDi 163 CV; EVX 207 CV; Hybrid
+# Kia
+Carens | 1.6 GDi; 1.7 CRDi 115 CV; 1.7 CRDi 136 CV; 2.0 CRDi 140 CV
+Carnival | 2.2 CRDi 200 CV; 2.2 CRDi 190 CV; 2.9 CRDi 185 CV; 3.5 V6; HEV 1.6
+Cee'd | 1.4; 1.6 CRDi 90 CV; 1.6 CRDi 115 CV
+Ceed | 1.0 T-GDi 100 CV; 1.0 T-GDi 120 CV; 1.4 T-GDi 140 CV; 1.5 T-GDi 160 CV; 1.6 GDi 135 CV; 1.6 CRDi 115 CV; 1.6 CRDi 128 CV; 1.6 CRDi 136 CV; 1.6 CRDi MHEV 136 CV; 1.6 T-GDi GT 204 CV; 1.6 GDi PHEV 141 CV; 1.4 CRDi; 1.6 CRDi 90 CV; 2.0 CRDi; GT
+Cerato | 1.6; 2.0; 2.0 CRDi
+EV3 | Standard 58,3 kWh 204 CV; Long Range 81,4 kWh 204 CV
+EV4
+EV6 | 58 kWh 170 CV; 77,4 kWh RWD 229 CV; 77,4 kWh AWD 325 CV; GT 585 CV
+EV9 | 99,8 kWh AWD 385 CV
+Magentis | 2.0 CVVT; 2.5 V6; 2.0 CRDi
+Niro | 1.6 GDi HEV 141 CV; 1.6 GDi PHEV 141 CV; Eléctrico 39 kWh 136 CV; Eléctrico 64 kWh 204 CV
+Optima | 1.7 CRDi 141 CV; 2.0 GDi 163 CV; 2.0 PHEV 205 CV; 1.6 T-GDi 180 CV
+Picanto | 1.0 67 CV; 1.0 MPI 67 CV; 1.2 MPI 84 CV; 1.0 T-GDi 100 CV; 1.1 65 CV; 1.1 CRDi
+Pride | 1.1
+PV5
+Rio | 1.0 T-GDi 100 CV; 1.0 T-GDi 120 CV; 1.2 CVVT 84 CV; 1.25 CVVT 84 CV; 1.4 CVVT 100 CV; 1.4 CRDi 90 CV; 1.1 CRDi 75 CV; 1.5 CRDi 110 CV; 1.4 CVVT 109 CV
+Sedona | 2.9 CRDi; 2.2 CRDi
+Sephia | 1.5; 1.8
+Shuma | 1.5; 1.8
+Sorento | 2.2 CRDi 197 CV; 2.2 CRDi 200 CV; 2.0 CRDi 185 CV; 2.5 CRDi 140 CV; 2.4 GDi 188 CV; 1.6 T-GDi HEV 230 CV; 1.6 T-GDi PHEV 265 CV; 7 plazas
+Soul | 1.6 GDi 132 CV; 1.6 CRDi 128 CV; 1.6 CRDi 136 CV; EV 30 kWh; EV 64 kWh
+Sportage | 1.6 T-GDi 177 CV; 1.6 T-GDi 150 CV MHEV; 1.6 T-GDi HEV 230 CV; 1.6 T-GDi PHEV 265 CV; 1.6 CRDi 115 CV; 1.6 CRDi 136 CV; 1.6 CRDi 48V 136 CV; 1.7 CRDi 115 CV; 1.7 CRDi 141 CV; 2.0 CRDi 136 CV; 2.0 CRDi 184 CV; 2.0 CVVT 163 CV; 1.6 GDi 132 CV; 2.0 CRDi 185 CV
+Stinger | 2.0 T-GDi 255 CV; 3.3 T-GDi V6 370 CV; 2.2 CRDi 200 CV; GT
+Stonic | 1.0 T-GDi 100 CV; 1.0 T-GDi 120 CV; 1.2 CVVT 84 CV; 1.2 DPi 84 CV; 1.4 CRDi; 1.0 T-GDi MHEV 100 CV; 1.0 T-GDi MHEV 120 CV
+Venga | 1.4 CVVT 90 CV; 1.6 CVVT 125 CV; 1.4 CRDi; 1.6 CRDi 115 CV
+XCeed | 1.0 T-GDi 120 CV; 1.5 T-GDi 160 CV; 1.6 CRDi 115 CV; 1.6 CRDi 136 CV; 1.6 GDi PHEV 141 CV
+# Lada
+Granta | 1.6 87 CV; 1.6 98 CV; 1.6 106 CV
+Kalina | 1.6
+Largus | 1.6
+Niva | 1.7 83 CV; 1.7i 83 CV
+Samara | 1.3; 1.5; 1.6
+Vesta | 1.6; 1.8; SW
+# Lamborghini
+Aventador | LP700-4; LP750-4 SV; Roadster
+Countach | LP400; LP500; 25th Anniversary
+Diablo | 5.7 V12; GT
+Gallardo | 5.0 V10; LP550-2; LP560-4; LP570-4 Superleggera; Spyder
+Huracán | LP610-4; LP580-2; Spyder
+Murciélago | 6.2 V12; LP640; LP670-4 SV; Roadster
+Revuelto | 6.5 V12 Hybrid 1015 CV
+Sián | FKP 37
+Temerario | 4.0 V8 Hybrid
+Urus | 4.0 V8 650 CV
+# Lancia
+Dedra | 1.6; 1.8; 2.0
+Delta | 1.4 T-Jet 120 CV; 1.4 T-Jet 150 CV; 1.6 Multijet 120 CV; 1.9 Multijet 190 CV; 1.9 Multijet 200 CV
+Flavia | 1.4 T
+Kappa | 2.0; 2.4 JTD
+Lybra | 1.6; 1.8; 2.0; 1.9 JTD
+Musa | 1.4; 1.4 T-Jet; 1.3 Multijet; 1.6 Multijet; 1.9 Multijet
+Phedra | 2.0 JTD; 2.2 JTD
+Thema | 3.0 V6; 3.6 V6 Pentastar
+Thesis | 2.0 T; 2.4 JTD; 3.0 V6
+Voyager | 2.8 CRD
+Ypsilon | 0.9 TwinAir 85 CV; 1.0 FireFly Hybrid 70 CV; 1.2 8v 69 CV; 1.2 8v 70 CV; 1.2 16v 80 CV; 1.3 Multijet 75 CV; 1.3 Multijet 95 CV; 1.4 77 CV; 1.4 16v 95 CV; 1.4 T-Jet
+# Land Rover
+Defender | 90; 110; 130; 2.0 D 200 CV; 3.0 D 250 CV; 3.0 D 300 CV; 3.0 D 250 MHEV; 3.0 P 400 CV; 5.0 V8 525 CV; P300; P400; P400e PHEV; D200; D250; D300; V8; 2.5 TD5; 2.4 TDCi; 2.2 TDCi 122 CV; 2.2 TDCi 150 CV
+Discovery | 2.0 D 163 CV; 2.0 D 240 CV; 3.0 D V6 258 CV; 3.0 TDV6 211 CV; 3.0 SDV6 256 CV; 3.0 D 300 CV; 3.0 P 340 CV; 2.7 TDV6; 4.0 V6; 5.0 V8; Td5
+Discovery Sport | 2.0 D 150 CV; 2.0 D 163 CV; 2.0 D 180 CV; 2.0 D 240 CV; 2.0 P 200 CV; 2.0 P 250 CV; 2.0 P 300 CV; P200; P250; P300; P300e PHEV; D165; D200; D240; 2.2 SD4 190 CV; 2.2 eD4 150 CV; 2.0 TD4 150 CV; 2.0 TD4 180 CV; 7 plazas
+Freelander | 1.8; 2.0 TD4 150 CV; 2.2 TD4 150 CV; 2.2 SD4 190 CV; 2.2 eD4 150 CV; 2.0 Si4 240 CV; 2.5 V6; 3.2 i6
+Range Rover | 3.0 SDV6 249 CV; 3.0 TDV6; 4.4 SDV8 339 CV; 3.0 D 258 CV; 3.0 D 300 CV; 3.0 D 350 CV; 3.0 P 360 CV; 3.0 P 400 CV; 4.4 P V8 530 CV; 5.0 V8 S/C 510 CV; 5.0 V8 S/C 565 CV; 5.0 V8 S/C SVAutobiography 575 CV; 4.2 V8 S/C; 4.4 V8; P400e PHEV; P440e PHEV; P510e PHEV; D250; D300; D350
+Range Rover Evoque | 2.0 D 150 CV; 2.0 D 180 CV; 2.0 D 240 CV; 2.0 P 200 CV; 2.0 P 250 CV; 2.0 P 300 CV; P160; P200; P250; P300; D165; D200; D240; P300e PHEV; 2.2 SD4 190 CV; 2.2 eD4 150 CV; 2.0 TD4 150 CV; 2.0 TD4 180 CV; 2.0 Si4 240 CV; Coupé; Cabrio
+Range Rover Sport | 2.0 P 300 CV; 3.0 SDV6 249 CV; 3.0 SDV6 306 CV; 3.0 TDV6 258 CV; 3.0 D 249 CV; 3.0 D 300 CV; 3.0 D 350 CV; 4.4 SDV8 339 CV; 5.0 V8 S/C 510 CV; 5.0 V8 SVR 575 CV; 3.0 P 360 CV; 3.0 P 400 CV; 4.4 P V8; P440e PHEV; P510e PHEV; D250; D300; D350
+Range Rover Velar | 2.0 D 180 CV; 2.0 D 240 CV; 3.0 D V6 300 CV; 2.0 P 250 CV; 2.0 P 300 CV; 3.0 V6 S/C 380 CV; 5.0 V8 SVAutobiography 550 CV; P250; P300; P400; D200; D240; D300; P400e PHEV
+# Leapmotor
+B10 | 67 kWh 218 CV
+C10 | 69 kWh 218 CV; REEV 70 kWh 215 CV
+C11 | 70 kWh 218 CV
+T03 | 41 kWh 95 CV
+# Lexus
+CT | 200h Hybrid 136 CV
+ES | 300h Hybrid 218 CV; 350
+GS | 250; 300h; 350; 450h
+GX | 460 V8
+IS | 200t; 220d; 250; 300h Hybrid 223 CV; 350
+LBX | Hybrid 136 CV
+LC | 500 V8 477 CV; 500h Hybrid 359 CV; Convertible
+LM | 350h Hybrid; 7 plazas; 4 plazas
+LS | 460; 500h; 600h
+LX | 570 V8; 600
+NX | 200t; 300h Hybrid 197 CV; 350h Hybrid 244 CV; 450h+ PHEV 309 CV
+RC | 300h; 350
+RX | 350; 450h Hybrid 313 CV; 500h; 300; 400h; 450h+ PHEV
+RZ | 450e Eléctrico 313 CV; 300e
+SC | 430 V8
+UX | 250h Hybrid 184 CV; 300e Eléctrico
+# Ligier
+JS RC | 0.5 DCI 8 CV
+JS50 | 0.5 DCI 8 CV
+JS60 | 0.5 DCI 8 CV
+Myli | Eléctrico 8 CV; Eléctrico 15 CV
+# Lincoln
+Aviator | 3.0 V6 Twin Turbo
+Continental | 3.0 V6; 5.0 V8
+Corsair | 2.0 T
+Navigator | 3.5 V6 EcoBoost
+# Lotus
+Eletre | Hybrid; R
+Elise | 1.8 120 CV; 1.8 VVC 192 CV; 1.8 Supercharged 220 CV; 1.6 134 CV
+Emira | 2.0 AMG 360 CV; 3.5 V6 400 CV
+Esprit | V8; Turbo; GT3
+Europa | 2.0 S
+Evora | 3.5 V6 280 CV; 3.5 V6 S 350 CV; 400; GT410; GT430
+Exige | 1.8 192 CV; V6 3.5 350 CV; 380
+# Lynk & Co
+01 | 1.5 PHEV 261 CV; Plug-in Hybrid
+02 | Eléctrico 272 CV
+05 | 2.0T Hybrid; PHEV
+# Mahindra
+Goa | 2.5 TD
+KUV100 | 1.2 mFalcon 82 CV
+Pik Up | 2.2 mHawk 140 CV; 2.5 CRDe; Doble cabina; Cabina simple
+Scorpio | 2.2 mHawk
+XUV500 | 2.2 mHawk 140 CV; 2.2 mHawk 155 CV
+# Maserati
+3200 GT | 3.2 V8
+Coupé | 4.2 V8
+Ghibli | 3.0 V6 Diesel 250 CV; 3.0 V6 Diesel 275 CV; 3.0 V6 S Q4 410 CV; 3.0 V6 350 CV; 3.0 V6 Trofeo 580 CV; Hybrid 330 CV
+GranCabrio | 4.7 V8
+GranTurismo | 4.2 V8; 4.7 V8; Trofeo
+Grecale | GT 300 CV Hybrid; Modena 330 CV Hybrid; Trofeo 530 CV
+Levante | 3.0 V6 Diesel 250 CV; 3.0 V6 Diesel 275 CV; 3.0 V6 S 430 CV; 3.8 V8 Trofeo 580 CV; Hybrid 330 CV
+MC20 | 3.0 V6 Nettuno 630 CV
+MCPura | 3.0 V6 630 CV
+Quattroporte | 3.0 V6 Diesel 275 CV; 3.0 V6 S 410 CV; 3.8 V8 GTS 530 CV; 3.8 V8 Trofeo 580 CV; 4.2 V8; 4.7 V8
+Spyder | 4.2 V8
+# MAXUS
+eDeliver 3 | 35 kWh 122 CV; 50 kWh 122 CV
+eDeliver 9 | 51 kWh 204 CV; 72 kWh 204 CV; 88,5 kWh 204 CV
+MIFA 9 | 90 kWh 245 CV
+# Mazda
+121 | 1.3; 1.25
+323 | 1.3; 1.5; 1.6; 1.8; 2.0 TD
+626 | 1.8; 2.0; 2.0 DITD
+BT-50 | 2.5 MZ-CD 143 CV; 3.0 MZ-CD 156 CV; 2.2 TD 150 CV; 3.2 TD 200 CV; 3.0 TD 156 CV
+CX-3 | 2.0 SKYACTIV-G 120 CV; 2.0 SKYACTIV-G 150 CV; 1.5 SKYACTIV-D 105 CV; 1.8 SKYACTIV-D 115 CV
+CX-30 | 2.0 e-Skyactiv G 122 CV; 2.0 e-Skyactiv G 150 CV; 2.0 e-Skyactiv X 186 CV; 1.8 SKYACTIV-D 116 CV; 2.0 SKYACTIV-G 122 CV; 2.0 SKYACTIV-X 180 CV
+CX-5 | 2.0 SKYACTIV-G 165 CV; 2.5 SKYACTIV-G 194 CV; 2.5 SKYACTIV-G 192 CV; 2.0 SKYACTIV-G 160 CV; 2.2 SKYACTIV-D 150 CV; 2.2 SKYACTIV-D 175 CV; 2.2 SKYACTIV-D 184 CV; 2.2 SKYACTIV-D 200 CV
+CX-60 | 3.3 e-Skyactiv D 200 CV; 3.3 e-Skyactiv D 254 CV; 2.5 e-Skyactiv PHEV 327 CV
+CX-7 | 2.3 DISI Turbo 260 CV; 2.2 CD 173 CV; 2.2 MZR-CD 173 CV
+CX-80 | 3.3 e-Skyactiv D 254 CV; 2.5 e-Skyactiv PHEV 327 CV
+CX-90 | 3.3 Turbo; PHEV
+Mazda2 | 1.3 75 CV; 1.5 SKYACTIV-G 75 CV; 1.5 SKYACTIV-G 90 CV; 1.5 SKYACTIV-G 115 CV; 1.4 CD 68 CV; 1.5 SKYACTIV-D; 1.5 e-Skyactiv G 90 CV Mild Hybrid; Hybrid 116 CV
+Mazda3 | 1.5 SKYACTIV-G 100 CV; 2.0 SKYACTIV-G 120 CV; 2.0 SKYACTIV-G 122 CV; 2.0 SKYACTIV-G 150 CV; 2.0 SKYACTIV-X 180 CV; 2.0 e-Skyactiv G 122 CV; 2.0 e-Skyactiv X 186 CV; 1.6 DI-T; 1.6 MZR-CD 109 CV; 2.0 MZR-CD 143 CV; 1.5 SKYACTIV-D 105 CV; 2.2 SKYACTIV-D 150 CV; 2.5 SKYACTIV-G 185 CV; 2.3 MPS 260 CV; Sedán
+Mazda5 | 1.8 115 CV; 2.0 145 CV; 1.6 CD 115 CV; 2.0 CD 110 CV; 2.0 CD 143 CV
+Mazda6 | 2.0 SKYACTIV-G 145 CV; 2.0 SKYACTIV-G 165 CV; 2.5 SKYACTIV-G 192 CV; 2.5 SKYACTIV-G 194 CV; 2.2 SKYACTIV-D 150 CV; 2.2 SKYACTIV-D 175 CV; 2.0 MZR 147 CV; 2.0 MZR-CD 143 CV; 2.0 CD 140 CV; 2.0 CD 121 CV; 2.3 MZR; Wagon; Sedán
+MPV | 2.0 CiTD; 2.5 V6
+MX-3 | 1.6; 1.8 V6
+MX-30 | e-Skyactiv EV 145 CV; e-Skyactiv R-EV 170 CV; e-Skyactiv G 150 CV Mild Hybrid
+MX-5 | 1.6 90 CV; 1.8 126 CV; 1.8 MX 125 CV; 1.8 140 CV; 2.0 160 CV; 2.0 SKYACTIV-G 131 CV; 2.0 SKYACTIV-G 184 CV; 1.5 SKYACTIV-G 131 CV; 1.5 SKYACTIV-G 132 CV; 1.5 SKYACTIV-G 130 CV; Roadster
+MX-6 | 2.0; 2.5
+Premacy | 1.8; 2.0; 2.0 CiTD
+RX-7 | 1.3 Turbo Wankel
+RX-8 | 1.3 Wankel 192 CV; 1.3 Wankel 231 CV
+Tribute | 2.0; 3.0 V6
+Xedos 6 | 2.0 V6
+# McLaren
+540C | 3.8 V8 540 CV
+570S | 3.8 V8 570 CV; 570GT; Spider
+600LT | 3.8 V8 600 CV; Spider
+650S | 3.8 V8 650 CV; Spider
+675LT | 3.8 V8 675 CV; Spider
+720S | 4.0 V8 720 CV; Spider; Performance
+750S | 4.0 V8 750 CV; Spider
+765LT | 4.0 V8 765 CV; Spider
+Artura | 3.0 V6 PHEV 680 CV; Spider
+GT | 4.0 V8 620 CV
+MP4-12C | 3.8 V8 625 CV; Spider
+P1 | Hybrid 916 CV
+Senna | 4.0 V8 800 CV
+# Mercedes-Benz
+AMG GT | 4.0 V8 Biturbo 462 CV; 4.0 V8 Biturbo S 510 CV; 4.0 V8 Biturbo C 557 CV; 4.0 V8 Biturbo R 585 CV; 4.0 V8 Black Series 730 CV; Coupé; Roadster; 4 puertas 53; 4 puertas 63; 63 S E Performance; 43
+AMG GT 4 | Coupé 4 puertas
+Citan | 108 CDI; 109 CDI; 111 CDI; 112 CDI; 113 CDI; 110 CDI; Furgón; Tourer
+CL
+Clase A | A 160; A 180; A 200; A 220; A 250; A 250 e; A 35 AMG; A 45 AMG; A 45 S AMG; A 160 CDI; A 180 CDI; A 200 CDI; A 220 CDI; A 180 d; A 200 d; A 220 d; Sedán
+Clase B | B 160; B 170; B 180; B 200; B 220; B 250; B 250 e; B 160 CDI; B 180 CDI; B 200 CDI; B 180 d; B 200 d; B 220 d; Sports Tourer
+Clase C | C 160; C 180; C 200; C 220; C 230; C 240; C 250; C 280; C 300; C 320; C 350; C 400; C 43 AMG; C 63 AMG; C 63 S AMG; C 180 CDI; C 200 CDI; C 220 CDI; C 250 CDI; C 270 CDI; C 320 CDI; C 350 CDI; C 180 d; C 200 d; C 220 d; C 300 d; C 300 e; C 350 e; Estate; Coupé; Cabrio
+Clase CLA | CLA 180; CLA 200; CLA 220; CLA 250; CLA 250 e; CLA 35 AMG; CLA 45 AMG; CLA 45 S AMG; CLA 180 d; CLA 200 d; CLA 220 d; Shooting Brake
+Clase CLC | CLC 180; CLC 200; CLC 220 CDI
+Clase CLS | CLS 250 d; CLS 300 d; CLS 350 d; CLS 400 d; CLS 450; CLS 53 AMG; CLS 63 AMG; CLS 350; CLS 500; Shooting Brake
+Clase E | E 200; E 220; E 240; E 250; E 280; E 300; E 320; E 350; E 400; E 450; E 500; E 43 AMG; E 53 AMG; E 63 AMG; E 63 S AMG; E 200 CDI; E 220 CDI; E 250 CDI; E 270 CDI; E 280 CDI; E 320 CDI; E 350 CDI; E 200 d; E 220 d; E 300 d; E 300 de; E 300 e; E 350 d; E 400 d; Estate; Coupé; Cabrio
+Clase E 190 | 190 E; 190 D; 2.3 16V; 2.5 16V Evo
+Clase G | G 350 d; G 400 d; G 450 d; G 500; G 550; G 63 AMG; G 580 EQ; G 300 CDI; G 320 CDI; G 270 CDI; G 240 GD; G 300 GD
+Clase GLA | GLA 180; GLA 200; GLA 250; GLA 250 e; GLA 35 AMG; GLA 45 AMG; GLA 180 d; GLA 200 d; GLA 220 d
+Clase GLB | GLB 180; GLB 200; GLB 220; GLB 250; GLB 35 AMG; GLB 180 d; GLB 200 d; GLB 220 d; 7 plazas
+Clase GLC | GLC 200; GLC 220 d; GLC 250; GLC 250 d; GLC 300; GLC 300 de; GLC 300 e; GLC 350 e; GLC 400; GLC 43 AMG; GLC 63 AMG; GLC 200 d; GLC 300 d; Coupé
+Clase GLE | GLE 250 d; GLE 300 d; GLE 350 d; GLE 400 d; GLE 450; GLE 500; GLE 350 de; GLE 400 e; GLE 580; GLE 53 AMG; GLE 63 AMG; GLE 63 S AMG; Coupé
+Clase GLS | GLS 350 d; GLS 400 d; GLS 450; GLS 500; GLS 580; GLS 63 AMG; Maybach GLS 600
+Clase M | ML 250 BlueTEC; ML 280 CDI; ML 300 CDI; ML 320 CDI; ML 350 CDI; ML 350 BlueTEC; ML 350; ML 500; ML 63 AMG
+Clase R | R 280 CDI; R 320 CDI; R 350
+Clase S | S 280; S 320; S 350; S 400; S 450; S 500; S 560; S 580; S 600; S 63 AMG; S 65 AMG; S 250 d; S 300 d; S 320 CDI; S 350 d; S 350 BlueTEC; S 400 d; S 450 d; S 500 e; S 560 e; Coupé; Cabrio; Largo
+Clase SL | SL 280; SL 320; SL 350; SL 400; SL 500; SL 55 AMG; SL 63 AMG; SL 65 AMG; SL 43; SL 55
+Clase SLK | SLK 200; SLK 250; SLK 280; SLK 300; SLK 320; SLK 350; SLK 55 AMG; SLK 250 CDI; SLK 220 CDI
+Clase T | T 160; T 180; T 200
+Clase V | V 200 d; V 220 d; V 250 d; V 300 d; EQV 300; Largo; Extralargo
+Clase X | X 220 d; X 250 d; X 350 d
+CLK | Cabrio
+EQA
+EQB | 7 plazas
+EQC
+EQE
+EQS
+EQV
+Maybach | S 560; S 580; S 600; S 650; GLS 600
+SLC
+SLR McLaren | 5.4 V8 Compresor
+SLS AMG | 6.3 V8
+Sprinter | 210 CDI; 211 CDI; 214 CDI; 216 CDI; 311 CDI; 313 CDI; 314 CDI; 316 CDI; 319 CDI; 411 CDI; 413 CDI; 416 CDI; 419 CDI; 510 CDI; 513 CDI; 516 CDI; Furgón; Combi; Chasis cabina
+Viano | 2.0 CDI; 2.2 CDI; 3.0 CDI V6; 3.5 V6
+Vito | 109 CDI; 111 CDI; 114 CDI; 116 CDI; 119 CDI; 111 CDI Furgón; 114 CDI Tourer; 116 CDI Tourer; 119 CDI Tourer; Tourer; Furgón; Largo; Extralargo
+# MG
+MG Cyberster | Dual Motor 510 CV; Single Motor 340 CV
+MG HS | 1.5 T-GDI 162 CV; 1.5 T-GDI PHEV 258 CV
+MG Marvel R | Performance
+MG TF | 1.6; 1.8; 135 CV; LE500
+MG ZR | 1.4; 1.6; 1.8; 2.0 TD
+MG ZS | 1.0 T-GDI 111 CV; 1.5 VTi-Tech 106 CV; 1.5 Hybrid+ 197 CV; EV 45 kWh 143 CV; EV 51 kWh 177 CV; EV 72,6 kWh 177 CV
+MG ZT | 1.8T; 2.0 CDTi; 2.5 V6; 4.6 V8
+MG3 | 1.5 VTi-Tech 106 CV; 1.5 Hybrid+ 194 CV
+MG4 | Standard 51 kWh 170 CV; Comfort 64 kWh 204 CV; Luxury 64 kWh 204 CV; XPower 435 CV
+MG5 | EV 61 kWh 156 CV; EV Long Range 61 kWh 156 CV
+MG6 | 1.8 TURBO 160 CV
+# Microcar
+Due | 0.4 DCI; 0.5 DCI
+M.Go | 0.5 DCI 8 CV
+MC1 | 0.4 DCI 5 CV
+MC2 | 0.4 DCI 5 CV
+# Mini
+Aceman | E 184 CV; SE 218 CV
+Cabrio | One 1.2 102 CV; One 1.6 98 CV; Cooper 1.5 136 CV; Cooper 1.6 120 CV; Cooper S 1.6 184 CV; Cooper S 2.0 192 CV; John Cooper Works 2.0 231 CV; Cooper D 1.5 116 CV; Cooper SD 2.0 170 CV
+Clubman | One 1.5 102 CV; Cooper 1.5 136 CV; Cooper 1.6 122 CV; Cooper S 2.0 192 CV; Cooper S 1.6 184 CV; John Cooper Works 2.0 231 CV; John Cooper Works 2.0 306 CV; One D 1.6 90 CV; Cooper D 1.5 116 CV; Cooper D 2.0 150 CV; Cooper SD 2.0 190 CV; Cooper S ALL4 2.0 192 CV
+Countryman | One 1.5 102 CV; Cooper 1.5 136 CV; Cooper S 2.0 192 CV; John Cooper Works 2.0 231 CV; John Cooper Works 2.0 306 CV; One D 1.6 90 CV; Cooper D 1.5 116 CV; Cooper D 2.0 150 CV; Cooper SD 2.0 190 CV; Cooper S E ALL4 PHEV 224 CV; Cooper SE ALL4 PHEV 220 CV; E Eléctrico 204 CV; SE ALL4 Eléctrico 313 CV
+Coupé | Cooper 1.6 122 CV; Cooper S 1.6 184 CV; John Cooper Works 1.6 211 CV; Cooper D 2.0 143 CV; Cooper SD 2.0 143 CV
+Hatch 3 puertas | One 1.2 75 CV; One 1.5 102 CV; One 1.6 98 CV; Cooper 1.5 136 CV; Cooper 1.6 120 CV; Cooper S 1.6 175 CV; Cooper S 1.6 184 CV; Cooper S 2.0 192 CV; John Cooper Works 1.6 211 CV; John Cooper Works 2.0 231 CV; John Cooper Works GP 1.6 218 CV; One D 1.5 95 CV; One D 1.6 90 CV; Cooper D 1.5 116 CV; Cooper D 1.6 112 CV; Cooper SD 2.0 170 CV; Cooper SD 2.0 190 CV; Cooper E 184 CV; Cooper SE Eléctrico 184 CV; John Cooper Works Eléctrico 258 CV
+Hatch 5 puertas | One 1.5 102 CV; Cooper 1.5 136 CV; Cooper S 2.0 192 CV; John Cooper Works 2.0 231 CV; One D 1.5 95 CV; Cooper D 1.5 116 CV; Cooper SD 2.0 170 CV
+Paceman | Cooper 1.6 122 CV; Cooper S 1.6 184 CV; John Cooper Works 1.6 218 CV; Cooper D 1.6 112 CV; Cooper SD 2.0 143 CV; Cooper S ALL4 1.6 184 CV
+Roadster | Cooper 1.6 122 CV; Cooper S 1.6 184 CV; John Cooper Works 1.6 211 CV; Cooper SD 2.0 143 CV
+# Mitsubishi
+3000 GT | 3.0 V6 Twin Turbo
+ASX | 1.6 MIVEC 117 CV; 1.6 MIVEC 118 CV; 1.8 DI-D 116 CV; 1.8 DI-D 150 CV; 2.0 MIVEC 150 CV; 1.6 DI-D 115 CV; 1.6 Hybrid 143 CV; 1.3 DI-T 140 CV
+Carisma | 1.6; 1.8 GDI; 1.9 DI-D
+Colt | 1.1 75 CV; 1.3 75 CV; 1.3 95 CV; 1.5 DI-D; 1.5 Turbo 150 CV; 1.5 CZT; 1.5 CZC; Cabrio
+Eclipse Cross | 1.5 T-MIVEC 163 CV; 2.2 DI-D 150 CV; 2.4 PHEV 188 CV; 2.4 MIVEC
+Galant | 2.0; 2.5 V6; 2.0 TD
+Grandis | 2.0 DI-D 136 CV; 2.4
+i-MiEV | Eléctrico 67 CV
+L200 | 2.5 DI-D 136 CV; 2.5 DI-D 178 CV; 2.4 DI-D 154 CV; 2.4 DI-D 181 CV; 2.5 TD 115 CV; Doble cabina; Cabina extra; Cabina simple
+Lancer | 1.3; 1.5; 1.6; 1.8; 1.8 DI-D; 2.0 Evo; Sportback; 2.0 DI-D 140 CV
+Montero | 3.2 DI-D 160 CV; 3.2 DI-D 200 CV; 3.5 V6; 3.0 V6; 2.5 TD; 3.2 DI-D 3 puertas; 3.2 DI-D 5 puertas
+Montero Sport | 2.5 TD; 3.0 V6
+Outlander | 2.0 MIVEC 147 CV; 2.0 PHEV 121 CV; 2.0 MIVEC 150 CV; 2.0 PHEV 203 CV; 2.4 PHEV 224 CV; 2.2 DI-D 150 CV; 2.2 DI-D 177 CV; 2.0 DI-D 140 CV; 3.0 V6; 2.4 MIVEC 170 CV; Plug-in Hybrid
+Pajero | 3.5 V6; 3.0 V6; 2.5 TD; 3.2 DI-D 165 CV
+Pajero Pinin | 1.8 GDI
+Shogun | 3.2 DI-D
+Space Star | 1.0 71 CV; 1.2 71 CV; 1.2 80 CV; 1.0 MIVEC 71 CV; 1.2 MIVEC 80 CV
+# Nissan
+200SX | 2.0 Turbo
+300ZX | 3.0 V6 Twin Turbo
+350Z | 3.5 V6 280 CV; 3.5 V6 287 CV; Roadster
+370Z | 3.7 V6 328 CV; 3.7 V6 Nismo 344 CV; Roadster; Nismo
+Almera | 1.4; 1.5 dCi 82 CV; 1.8; 2.2 dCi 110 CV; 2.2 Di; 2.2 dCi 136 CV
+Almera Tino | 1.8; 2.2 dCi
+Ariya | 63 kWh 217 CV; 87 kWh 242 CV; 87 kWh e-4ORCE 306 CV; 87 kWh e-4ORCE 394 CV
+Cabstar | 2.5 dCi 110 CV; 2.5 dCi 100 CV; 2.5 dCi 130 CV; 3.0 dCi 150 CV
+Cube | 1.5 dCi; 1.6
+Evalia | 1.5 dCi 90 CV; 1.5 dCi 110 CV; 1.6
+GT-R | 3.8 V6 Biturbo 480 CV; 3.8 V6 Biturbo 550 CV; 3.8 V6 Biturbo 570 CV; 3.8 V6 Nismo 600 CV; R35
+Interstar | 2.5 dCi 120 CV; 2.5 dCi 100 CV; 2.2 dCi 110 CV
+Interstar-e | 2.0 dCi 150 CV; Eléctrico
+Juke | 1.0 DIG-T 114 CV; 1.0 DIG-T 117 CV; 1.5 dCi 110 CV; 1.5 dCi 115 CV; 1.2 DIG-T 115 CV; 1.6 94 CV; 1.6 DIG-T 190 CV; 1.6 Hybrid 143 CV; Hybrid; DIG-T 114 CV 7DCT
+Kubistar | 1.5 dCi 65 CV; 1.5 dCi 82 CV; 1.2; 1.5 dCi 80 CV
+Leaf | 24 kWh 109 CV; 30 kWh 109 CV; 40 kWh 150 CV; 62 kWh e+ 217 CV; 3.Zero
+Maxima | 3.0 V6; 3.5 V6
+Micra | 1.0 IG-T 90 CV; 1.0 IG-T 100 CV; 0.9 IG-T 90 CV; 1.0 71 CV; 1.2 80 CV; 1.2 DIG-S 98 CV; 1.4 88 CV; 1.5 dCi 68 CV; 1.5 dCi 82 CV; 1.5 dCi 86 CV; 1.5 dCi 90 CV; 1.5 dCi 100 CV; 1.6 110 CV
+Murano | 3.5 V6; 2.5 dCi 190 CV; 3.5 V6 Hybrid
+Navara | 2.5 dCi 133 CV; 2.5 dCi 144 CV; 2.5 dCi 174 CV; 2.5 dCi 190 CV; 2.3 dCi 160 CV; 2.3 dCi 190 CV; 3.0 dCi V6 231 CV; 2.5 dCi 169 CV; Doble cabina; Cabina extra; Cabina simple; Pro-4X
+Note | 1.2 80 CV; 1.2 DIG-S 98 CV; 1.5 dCi 90 CV; 1.5 dCi 110 CV; 1.4 88 CV; 1.6 110 CV
+NV200 | 1.5 dCi 90 CV; 1.5 dCi 110 CV; 1.6 16v; e-NV200 Eléctrico 109 CV; Evalia 7 plazas; Combi; Furgón
+NV300 | 1.6 dCi 95 CV; 1.6 dCi 120 CV; 1.6 dCi 125 CV; 2.0 dCi 120 CV; 1.6 dCi 145 CV; Combi
+NV400 | 2.3 dCi 100 CV; 2.3 dCi 125 CV; 2.3 dCi 135 CV; 2.3 dCi 145 CV; 2.3 dCi 150 CV; 2.3 dCi 165 CV; 2.3 dCi 170 CV
+Pathfinder | 2.5 dCi 174 CV; 2.5 dCi 190 CV; 3.0 dCi V6 231 CV; 4.0 V6; 3.5 V6; 2.5 dCi 171 CV
+Patrol | 3.0 Di 160 CV; 3.0 Di 170 CV; 2.8 TD; 4.2 TD; 5 puertas; 3 puertas; 4.0 V6
+Primastar | 2.0 dCi 90 CV; 2.0 dCi 115 CV; 1.9 dCi 101 CV; 1.9 dCi 80 CV
+Primera | 1.6; 1.8; 2.0 DCi 120 CV; 2.2 dCi 126 CV; 1.9 dCi 120 CV; 2.0 TD
+Pulsar | 1.2 DIG-T 115 CV; 1.5 dCi 110 CV; 1.6 DIG-T 190 CV; 1.6 DIG-T Nismo
+Qashqai | 1.2 DIG-T 115 CV; 1.2 DIG-T 129 CV; 1.3 DIG-T 140 CV; 1.3 DIG-T 160 CV; 1.3 DIG-T Mild Hybrid 140 CV; 1.3 DIG-T Mild Hybrid 158 CV; 1.5 dCi 110 CV; 1.5 dCi 115 CV; 1.6 DIG-T 163 CV; 1.7 dCi 150 CV; 1.6 117 CV; 2.0 141 CV; 2.0 dCi 150 CV 4x4; 1.6 dCi 130 CV 4x4; e-POWER 158 CV; e-Power 190 CV; +2; Qashqai+2 7 plazas
+Serena | 2.3 dCi; 2.0
+Silvia | S14; S15
+Skyline | R32; R33; R34
+Sunny | 1.4; 1.6; 1.5 D; 2.0 D
+Terrano | 2.7 TDi
+Terrano II | 2.7 TDi; 2.4 12V
+Tiida | 1.5; 1.6
+Townstar | 1.3 DIG-T 130 CV; EV 122 CV; Combi; Furgón
+Trade | 3.0 TD; 2.8 TD
+Vanette | 2.3 D; 2.0
+X-Trail | 1.3 DIG-T 160 CV; 1.6 dCi 130 CV; 1.7 dCi 150 CV; 2.0 dCi 150 CV; 2.0 dCi 173 CV; 2.0 dCi 177 CV; 2.0 141 CV; 2.2 dCi; 2.5 169 CV; 2.5 Hybrid; 1.5 VC-Turbo e-POWER 204 CV; 1.5 VC-Turbo e-POWER 213 CV; 1.5 VC-Turbo e-4ORCE 213 CV; 1.5 VC-Turbo e-4ORCE 7 plazas 213 CV; 1.5 VC-Turbo 163 CV
+Z | 3.0 V6 Twin Turbo 405 CV; Performance
+# Omoda
+5 | 1.6 T-GDI 145 CV; 1.5 Turbo 145 CV; Eléctrico 5 EV 204 CV
+# Opel
+Adam | 1.0 Turbo 90 CV; 1.0 Turbo 115 CV; 1.2 70 CV; 1.4 87 CV; 1.4 100 CV; 1.4 Turbo 150 CV
+Agila | 1.0; 1.3 CDTI; 1.2 16v
+Ampera | 1.4 Hybrid; Ampera-e Eléctrico 204 CV
+Ampera-e | 60 kWh 204 CV
+Antara | 2.0 CDTI 127 CV; 2.0 CDTI 150 CV; 2.0 CDTI 163 CV; 2.2 CDTI 163 CV; 2.4 140 CV; 3.2 V6
+Ascona | 1.6; 1.8
+Astra | 1.0 Turbo 105 CV; 1.2 Turbo 110 CV; 1.2 Turbo 130 CV; 1.2 Turbo 145 CV; 1.4 Turbo 125 CV; 1.4 Turbo 140 CV; 1.4 Turbo 150 CV; 1.5 Turbo 122 CV; 1.5 CDTI 105 CV; 1.5 Diesel 105 CV; 1.5 Diesel 122 CV; 1.6 Turbo 200 CV; 1.6 CDTI 95 CV; 1.6 CDTI 110 CV; 1.6 CDTI 136 CV; 1.6 CDTI 160 CV; 1.6 115 CV; 1.7 CDTI 110 CV; 1.7 CDTI 125 CV; 1.9 CDTI 120 CV; 1.9 CDTI 150 CV; 1.8 140 CV; 1.8 Twinport; 2.0 Turbo OPC 240 CV; 2.0 CDTI 165 CV; Hybrid 180 CV; Hybrid 225 CV; Electric 156 CV; Sports Tourer; Sedán
+Astra GTC | 1.4 Turbo 140 CV; 1.6 Turbo 180 CV; 1.6 CDTI 136 CV; 2.0 CDTI 165 CV; OPC 280 CV
+Calibra | 2.0 16v; 2.0 Turbo 4x4; 2.5 V6
+Combo | 1.3 CDTI 75 CV; 1.3 CDTI 90 CV; 1.4; 1.6 CDTI 90 CV; 1.6 CDTI 105 CV; 1.6 CDTI 120 CV; 1.5 Diesel 100 CV; 1.5 Diesel 130 CV; 1.2 Turbo 110 CV; e-Combo Eléctrico 136 CV; 7 plazas
+Corsa | 1.0 Turbo 90 CV; 1.0 Turbo 100 CV; 1.2 75 CV; 1.2 Turbo 100 CV; 1.2 Turbo 130 CV; 1.2 Twinport 80 CV; 1.2 85 CV; 1.2 Ecotec 80 CV; 1.3 CDTI 75 CV; 1.3 CDTI 95 CV; 1.4 90 CV; 1.4 100 CV; 1.4 Turbo 100 CV; 1.4 Turbo 120 CV; 1.5 D 100 CV; 1.5 Diesel 100 CV; 1.6 Turbo OPC 192 CV; 1.6 Turbo OPC 207 CV; 1.7 CDTI; 1.0 Ecotec 60 CV; Corsa-e Eléctrico 136 CV
+Crossland | 1.2 83 CV; 1.2 Turbo 110 CV; 1.2 Turbo 130 CV; 1.5 Diesel 102 CV; 1.5 Diesel 110 CV; 1.5 Diesel 120 CV; 1.6 Diesel 99 CV; 1.6 Diesel 120 CV
+Crossland X | 1.2 83 CV; 1.2 Turbo 110 CV; 1.2 Turbo 130 CV; 1.5 Diesel 102 CV; 1.6 Diesel 99 CV; 1.6 Diesel 120 CV
+Frontera | 2.0; 2.2; 2.2 DTI; 2.8 TD; 3.2 V6; Eléctrica 113 CV; Hybrid 100 CV; Hybrid 136 CV
+Grandland | 1.2 Turbo 130 CV; 1.2 Turbo 130 CV Hybrid; 1.6 Turbo Hybrid 225 CV; 1.5 Diesel 130 CV; 1.6 Turbo Hybrid4 300 CV; Plug-in Hybrid 225 CV; Plug-in Hybrid 300 CV; Hybrid 136 CV; Electric 213 CV
+Grandland X | 1.2 Turbo 130 CV; 1.6 Turbo Hybrid 225 CV; 1.5 Diesel 130 CV; 1.6 Diesel 120 CV
+GT | 2.0 Turbo 264 CV
+Insignia | 1.4 Turbo 140 CV; 1.5 Turbo 140 CV; 1.5 Turbo 165 CV; 1.6 Turbo 170 CV; 1.6 Turbo 200 CV; 2.0 Turbo 220 CV; 2.0 Turbo 250 CV; 2.0 Turbo 260 CV; 1.6 CDTI 110 CV; 1.6 CDTI 136 CV; 1.6 CDTI 160 CV; 1.6 CDTI 120 CV; 1.5 Diesel 122 CV; 1.5 Diesel 130 CV; 1.6 Diesel 136 CV; 1.6 Diesel 110 CV; 2.0 CDTI 110 CV; 2.0 CDTI 130 CV; 2.0 CDTI 160 CV; 2.0 CDTI 170 CV; 2.0 CDTI 195 CV; 2.0 CDTI 200 CV; 2.0 Turbo Diesel 210 CV; 2.0 Diesel 174 CV; 2.0 Diesel 170 CV; 2.0 Diesel 200 CV; 2.0 BiTurbo Diesel 195 CV; 2.0 Turbo OPC 325 CV; 2.8 V6 Turbo OPC 325 CV; 1.8 140 CV; Sports Tourer
+Kadett | 1.3; 1.6; 1.8; 2.0 GSi
+Karl | 1.0 75 CV
+Manta | 1.8; 2.0
+Meriva | 1.4 90 CV; 1.4 Turbo 120 CV; 1.4 Turbo 140 CV; 1.3 CDTI 75 CV; 1.3 CDTI 95 CV; 1.6 CDTI 110 CV; 1.7 CDTI 100 CV; 1.7 CDTI 125 CV; 1.7 CDTI 110 CV; 1.6 105 CV; 1.8 125 CV
+Mokka | 1.0 Turbo 105 CV; 1.2 Turbo 100 CV; 1.2 Turbo 130 CV; 1.4 Turbo 140 CV; 1.6 CDTI 136 CV; 1.5 Diesel 110 CV; 1.5 CDTI 110 CV; 1.4 Turbo 4x4 140 CV; Mokka-e Eléctrico 136 CV; Electric 156 CV; Hybrid 136 CV
+Mokka X | 1.4 Turbo 140 CV; 1.6 115 CV; 1.6 CDTI 136 CV; 1.4 Turbo 4x4
+Monza | 2.0 Turbo
+Movano | 2.3 CDTI 100 CV; 2.3 CDTI 125 CV; 2.3 CDTI 130 CV; 2.3 CDTI 145 CV; 2.3 CDTI 150 CV; 2.3 CDTI 165 CV; 2.2 CDTI; 2.5 CDTI; 3.0 CDTI; Furgón; Combi
+Omega | 2.0; 2.2; 2.5 V6; 3.0 V6; 2.5 TD; 2.0 DTI; 2.2 DTI
+Rekord | 1.8; 2.0
+Rocks-e | 5,5 kW eléctrico
+Signum | 1.8; 2.2; 3.2 V6; 1.9 CDTI 120 CV; 1.9 CDTI 150 CV; 3.0 V6 CDTI
+Speedster | 2.2; 2.0 Turbo
+Tigra | 1.4 TwinTop; 1.8 TwinTop; 1.3 CDTI TwinTop; 1.4 16V
+Vectra | 1.6; 1.8; 2.0; 2.2; 2.2 DTI; 1.9 CDTI 120 CV; 1.9 CDTI 150 CV; 3.0 V6 CDTI; 3.2 V6; 2.0 Turbo
+Vivaro | 1.6 CDTI 90 CV; 1.6 CDTI 115 CV; 1.6 CDTI 120 CV; 1.6 CDTI 140 CV; 2.0 CDTI 90 CV; 2.0 CDTI 114 CV; 2.0 CDTI 120 CV; 2.0 CDTI 150 CV; 2.0 CDTI 115 CV; 1.5 Diesel 100 CV; 1.5 Diesel 120 CV; 2.0 Diesel 120 CV; 2.0 Diesel 150 CV; 2.0 Diesel 180 CV; Vivaro-e 136 CV; Combi; Furgón; L1; L2; L3
+Zafira | 1.4 Turbo 140 CV; 1.6 CDTI 120 CV; 1.6 CDTI 136 CV; 1.6 CDTI 134 CV; 1.7 CDTI 125 CV; 1.9 CDTI 120 CV; 1.9 CDTI 150 CV; 1.8 140 CV; 2.0 CDTI 165 CV; 2.0 CDTI 130 CV; 2.2; 1.6 105 CV; 2.0 DTI; 2.0 Turbo OPC 200 CV; 7 plazas; Tourer
+Zafira Life | 2.0 Diesel 120 CV; 2.0 Diesel 150 CV; 2.0 Diesel 177 CV; e-Zafira Life 136 CV; M
+# ORA
+03 | 48 kWh 171 CV; 63 kWh 171 CV
+Funky Cat | 48 kWh 171 CV; 63 kWh 171 CV
+# Peugeot
+107 | 1.0 68 CV; 1.4 HDi 54 CV
+108 | 1.0 VTi 68 CV; 1.2 VTi 82 CV; 1.0 e-VTi 68 CV; PureTech 72; PureTech 82
+2008 | 1.2 PureTech 82 CV; 1.2 PureTech 100 CV; 1.2 PureTech 110 CV; 1.2 PureTech 130 CV EAT8; 1.5 BlueHDi 100 CV; 1.5 BlueHDi 130 CV; 1.6 BlueHDi 75 CV; 1.6 BlueHDi 100 CV; 1.6 BlueHDi 120 CV; 1.6 e-HDi 92 CV; 1.6 VTi 120 CV; 1.4 HDi 68 CV; 1.4 VTi 95 CV; e-2008 Eléctrico 136 CV; e-2008 Eléctrico 156 CV; Hybrid 136 CV; Hybrid 145 CV; GT
+205 | 1.0; 1.1; 1.3; 1.4; 1.6 GTI; 1.9 GTI; 1.8 D
+206 | 1.1; 1.4 75 CV; 1.4 HDi 70 CV; 1.6 110 CV; 1.6 HDi 90 CV; 1.9 D; 2.0 HDi 90 CV; 2.0 16v 135 CV; 2.0 16v 180 CV; SW; Cabrio
+207 | 1.4 75 CV; 1.4 HDi 70 CV; 1.6 VTi 120 CV; 1.6 HDi 90 CV; 1.6 HDi 110 CV; 1.6 THP 150 CV; 1.6 THP 175 CV RC; SW; 1.6 16v 110 CV; 1.4 VTi 95 CV
+208 | 1.0 VTi 68 CV; 1.2 PureTech 68 CV; 1.2 PureTech 82 CV; 1.2 PureTech 130 CV; 1.2 PureTech 100 CV; 1.2 PureTech 75 CV; 1.2 PureTech 110 CV EAT8; 1.2 PureTech 155 CV; 1.4 VTi 95 CV; 1.5 BlueHDi 75 CV; 1.5 BlueHDi 100 CV; 1.6 e-HDi 92 CV; 1.6 BlueHDi 100 CV; 1.6 THP 155 CV GTi; 1.6 THP 200 CV GTi; 1.6 THP 208 CV GTi; 1.6 THP 208 CV; 1.2 VTi 82 CV; e-208 Eléctrico 136 CV; e-208 Eléctrico 156 CV; GTi; GT
+3008 | 1.2 PureTech 130 CV EAT8; 1.6 THP 156 CV; 1.6 THP 165 CV; 1.6 THP 155 CV; 1.6 PureTech 180 CV; 1.5 BlueHDi 130 CV; 1.6 BlueHDi 120 CV; 1.6 e-HDi 115 CV; 1.6 HDi 110 CV; 1.6 HDi 112 CV; 2.0 HDi 150 CV; 2.0 HDi 163 CV; 2.0 BlueHDi 150 CV; 2.0 BlueHDi 180 CV; Hybrid4 300 CV; Hybrid 136 CV; Hybrid 195 CV; Hybrid 225; e-3008 Eléctrico 210 CV; e-3008 Eléctrico 230 CV; GT
+301 | 1.2 PureTech 82 CV; 1.6 VTi 115 CV; 1.6 HDi 92 CV; 1.6 BlueHDi 100 CV
+307 | 1.4; 1.6 HDi 90 CV; 2.0 HDi 90 CV; 2.0 HDi 110 CV; 2.0 HDi 136 CV; 1.6 16v 110 CV; SW; Break
+308 | 1.2 PureTech 110 CV; 1.2 PureTech 130 CV; 1.2 PureTech 155 CV; 1.5 BlueHDi 100 CV; 1.5 BlueHDi 130 CV; 1.6 VTi 120 CV; 1.6 THP 125 CV; 1.6 THP 156 CV; 1.6 THP 155 CV; 1.6 THP 175 CV; 1.6 THP 205 CV GTi; 1.6 THP 270 CV GTi; 1.6 BlueHDi 100 CV; 1.6 BlueHDi 120 CV; 1.6 HDi 92 CV; 1.6 e-HDi 115 CV; 1.6 e-HDi 112 CV; 1.6 HDi 110 CV; 1.6 HDi 115 CV; 2.0 HDi 150 CV; 2.0 BlueHDi 150 CV; 2.0 BlueHDi 180 CV; 1.6 Hybrid 180 CV PHEV; 1.6 Hybrid 225 CV PHEV; 1.6 Hybrid PHEV; Hybrid 180; Hybrid 225; e-308 Eléctrico 156 CV; SW; GTi; GT
+308 SW | 1.2 PureTech 130 CV; 1.5 BlueHDi 130 CV; 1.6 BlueHDi 120 CV; 1.6 HDi 115 CV; Hybrid 225
+4007 | 2.2 HDi 156 CV; 2.4 170 CV
+4008 | 1.8 HDi 150 CV; 2.0 150 CV; 2.0 HDi 150 CV; 2.0 HDi 163 CV
+406 | 1.8; 2.0 HDi 90 CV; 2.0 HDi 110 CV; 2.2 HDi 136 CV; 3.0 V6; Coupé; Break
+407 | 1.6 HDi 110 CV; 1.8 16v 125 CV; 2.0 HDi 136 CV; 2.0 HDi 140 CV; 2.0 HDi 163 CV; 2.2 HDi 170 CV; 2.7 HDi V6 204 CV; 2.0 16v 140 CV; 3.0 V6; SW; Coupé; ST
+5008 | 1.2 PureTech 130 CV; 1.6 THP 165 CV; 1.5 BlueHDi 130 CV; 1.6 BlueHDi 120 CV; 2.0 BlueHDi 150 CV; 2.0 BlueHDi 180 CV; 1.6 HDi 112 CV; 1.6 e-HDi 115 CV; 2.0 HDi 150 CV; Hybrid 136 CV; Hybrid 195 CV; Hybrid 225; GT; 7 plazas
+508 | 1.6 THP 156 CV; 1.6 THP 165 CV; 1.6 THP 180 CV; 1.6 THP 225 CV; 1.6 PureTech 180 CV; 1.6 PureTech 225 CV; 1.5 BlueHDi 130 CV; 1.6 BlueHDi 120 CV; 1.6 e-HDi 112 CV; 1.6 e-HDi 115 CV; 1.6 HDi 112 CV; 2.0 HDi 140 CV; 2.0 HDi 163 CV; 2.0 HDi 150 CV; 2.0 HDi 160 CV; 2.0 BlueHDi 150 CV; 2.0 BlueHDi 180 CV; 2.0 BlueHDi 160 CV; 2.0 HDi Hybrid4 200 CV; 2.2 HDi 204 CV; Hybrid 225 CV; Hybrid 360 CV PSE; SW; GT
+607 | 2.2 HDi 136 CV; 2.7 HDi V6 204 CV; 3.0 V6
+807 | 2.0 HDi 136 CV; 2.2 HDi 170 CV; 2.0 HDi 120 CV; 2.2 HDi 128 CV
+Bipper | 1.3 HDi 75 CV; 1.4 HDi 70 CV; 1.4 HDi 68 CV; 1.3 HDi 80 CV; 1.2 VTi 75 CV
+Boxer | 2.0 BlueHDi 110 CV; 2.0 BlueHDi 130 CV; 2.2 HDi 110 CV; 2.2 HDi 130 CV; 2.2 HDi 150 CV; 2.2 BlueHDi 140 CV; 2.2 BlueHDi 165 CV; 2.3 HDi; 2.5 D; 2.8 HDi; e-Boxer Eléctrico 122 CV; Furgón; Combi; L1; L2; L3; L4
+Expert | 1.6 BlueHDi 95 CV; 1.6 BlueHDi 115 CV; 2.0 BlueHDi 120 CV; 2.0 BlueHDi 150 CV; 2.0 BlueHDi 180 CV; 2.0 HDi 120 CV; 2.0 HDi 128 CV; 2.0 HDi 163 CV; 1.6 HDi 90 CV; 1.6 HDi 115 CV; e-Expert Eléctrico 136 CV; Furgón; Combi; L1; L2; L3; Long; Compact
+iOn | Eléctrico 67 CV
+Landtrek | 2.4 Diesel; 1.9 TD
+Partner | 1.6 HDi 75 CV; 1.6 HDi 90 CV; 1.6 HDi 110 CV; 1.6 BlueHDi 75 CV; 1.6 BlueHDi 100 CV; 1.5 BlueHDi 75 CV; 1.5 BlueHDi 100 CV; 1.5 BlueHDi 130 CV; 1.2 PureTech 110 CV; 1.4; 1.6 16v; 1.9 D 70 CV; 2.0 HDi 90 CV; Furgón; Combi; e-Partner Eléctrico 136 CV
+RCZ | 1.6 THP 156 CV; 1.6 THP 200 CV; 1.6 THP 270 CV R; 2.0 HDi 163 CV; R
+RCZ R | 1.6 THP 270 CV
+Rifter | 1.2 PureTech 110 CV; 1.2 PureTech 130 CV; 1.5 BlueHDi 75 CV; 1.5 BlueHDi 100 CV; 1.5 BlueHDi 130 CV; e-Rifter Eléctrico 136 CV; Long; 7 plazas
+Traveller | 1.5 BlueHDi 120 CV; 2.0 BlueHDi 150 CV; 2.0 BlueHDi 180 CV; 1.6 BlueHDi 115 CV; 2.0 HDi 163 CV; e-Traveller Eléctrico 136 CV; Long; Compact
+# Piaggio
+Porter | 1.3 16V; 1.3 Electric; Pick-up; Furgón
+Porter NP6 | 1.5 Gasolina; 1.5 Híbrido
+# Polestar
+Polestar 1 | Híbrido 609 CV
+Polestar 2 | Standard Range Single Motor 272 CV; Long Range Single Motor 299 CV; Long Range Dual Motor 408 CV; Performance; Standard Range 231 CV
+Polestar 3 | Long Range Dual Motor 489 CV; Performance
+Polestar 4 | Long Range Single Motor 272 CV; Long Range Dual Motor 544 CV
+Polestar 5
+# Pontiac
+Firebird | 5.7 V8
+G8 | 3.6 V6; 6.0 V8 GT
+Grand Prix | 3.8 V6
+Solstice | 2.4; 2.0 Turbo
+Trans Am | 5.7 V8; 6.6 V8
+Vibe | 1.8
+# Porsche
+356 | 1600; 1600 S
+718 | Boxster 2.0 300 CV; Boxster S 2.5 350 CV; Boxster GTS 2.5 365 CV; Boxster GTS 4.0 400 CV; Boxster Spyder 4.0 420 CV; Cayman 2.0 300 CV; Cayman S 2.5 350 CV; Cayman GTS 2.5 365 CV; Cayman GTS 4.0 400 CV; Cayman GT4 4.0 420 CV; Cayman GT4 RS 4.0 500 CV
+911 | Carrera 3.4 345 CV; Carrera S 3.8 400 CV; Carrera 4; Carrera 4S; Turbo 3.8 540 CV; Turbo S 3.8 650 CV; GT3 4.0 510 CV; GT3 RS 4.0 520 CV; GT3 RS 4.0 525 CV; GT2 RS 3.8 700 CV; Targa 4; Targa 4S; Targa 4 GTS; Cabrio; Dakar; 992; 991; 997; 996; 993; 964
+914 | 1.7; 2.0
+918 Spyder | Híbrido 887 CV
+924 | 2.0; Turbo
+928 | 4.5 V8; 5.0 V8 S4
+944 | 2.5; 2.7; 3.0 S2; Turbo
+968 | 3.0
+Boxster | 2.5 204 CV; 2.7 228 CV; 3.2 S 252 CV; 3.4 S 295 CV; 3.4 GTS 330 CV; Spyder; 986; 987; 981
+Carrera GT | 5.7 V10
+Cayenne | 3.0 V6 340 CV; 3.0 V6 Diesel 262 CV; 3.0 V6 Diesel 245 CV; 3.0 V6 Diesel 250 CV; 3.0 V6 S Diesel 380 CV; 3.0 V6 S E-Hybrid 416 CV; 3.0 V6 E-Hybrid 462 CV; 3.0 V6 E-Hybrid Coupé 462 CV; 3.6 V6 300 CV; 3.6 V6 S 385 CV; 3.6 V6 Turbo S 520 CV; 4.0 V8 GTS 460 CV; 4.0 V8 Turbo 550 CV; 4.0 V8 Turbo 680 CV GT; 4.0 V8 Turbo S E-Hybrid 680 CV; 4.2 V8 S Diesel 385 CV; 4.5 V8 S 340 CV; 4.8 V8 GTS 420 CV; 4.8 V8 Turbo 500 CV; 4.8 V8 Turbo S 550 CV; 4.8 V8 S 385 CV; 5.0 V8; Coupé
+Cayenne Coupé | 3.0 V6 340 CV
+Cayman | 2.7 265 CV; 3.4 S 325 CV; 3.4 GTS 340 CV; R 330 CV; GT4 385 CV; 987; 981
+Macan | 2.0 245 CV; 2.0 265 CV; 2.9 V6 Turbo S 440 CV; 3.0 V6 Turbo S 340 CV; 3.0 V6 Turbo S 360 CV; 3.0 V6 S Diesel 258 CV; 3.0 V6 S 340 CV; 3.6 V6 Turbo 400 CV; 3.6 V6 Turbo Performance 440 CV; 2.0 Turbo; 4 Eléctrico 408 CV; 4S Eléctrico 516 CV; Turbo Eléctrico 639 CV; Electric
+Panamera | 3.0 V6 330 CV; 3.0 V6 Diesel 250 CV; 3.0 V6 Diesel 300 CV; 4 E-Hybrid 462 CV; 4S 2.9 440 CV; 4S 4.0 V8 Diesel 422 CV; GTS 4.0 V8 460 CV; GTS 4.8 V8 440 CV; Turbo 4.0 V8 550 CV; Turbo S 4.0 V8 570 CV; Turbo S E-Hybrid 680 CV; Turbo S E-Hybrid 700 CV
+Taycan | 4 Edición 408 CV; 4S Performance 530 CV; 4S 571 CV; GTS 598 CV; Turbo 680 CV; Turbo S 761 CV; Turbo GT 1034 CV; 4 Cross Turismo
+# Proton
+Gen-2 | 1.3; 1.6
+Persona | 1.3; 1.6
+# Renault
+4 E-Tech | Eléctrico 120 CV; Eléctrico 150 CV
+Arkana | 1.3 TCe 140 CV; 1.3 TCe 160 CV; 1.6 E-Tech Hybrid 145 CV; 1.3 TCe 140 mild hybrid
+Austral | 1.3 TCe Mild Hybrid 140 CV; 1.3 TCe Mild Hybrid 160 CV; 1.3 TCe Mild Hybrid 4x4 Advanced 130 CV; E-Tech Full Hybrid 200 CV; E-Tech Hybrid 200 CV
+Avantime | 2.0 T 163 CV; 3.0 V6 207 CV
+Captur | 0.9 TCe 90 CV; 1.0 TCe 90 CV; 1.0 TCe 100 CV; 1.0 TCe 100 CV GLP; 1.3 TCe 130 CV; 1.3 TCe 140 CV; 1.3 TCe 155 CV; 1.2 TCe 120 CV; 1.5 dCi 90 CV; 1.5 dCi 110 CV; 1.5 Blue dCi 95 CV; 1.5 Blue dCi 115 CV; 1.6 E-Tech Plug-in Hybrid 160 CV; 1.6 E-Tech Full Hybrid 145 CV; 1.6 E-Tech Plug-in 160 CV
+Clio | 1.0 SCe 65 CV; 1.0 SCe 75 CV; 1.0 TCe 90 CV; 1.0 TCe 100 CV; 1.0 TCe 101 CV GLP; 1.0 TCe 100 CV GLP; 0.9 TCe 75 CV; 0.9 TCe 90 CV; 1.2 16V 75 CV; 1.2 16V 100 CV; 1.2 TCe 100 CV; 1.2 TCe 120 CV; 1.2 TCe 115 CV; 1.2 16v 65 CV; 1.2 60 CV; 1.4 16V 98 CV; 1.5 dCi 65 CV; 1.5 dCi 70 CV; 1.5 dCi 75 CV; 1.5 dCi 85 CV; 1.5 dCi 90 CV; 1.5 dCi 100 CV; 1.5 Blue dCi 85 CV; 1.5 Blue dCi 100 CV; 1.5 Blue dCi 115 CV; 1.5 dCi 105 CV; 1.5 dCi 110 CV; 1.6 16V 110 CV; 1.6 TCe 200 CV RS; 1.6 TCe 220 CV RS Trophy; 1.6 TCe 200 CV; 1.6 Hybrid 140 CV; E-Tech 140 CV; E-Tech Full Hybrid 145 CV; 2.0 16V 172 CV RS; 2.0 16V 182 CV RS; 3.0 V6 RS 255 CV; Estate; Grandtour; RS
+Espace | 1.3 TCe 160 CV; 1.6 dCi 130 CV; 1.6 dCi 160 CV; 1.6 TCe 200 CV; 1.8 TCe 225 CV; 1.6 Energy dCi 130 CV; 1.6 Energy dCi 160 CV; 1.7 Blue dCi 120 CV; 1.7 Blue dCi 150 CV; 1.7 Blue dCi 160 CV; 1.9 dCi 120 CV; 2.0 dCi 150 CV; 2.0 dCi 175 CV; 2.0 T 165 CV; 2.0 16V 135 CV; 2.2 dCi 150 CV; 2.2 dCi 130 CV; 3.0 dCi 177 CV; 3.5 V6 240 CV; 3.0 V6 24V; E-Tech Full Hybrid 200 CV
+Express | 1.5 dCi 75 CV; 1.5 dCi 90 CV; 1.5 Blue dCi 75 CV; 1.5 Blue dCi 95 CV; 1.3 TCe 100 CV; 1.2 TCe 100 CV; Combi; Furgón
+Fluence | 1.5 dCi 90 CV; 1.5 dCi 110 CV; 1.6 16V 110 CV; 1.6 16V 105 CV; 2.0 16V 140 CV; 2.0 dCi 150 CV; 1.6 dCi 130 CV
+Kadjar | 1.2 TCe 130 CV; 1.3 TCe 140 CV; 1.3 TCe 160 CV; 1.5 dCi 110 CV; 1.5 Blue dCi 115 CV; 1.7 Blue dCi 150 CV; 1.6 dCi 130 CV 4x4
+Kangoo | 1.2 TCe 115 CV; 1.2 16V 75 CV; 1.2 16V 80 CV; 1.2 TCe 100 CV; 1.3 TCe 100 CV; 1.3 TCe 115 CV; 1.3 TCe 130 CV; 1.5 dCi 75 CV; 1.5 dCi 90 CV; 1.5 dCi 105 CV; 1.5 dCi 110 CV; 1.5 dCi 65 CV; 1.5 dCi 70 CV; 1.5 dCi 80 CV; 1.5 dCi 85 CV; 1.5 Blue dCi 75 CV; 1.5 Blue dCi 80 CV; 1.5 Blue dCi 95 CV; 1.5 Blue dCi 115 CV; 1.5 dCi 115 CV; 1.6 16V 95 CV; 1.9 dCi 85 CV; 1.9 dTi; Z.E. Eléctrico 60 CV; Z.E. Eléctrico 44 kW; E-Tech Eléctrico 122 CV; Combi; Furgón; Compact
+Kangoo Z.E. | Eléctrico 60 CV; Eléctrico 44 kW; Furgón; Combi
+Koleos | 2.0 dCi 150 CV; 2.0 dCi 175 CV; 2.0 Blue dCi 150 CV; 2.0 Blue dCi 190 CV; 1.7 Blue dCi 150 CV; 2.5 171 CV; 2.0 dCi 177 CV; 1.7 dCi 150 CV
+Laguna | 1.5 dCi 110 CV; 1.6 16V 110 CV; 1.8 16V 120 CV; 1.9 dCi 120 CV; 1.9 dCi 130 CV; 2.0 16V 140 CV; 2.0 dCi 150 CV; 2.0 dCi 130 CV; 2.0 T 170 CV; 2.0 T 205 CV; 2.0 Turbo 170; 2.0 dCi 175 CV; 2.2 dCi 150 CV; 3.0 V6 dCi 235 CV; 3.0 V6 24V 210 CV; 3.0 dCi 235 CV; 3.5 V6; Grandtour; Coupé
+Master | 2.3 dCi 100 CV; 2.3 dCi 110 CV; 2.3 dCi 125 CV; 2.3 dCi 130 CV; 2.3 dCi 135 CV; 2.3 dCi 145 CV; 2.3 dCi 150 CV; 2.3 dCi 165 CV; 2.3 dCi 170 CV; 2.3 dCi 180 CV; 2.3 Blue dCi 105 CV; 2.3 Blue dCi 135 CV; 2.3 Blue dCi 150 CV; 2.3 Blue dCi 180 CV; 2.5 dCi 100 CV; 2.5 dCi 120 CV; 2.5 dCi 140 CV; 2.8 dTi; 2.8 dCi; 3.0 dCi 160 CV; E-Tech Eléctrico 76 CV; Furgón; Combi; Chasis cabina; L1; L2; L3; L4; H1; H2; H3
+Master E-Tech | Eléctrico
+Modus | 1.2 16V 75 CV; 1.2 16V 100 CV; 1.2 TCe 100 CV; 1.5 dCi 65 CV; 1.5 dCi 85 CV; 1.5 dCi 105 CV; 1.5 dCi 90 CV; 1.5 dCi 100 CV; 1.6 16V 110 CV
+Mégane | 1.0 TCe 115 CV; 1.2 TCe 100 CV; 1.2 TCe 115 CV; 1.2 TCe 130 CV; 1.3 TCe 115 CV; 1.3 TCe 140 CV; 1.3 TCe 160 CV; 1.3 TCe 140 CV Mild Hybrid; 1.4 TCe 130 CV; 1.5 dCi 85 CV; 1.5 dCi 90 CV; 1.5 dCi 95 CV; 1.5 dCi 105 CV; 1.5 dCi 110 CV; 1.5 Blue dCi 95 CV; 1.5 Blue dCi 115 CV; 1.6 16V 110 CV; 1.6 16V 100 CV; 1.6 dCi 130 CV; 1.6 TCe 205 CV RS; 1.6 TCe 220 CV RS; 1.6 TCe 275 CV RS; 1.6 TCe 280 CV RS; 1.6 TCe 300 CV RS Trophy-R; 1.6 TCe 205 CV Sport; 1.8 TCe 300 CV RS; 1.9 dCi 120 CV; 1.9 dCi 130 CV; 1.9 dTi; 2.0 16V 136 CV; 2.0 dCi 150 CV; 2.0 dCi 160 CV; 2.0 Turbo 225 CV RS; 2.0 Turbo 250 CV RS; 2.0 Turbo RS 265 CV; 2.0 Turbo RS 275 CV; 2.0 Turbo RS 250 CV; 2.0 Turbo Trophy 265 CV; 1.6 E-Tech Plug-in Hybrid 160 CV; E-Tech Plug-in Hybrid 160 CV; E-Tech Plug-in 160 CV; E-Tech Eléctrico 130 CV; E-Tech Eléctrico 220 CV; Berlina; Grandtour; Coupé; Cabrio; Sedán; GT; RS
+Mégane E-Tech | 40 kWh 130 CV; 60 kWh 220 CV
+Mégane RS | 1.8 TCe 300 CV; 2.0 Turbo 250 CV; 2.0 Turbo 265 CV; 2.0 Turbo 275 CV; R26.R
+R5 | Turbo
+R5 E-Tech | Eléctrico 95 CV; Eléctrico 150 CV; Alpine A290
+Rafale | E-Tech Full Hybrid 200 CV; E-Tech Full Hybrid 4x4 300 CV
+Safrane | 2.0; 2.2 dT; 3.0 V6
+Scénic | 1.2 TCe 115 CV; 1.2 TCe 130 CV; 1.3 TCe 140 CV; 1.3 TCe 160 CV; 1.4 TCe 130 CV; 1.5 dCi 85 CV; 1.5 dCi 105 CV; 1.5 dCi 110 CV; 1.5 dCi 90 CV; 1.5 Blue dCi 120 CV; 1.6 dCi 130 CV; 1.7 Blue dCi 120 CV; 1.7 Blue dCi 150 CV; 1.6 16V 110 CV; 1.9 dCi 120 CV; 2.0 16V 136 CV; 2.0 dCi 150 CV; E-Tech Eléctrico 170 CV; E-Tech Eléctrico 220 CV; Grand Scénic 7 plazas
+Symbioz | E-Tech Full Hybrid 145 CV; 1.3 TCe 140 CV
+Talisman | 1.3 TCe 160 CV; 1.5 dCi 110 CV; 1.5 Blue dCi 120 CV; 1.6 dCi 130 CV; 1.6 dCi 160 CV; 1.6 TCe 150 CV; 1.6 TCe 200 CV; 1.7 Blue dCi 150 CV; 1.7 Blue dCi 120 CV; 2.0 Blue dCi 160 CV; 1.8 TCe 225 CV; Grandtour
+Trafic | 1.6 dCi 90 CV; 1.6 dCi 115 CV; 1.6 dCi 120 CV; 1.6 dCi 125 CV; 1.6 dCi 145 CV; 1.6 dCi 140 CV; 1.6 dCi 95 CV; 1.9 dCi 80 CV; 1.9 dCi 100 CV; 1.9 dCi 82 CV; 2.0 dCi 90 CV; 2.0 dCi 114 CV; 2.0 dCi 115 CV; 2.0 dCi 120 CV; 2.0 dCi 130 CV; 2.0 dCi 145 CV; 2.0 dCi 170 CV; 2.0 Blue dCi 130 CV; 2.0 Blue dCi 150 CV; 2.0 Blue dCi 170 CV; 2.0 Blue dCi 110 CV; 2.0 Blue dCi 120 CV; 2.0 Blue dCi 145; 2.5 dCi 135 CV; 2.5 dCi 145 CV; 2.5 dCi 115 CV; 2.5 dCi 150 CV; 2.5 dCi 99 CV; 2.5 dCi 100 CV; 1.9 dCi 101 CV; E-Tech Eléctrico 122 CV; Combi; Furgón; L1; L2; H1; H2
+Twingo | 1.0 SCe 65 CV; 1.0 SCe 70 CV; 0.9 TCe 90 CV; 0.9 TCe 95 CV; 1.2 60 CV; 1.2 16V 75 CV; 1.5 dCi 65 CV; 1.5 dCi 75 CV; 1.6 RS 133 CV; 1.6 16V 133 CV; 1.1; Electric Eléctrico 82 CV; Electric 22 kWh; Cabrio; GT
+Twizy | Eléctrico 4 kW; Eléctrico 13 kW; Eléctrico 17 CV; 45; 80
+Vel Satis | 2.0 dCi 150 CV; 2.2 dCi 150 CV; 3.0 dCi 177 CV; 3.5 V6 241 CV
+Wind | 1.2 TCe 100 CV; 1.6 16V 133 CV
+Zoe | 22 kWh 88 CV; 22 kWh Q90 92 CV; 41 kWh R90 92 CV; 41 kWh R110 108 CV; 52 kWh R110 108 CV; 52 kWh R135 136 CV; 22 kWh Zen
+# Rolls-Royce
+Camargue | 6.75 V8
+Corniche | 6.75 V8
+Cullinan | 6.75 V12 571 CV; 6.75 V12 Black Badge 600 CV
+Dawn | 6.6 V12 571 CV; 6.6 V12 Black Badge 601 CV
+Ghost | 6.6 V12 570 CV; 6.6 V12 563 CV; 6.6 V12 Black Badge 600 CV; 6.6 V12 600 CV
+Phantom | 6.75 V12 460 CV; 6.75 V12 571 CV; 6.75 V12 563 CV; Coupé
+Silver Seraph | 5.4 V12
+Silver Shadow | 6.75 V8
+Silver Spirit | 6.75 V8
+Spectre | Eléctrico 585 CV
+Wraith | 6.6 V12 632 CV
+# Rover
+200 | 1.4; 1.6; 1.8; 2.0 TD; 214; 216; 218; 220 Turbo; 220 Coupé
+25 | 1.6; 1.8; 2.0 TD; 1.4 16V
+400 | 1.4; 1.6; 1.8; 2.0 TD; 414; 416; 418; 420
+45 | 1.6; 2.0 TD; 2.0 iDT; 1.4 16V; 1.8 16V
+600 | 2.0; 2.3; 620
+75 | 1.8; 1.8 T; 2.0 V6; 2.5 V6; 2.0 CDT; 2.0 CDTi; Tourer
+800 | 2.0; 2.7 V6; 827; 820
+CityRover | 1.4
+Streetwise | 1.4
+# Saab
+9-3 | 1.8t 150 CV; 1.8t 175 CV; 1.9 TiD 120 CV; 1.9 TiD 150 CV; 1.9 TTiD 180 CV; 2.0t 175 CV; 2.0 T 210 CV; 2.0 T BioPower 200 CV; 2.0 T Aero 210 CV; 2.0 Turbo 175 CV; 2.0 Turbo 185 CV; 2.0t 150 CV; 2.8 V6 Turbo Aero 280 CV; 2.8 V6 T Aero 280 CV; 2.2 TiD 125 CV; Cabrio
+9-4X | 2.8 V6 T 300 CV; 3.0 V6 265 CV; 2.0 T
+9-5 | 2.0 T 220 CV; 2.0 TiD 160 CV; 2.0 TiD 190 CV; 2.0 TTiD 190 CV; 2.3 T 185 CV; 2.3 T 250 CV; 2.3 T Aero 260 CV; 2.3 T Aero 230 CV; 3.0 V6 TiD 180 CV; 3.0 V6 TiD 177 CV; 3.0 V6 T 250 CV; 2.0 t 150 CV; 2.2 TiD 120 CV; 2.3t Aero 250 CV; 2.3t 220 CV; 2.3t Griffin 260 CV; 2.3 Turbo 250 CV; 3.0t V6 Aero 250 CV; 3.0 TiD; 2.0 T Aero 250 CV; 2.0 T XWD 300 CV
+9-7X | 5.3 V8
+900 | 2.0 Turbo; 2.3 Turbo 16; Cabrio; Coupé
+9000 | 2.0 Turbo; 2.3 Turbo
+99 | 2.0 Turbo
+# Santana
+350 | 2.8 TD; 2.0 JTD; 2.0 TD; Aníbal 350
+Aníbal | 2.0 TD; 2.5 TD; 2.8 TD
+PS-10 | 2.0 TD; 2.8 TD; 2.5 TD; 2.0 JTD
+Samurai | 1.3; 1.9 TD; 1.9 TDi; 2.0 TD; 2.0 JTD; 1.3 Samurai; 1.9 TD Samurai; 1.3 Samurai Cabrio; Long
+# Seat
+124 | 1.4; 1.4 D
+127 | 0.9; 1.0
+131 | 1.6; 1.6 D
+132 | 1.6; 1.8; 1.8 D
+Alhambra | 1.4 TSI 150 CV; 1.9 TDI 115 CV; 1.9 TDI 130 CV; 2.0 TDI 115 CV; 2.0 TDI 140 CV; 2.0 TDI 150 CV; 2.0 TDI 177 CV; 2.0 TSI 200 CV; 2.0 TSI 220 CV; 2.8 V6 204 CV
+Altea | 1.2 TSI 105 CV; 1.4 16V 85 CV; 1.4 TSI 125 CV; 1.6 102 CV; 1.6 TDI 105 CV; 1.8 TSI 160 CV; 1.9 TDI 105 CV; 2.0 TDI 140 CV; 2.0 TDI 170 CV; 2.0 TFSI 200 CV; XL; Freetrack
+Arona | 1.0 TSI 95 CV; 1.0 TSI 110 CV; 1.0 TGI 90 CV; 1.5 TSI 150 CV; 1.6 TDI 95 CV; 1.6 TDI 115 CV
+Ateca | 1.0 TSI 115 CV; 1.4 TSI 125 CV; 1.4 TSI 150 CV; 1.5 TSI 150 CV; 1.6 TDI 115 CV; 2.0 TDI 115 CV; 2.0 TDI 150 CV; 2.0 TDI 190 CV; 2.0 TSI 190 CV; 2.0 TSI 300 CV Cupra
+Cordoba | 1.4 60 CV; 1.4 16V 75 CV; 1.4 TDI 75 CV; 1.6 100 CV; 1.9 TDI 90 CV; 1.9 TDI 101 CV; 1.9 SDI 64 CV; 2.0 115 CV; 1.8 T 150 CV
+Exeo | 1.6 102 CV; 1.8 T 150 CV; 2.0 TDI 120 CV; 2.0 TDI 143 CV; 2.0 TDI 170 CV; ST
+Fura | 0.9; 0.9 Crono
+Ibiza | 1.0 MPI 75 CV; 1.0 MPI 80 CV; 1.0 TSI 95 CV; 1.0 TSI 110 CV; 1.0 TGI 90 CV; 1.2 70 CV; 1.2 TSI 90 CV; 1.2 TSI 105 CV; 1.4 16V 85 CV; 1.4 TDI 80 CV; 1.5 TSI 150 CV; 1.6 TDI 90 CV; 1.6 TDI 105 CV; 1.9 TDI 100 CV; 1.9 TDI 130 CV; 1.4 TSI 180 CV Cupra; 1.8 T 180 CV Cupra; SC; ST
+Inca | 1.4; 1.9 D; 1.9 SDI
+Leon | 1.0 TSI 90 CV; 1.0 TSI 110 CV; 1.0 eTSI 110 CV; 1.2 TSI 105 CV; 1.4 TSI 125 CV; 1.4 TSI 150 CV; 1.4 TGI 110 CV; 1.5 TSI 130 CV; 1.5 TSI 150 CV; 1.5 eTSI 150 CV; 1.5 TGI 130 CV; 1.4 e-Hybrid 204 CV; 1.6 TDI 105 CV; 1.6 TDI 115 CV; 1.9 TDI 105 CV; 2.0 TDI 115 CV; 2.0 TDI 150 CV; 2.0 TDI 184 CV; 1.8 TSI 180 CV; 2.0 TSI 245 CV; 2.0 TSI 265 CV Cupra; 2.0 TSI 280 CV Cupra; 2.0 TSI 290 CV Cupra; 2.0 TSI 300 CV Cupra; ST; SC; X-Perience
+Marbella | 0.8; 0.9
+Mii | 1.0 60 CV; 1.0 75 CV; 1.0 TGI 68 CV; Electric 83 CV
+Málaga | 1.2; 1.5
+Ronda | 1.2; 1.4; 1.5; 1.7 D
+Tarraco | 1.4 e-Hybrid 245 CV; 1.5 TSI 150 CV; 2.0 TSI 190 CV; 2.0 TSI 245 CV; 2.0 TDI 150 CV; 2.0 TDI 190 CV; 5 plazas; 7 plazas
+Terra | 1.4; 1.9 D; 1.9 SDI
+Toledo | 1.2 TSI 105 CV; 1.4 TSI 122 CV; 1.6 102 CV; 1.6 TDI 105 CV; 1.8 T 180 CV; 1.9 TDI 105 CV; 2.0 TDI 140 CV; 2.3 V5 150 CV
+Toledo clásico | 1.6; 1.8; 1.9 TD; 1.9 TDI 90 CV; 1.9 TDI 110 CV; 2.0 GTI 16V
+# Skoda
+Citigo | 1.0 MPI 60 CV; 1.0 MPI 75 CV; 1.0 G-TEC 68 CV
+Citigo-e iV | Eléctrico 83 CV
+Elroq | 50 170 CV; 60 204 CV; 85 286 CV; RS
+Enyaq Coupé iV | 60; 80; 80x; RS
+Enyaq iV | 50 148 CV; 60 179 CV; 80 204 CV; 80x 265 CV; RS 299 CV; Coupé
+Fabia | 1.0 MPI 60 CV; 1.0 MPI 80 CV; 1.0 TSI 95 CV; 1.0 TSI 110 CV; 1.2 TSI 90 CV; 1.2 TSI 110 CV; 1.2 12V 70 CV; 1.2 TDI 75 CV; 1.4 TDI 80 CV; 1.4 TDI 90 CV; 1.4 16V 75 CV; 1.4 16V 100 CV; 1.6 TDI 90 CV; 1.9 TDI 100 CV; 1.9 SDI 64 CV; 1.5 TSI 150 CV; Combi; Scout
+Favorit | 1.3
+Felicia | 1.3; 1.6; 1.9 D
+Kamiq | 1.0 TSI 95 CV; 1.0 TSI 110 CV; 1.5 TSI 150 CV; 1.6 TDI 115 CV; 1.0 G-TEC 90 CV
+Karoq | 1.0 TSI 115 CV; 1.5 TSI 150 CV; 1.4 TSI 150 CV; 1.6 TDI 116 CV; 2.0 TDI 116 CV; 2.0 TDI 150 CV; 2.0 TDI 190 CV; 2.0 TSI 190 CV; Scout
+Kodiaq | 1.5 TSI 150 CV; 1.4 TSI 125 CV; 1.4 TSI 150 CV; 2.0 TSI 180 CV; 2.0 TSI 190 CV; 2.0 TSI 245 CV; 2.0 TDI 150 CV; 2.0 TDI 190 CV; 2.0 TDI 200 CV; 1.5 TSI iV 204 CV; RS; Scout; 5 plazas; 7 plazas
+Kushaq | 1.0 TSI 115 CV; 1.5 TSI 150 CV
+Octavia | 1.0 TSI 115 CV; 1.0 e-TEC 110 CV; 1.2 TSI 105 CV; 1.2 TSI 86 CV; 1.4 TSI 122 CV; 1.4 TSI 140 CV; 1.4 TSI 150 CV; 1.4 TSI iV 204 CV; 1.5 TSI 130 CV; 1.5 TSI 150 CV; 1.5 e-TEC 150 CV; 1.5 TSI G-TEC 130 CV; 1.6 TDI 90 CV; 1.6 TDI 105 CV; 1.6 TDI 110 CV; 1.6 TDI 115 CV; 1.8 TSI 180 CV; 1.9 TDI 90 CV; 1.9 TDI 105 CV; 2.0 TDI 110 CV; 2.0 TDI 116 CV; 2.0 TDI 143 CV; 2.0 TDI 150 CV; 2.0 TDI 184 CV; 2.0 TDI 200 CV RS; 2.0 TSI 190 CV; 2.0 TSI 220 CV RS; 2.0 TSI 245 CV RS; 2.0 TSI 230 CV RS; Combi; Scout; RS
+Rapid | 1.0 TSI 95 CV; 1.2 TSI 90 CV; 1.2 TSI 105 CV; 1.4 TSI 125 CV; 1.4 TDI 90 CV; 1.6 TDI 90 CV; 1.6 TDI 105 CV; 1.6 TDI 115 CV
+Roomster | 1.2 TSI 86 CV; 1.2 12V 70 CV; 1.2 TDI 75 CV; 1.4 TDI 80 CV; 1.6 TDI 90 CV; 1.6 TDI 105 CV; 1.9 TDI 105 CV; Scout
+Scala | 1.0 TSI 95 CV; 1.0 TSI 110 CV; 1.5 TSI 150 CV; 1.6 TDI 115 CV; 1.0 G-TEC 90 CV
+Slavia | 1.0 TSI 115 CV; 1.5 TSI 150 CV
+Superb | 1.4 TSI 125 CV; 1.4 TSI 150 CV; 1.4 TSI iV 218 CV; 1.5 TSI 150 CV; 1.8 TSI 160 CV; 1.8 TSI 180 CV; 2.0 TSI 220 CV; 2.0 TSI 272 CV; 2.0 TSI 280 CV; 1.6 TDI 105 CV; 1.6 TDI 120 CV; 1.9 TDI 105 CV; 2.0 TDI 140 CV; 2.0 TDI 150 CV; 2.0 TDI 170 CV; 2.0 TDI 190 CV; 2.0 TDI 200 CV; 3.6 V6 260 CV; Combi; Scout
+Yeti | 1.2 TSI 105 CV; 1.2 TSI 110 CV; 1.4 TSI 122 CV; 1.8 TSI 160 CV; 1.6 TDI 105 CV; 2.0 TDI 110 CV; 2.0 TDI 140 CV; 2.0 TDI 170 CV
+# Smart
+Crossblade | 0.6 Turbo 61 CV
+Forfour | 1.0 71 CV; 1.0 61 CV; 0.9 Turbo 90 CV; 0.9 Turbo 109 CV; 1.1 75 CV; 1.3 95 CV; 1.5 CDI 68 CV; 1.5 CDI 95 CV; EQ forfour 82 CV
+Fortwo | 0.8 CDI 41 CV; 0.8 CDI 45 CV; 0.9 Turbo 90 CV; 0.9 Turbo 109 CV; 1.0 61 CV; 1.0 71 CV; 1.0 84 CV; 1.0 mhd 61 CV; 1.0 mhd 71 CV; 1.0 Turbo 84 CV; 1.0 Turbo 98 CV; 0.6 Turbo 61 CV; 0.6 Turbo 71 CV; Electric Drive 55 kW; EQ fortwo 82 CV; Cabrio; Coupé; Edition 1
+Roadster | 0.7 Turbo 82 CV; 0.7 Turbo Brabus 101 CV; Coupé
+# SsangYong
+Actyon | 2.0 Xdi 155 CV; 2.0 Xdi 175 CV
+Korando | 1.5 T-GDi 163 CV; 1.6 e-XDi 136 CV; 2.0 e-XDi 175 CV; 2.0 Diesel 149 CV; 2.2 e-XDi 178 CV; 2.0 Diésel 175 CV
+Kyron | 2.0 Xdi 141 CV; 2.7 Xdi 165 CV
+Musso | 2.2 e-XDi 181 CV; 2.9 TD 120 CV
+Rexton | 2.2 e-XDi 181 CV; 2.0 Xdi 155 CV; 2.7 Xdi; 2.9 Turbo; 2.2 e-XDi 202 CV
+Rodius | 2.7 Xdi 165 CV; 2.0 Xdi
+Tivoli | 1.2 T-GDi 128 CV; 1.5 T-GDi 163 CV; 1.6 e-XGDi 128 CV; 1.6 e-XDi 115 CV; 1.6 Diésel 115 CV
+Torres | 1.5 T-GDi 163 CV
+# Subaru
+Baja | 2.5
+BRZ | 2.0 200 CV; 2.0 D-4S 200 CV; 2.4 231 CV; 2.0 Sport; 2.4 Sport; Tourer
+Crosstrek | 2.0i 150 CV; 2.0 e-Boxer 150 CV; 2.5i; Hybrid
+Forester | 2.0 D 147 CV; 2.0X 150 CV; 2.0 XT 240 CV; 2.0i 150 CV; 2.5i; 2.0 Turbo 240 CV; 2.0 e-Boxer 150 CV; 2.0 e-Boxer Hybrid; 2.0i Lineartronic 150 CV; Touring
+Impreza | 1.5 R 107 CV; 1.6 114 CV; 2.0 R 150 CV; 2.0 D 150 CV; 2.0i 150 CV; 2.0 WRX 218 CV; 2.0 WRX STI 300 CV; 2.5 WRX STI 300 CV; 2.0 Turbo 211 CV; Wagon
+Justy | 1.0; 1.0 SOHC; 1.0 Elite; 1.3 4WD; 1.3 Comfort
+Legacy | 2.0 R 150 CV; 2.0 D 150 CV; 2.0i 165 CV; 2.5i 170 CV; 2.5i 175 CV; 2.5 GT 265 CV; 3.0 R 245 CV; Wagon; Sedán
+Levorg | 1.6 GT 170 CV; 1.6i GT 170 CV; 1.6 DIT; 1.8 DIT 177 CV; 2.0 DIT 300 CV
+Outback | 2.0 D 150 CV; 2.0D Lineartronic 150 CV; 2.5i 175 CV; 2.5i Lineartronic 175 CV; 2.5i 167 CV; 2.5i 4WD; 3.0 R 245 CV; Touring
+Solterra | Eléctrico 218 CV; Eléctrico AWD 218 CV
+SVX | 3.3
+Tribeca | 3.0
+Vivio | 0.7
+WRX | 2.0 Turbo 268 CV; 2.4 T 271 CV; 2.0 Turbo 218 CV
+WRX STI | 2.5 300 CV; 2.5 STI Type RA; S209
+XV | 1.6i 114 CV; 2.0i 150 CV; 2.0D 147 CV; 2.0 e-Boxer 150 CV
+# Suzuki
+Across | 2.5 Plug-in Hybrid 306 CV; 2.5 PHEV
+Alto | 1.0 68 CV; 1.1; 1.0 Eco
+Baleno | 1.0 BoosterJet 111 CV; 1.2 DualJet 90 CV; 1.2 DualJet Smart Hybrid 90 CV; 1.2 Mild Hybrid 90 CV; 1.2 SHVS 90 CV; 1.4 BoosterJet; 1.3 DDiS; Mild Hybrid; Hybrid
+Cappuccino | 0.7
+Carry | 1.3 DDiS 69 CV; Pick-up
+Celerio | 1.0 68 CV; 1.0 DualJet 67 CV
+eVitara | 49 kWh 144 CV; 61 kWh 174 CV; 61 kWh AWD 184 CV
+Grand Vitara | 1.6 106 CV; 1.9 DDiS 129 CV; 2.0 VVT 140 CV; 2.0 140 CV; 2.0 TD 109 CV; 2.0 HDi 109 CV; 2.4 VVT 169 CV; 2.4 166 CV; 2.5 V6 142 CV; 2.7 V6 185 CV; 3.2 V6 233 CV; 3 puertas; 5 puertas; XL-7; Long
+Ignis | 1.2 DualJet 90 CV; 1.2 Hybrid 90 CV; 1.2 Mild Hybrid 83 CV; 1.3 DDiS; 1.3; 1.2 GLE; 1.2 GL; Mild Hybrid
+Jimny | 1.3 VVT 85 CV; 1.3 85 CV; 1.3 JLX; 1.3 JX; 1.3 JLX-E; 1.3 4x4; 1.5 VVT 102 CV; 1.5 102 CV; 1.5 AllGrip; 1.5 AllGrip Pro; 1.5 Mode 3; 1.5 Mode 4; 1.5 Pro; 1.5 GLX; 1.5 Mild Hybrid; 1.3 DDiS; 1.3 Techno; 1.3 Style; 1.3 Premium; 1.3 Comfort; 1.3 Elegance; 1.3 Allgrip; 1.3 Hybrid; 1.3 Mild Hybrid; 1.5 Hybrid; Cabrio; GLX Mode 3; Mode 3; Mode 4
+Kizashi | 2.4 VVT 178 CV; 2.4 178 CV
+Liana | 1.3 91 CV; 1.6 106 CV; 1.4 DDiS 68 CV
+S-Cross | 1.0 BoosterJet 111 CV; 1.4 BoosterJet 129 CV; 1.4 BoosterJet 140 CV; 1.4 BoosterJet Hybrid 129 CV; 1.5 Hybrid 102 CV; 1.5 Hybrid 115 CV; 1.5 Hybrid Allgrip; 1.6 120 CV; 1.6 DDiS 120 CV; 1.6 VVT 120 CV; 1.6 4x4; Mild Hybrid; Hybrid
+Samurai | 1.0; 1.3; 1.9 TD; 1.9 TDi; 1.9 DDiS; 1.0 Cabrio; Cabrio; SJ413; SJ410; Long; Corto; Largo
+SJ413 | 1.3 4x4
+Splash | 1.0 DDiS; 1.0 65 CV; 1.2 VVT 86 CV; 1.3 DDiS 75 CV
+Swace | 1.8 Hybrid 122 CV
+Swift | 1.0 BoosterJet 111 CV; 1.2 90 CV; 1.2 94 CV; 1.2 DualJet 90 CV; 1.2 DualJet Hybrid 90 CV; 1.2 Mild Hybrid 83 CV; 1.2 16V 94 CV; 1.3 DDiS 75 CV; 1.3 92 CV; 1.3 16V 92 CV; 1.4 BoosterJet 140 CV Sport; 1.4 Turbo Sport 140 CV; 1.6 Sport 136 CV; 1.6 Sport 125 CV; 1.3 GL; 1.3 GLX; 1.3 GA; 1.3 GS; Mild Hybrid; Hybrid
+SX4 | 1.5 VVT 99 CV; 1.6 VVT 107 CV; 1.6 VVT 120 CV; 1.6 DDiS 90 CV; 1.6 DDiS 120 CV; 1.9 DDiS 120 CV; 1.6 4x4; 1.6 DDiS 4x4
+Vitara | 1.0 BoosterJet 111 CV; 1.4 BoosterJet 129 CV; 1.4 BoosterJet 140 CV; 1.4 BoosterJet Hybrid 129 CV; 1.5 Hybrid 102 CV; 1.5 Hybrid 115 CV; 1.5 Hybrid Allgrip; 1.6 VVT 120 CV; 1.6 DDiS 120 CV; 1.9 DDiS 129 CV; 2.0 TD; 2.0 HDi 109 CV; 2.0 HDI 4x4; 2.5 V6; 3 puertas; 5 puertas; Mild Hybrid; Hybrid; Cabrio
+Wagon R+ | 1.0; 1.2; 1.3 DDiS 69 CV
+# Tata
+Indica | 1.4 D; 1.4 TD
+Safari | 2.2 DiCOR; 3.0 TD
+Telcoline | 2.0 TD; 2.0 DiCOR
+Xenon | 2.2 DiCOR 140 CV; 3.0 TD
+# Tesla
+Cybertruck
+Model 3 | Standard Range Plus 283 CV; Standard Range 283 CV; Long Range AWD 346 CV; Long Range 440 CV; Performance 513 CV; Performance AWD 513 CV; RWD 283 CV; Long Range AWD 441 CV; Highland Long Range 366 CV; Highland Performance 460 CV; Highland RWD 283 CV; Highland Performance 513 CV; 60 kWh LFP RWD; 75 kWh Long Range AWD
+Model S | 60; 60D; 75; 75D; 85; 85D; 90D; 100D; P85D; P90D; P100D; Long Range 670 CV; Plaid 1020 CV; Performance
+Model X | 60D; 75D; 90D; 100D; P90D; P100D; Long Range 670 CV; Plaid 1020 CV; Performance; 5 plazas; 6 plazas; 7 plazas
+Model Y | Standard Range RWD 299 CV; Long Range AWD 514 CV; Long Range 514 CV; Long Range RWD 363 CV; Long Range AWD 441 CV; Performance 534 CV; Performance AWD 534 CV; RWD 299 CV; Juniper Long Range AWD 514 CV; Juniper Long Range RWD 363 CV; 5 plazas; 7 plazas
+# Toyota
+Auris | 1.2 T 116 CV; 1.2 Turbo 116 CV; 1.33 VVT-i 99 CV; 1.4 D-4D 90 CV; 1.6 VVT-i 124 CV; 1.6 VVT-i 132 CV; 1.6 Valvematic 132 CV; 1.8 Hybrid 136 CV; 1.8 Hybrid 99 CV; 1.8 VVT-i; 2.0 D-4D 124 CV; 2.0 D-4D 126 CV
+Avensis | 1.6 VVT-i 110 CV; 1.8 VVT-i 129 CV; 1.8 Valvematic 147 CV; 2.0 VVT-i 147 CV; 2.0 VVT-i 152 CV; 2.0 D-4D 126 CV; 2.0 D-4D 124 CV; 2.0 D-4D 116 CV; 2.0 D-4D 115 CV; 2.2 D-4D 150 CV; 2.2 D-4D 177 CV; 2.2 D-CAT 177 CV; 1.6 D-4D 112 CV; Sedán
+Aygo | 1.0 VVT-i 68 CV; 1.0 VVT-i 69 CV; 1.0 VVT-i 71 CV; 1.0 VVT-i 72 CV; 1.0 12V 68 CV; 1.0 12V 69 CV; 1.0 12V 72 CV; 1.4 D-4D 54 CV; 1.4 D-4D 55 CV; 1.0 Hybrid
+bZ4X | 71 kWh FWD 204 CV; 71 kWh AWD 218 CV; 74 kWh FWD 204 CV; 74 kWh AWD 343 CV
+C-HR | 1.2 T 116 CV; 1.8 Hybrid 122 CV; 2.0 Hybrid 184 CV; 1.8 Hybrid Advance
+Camry | 2.5 Hybrid 218 CV; 2.5 Hybrid 215 CV; 2.4 VVT-i 152 CV; 2.5 VVT-i 181 CV; 3.0 V6 190 CV; 3.0 V6 211 CV; 3.5 V6 277 CV
+Carina E | 1.6; 1.8; 2.0 D
+Celica | 1.8 VVT-i 143 CV; 1.8 VVT-i 190 CV; 2.0 GT-Four
+Corolla | 1.2 T 116 CV; 1.2 Turbo 116 CV; 1.33 VVT-i 99 CV; 1.4 D-4D 90 CV; 1.4 VVT-i 97 CV; 1.6 VVT-i 110 CV; 1.6 VVT-i 124 CV; 1.6 Valvematic 132 CV; 1.8 Hybrid 122 CV; 1.8 Hybrid 120 CV; 1.8 Hybrid 98 CV; 1.8 VVT-i 132 CV; 1.8 VVT-i 140 CV; 2.0 Hybrid 184 CV; 2.0 Hybrid 180 CV; 2.0 D-4D 116 CV; 2.0 D-4D 90 CV; 2.0 D-4D 124 CV; 2.0 Hybrid 196 CV; 2.0 D-4D 110; Hatchback
+Corolla Cross | 2.0 Hybrid 197 CV
+GR Corolla | 1.6 Turbo 304 CV
+GR Yaris | 1.6 Turbo 261 CV; 1.6 Turbo 272 CV
+GR86 | 2.4 234 CV
+GT86 | 2.0 D-4S 200 CV
+Hiace | 2.5 D-4D 95 CV; 2.5 D-4D 117 CV; 2.5 D-4D 102 CV; 2.5 D-4D 120 CV; 2.5 D-4D 136 CV; 2.5 D-4D 144 CV; 2.5 D-4D 88 CV; 2.8 D-4D 177 CV; 2.8 D-4D 180 CV; 2.0 D-4D 116 CV; 3.0 D-4D 144 CV; 3.0 D-4D 150 CV; 3.0 D-4D 171 CV; Furgón; Combi; Kombi; Long; 3 plazas; 6 plazas; 9 plazas
+Highlander | 2.5 Hybrid 248 CV; 2.5 Hybrid AWD-i 248 CV; Hybrid
+Hilux | 2.4 D-4D 150 CV; 2.4 D-4D 152 CV; 2.5 D-4D 120 CV; 2.5 D-4D 144 CV; 2.5 D-4D 102 CV; 2.8 D-4D 177 CV; 2.8 D-4D 204 CV; 3.0 D-4D 171 CV; 2.4 TD; Cabina simple; Cabina extra; Doble cabina; Pick-up; SR5
+iQ | 1.0 VVT-i 68 CV; 1.33 VVT-i 98 CV; 1.4 D-4D 90 CV
+Land Cruiser | 2.8 D-4D 177 CV; 2.8 D-4D 204 CV; 3.0 D-4D 173 CV; 3.0 D-4D 190 CV; 4.0 V6 VVT-i 282 CV; 4.2 TD; 4.5 V8 D-4D; 150; 200; 300; 70; 90; 120; 250
+Land Cruiser Prado | 2.8 D-4D 177 CV; 3.0 D-4D 173 CV; 3.0 D-4D 190 CV; 4.0 V6 282 CV; 2.7 VVT-i 163 CV; 3 puertas; 5 puertas
+Mirai | Hidrógeno 182 CV; Hidrógeno 174 CV; FCEV
+MR2 | 1.8 VVT-i 140 CV; 2.0 GT Turbo
+Picnic | 2.0; 2.2 TD
+Previa | 2.0 D-4D 116 CV; 2.0 D-4D 115 CV; 2.4 VVT-i 156 CV
+Prius | 1.8 Hybrid 122 CV; 1.8 Hybrid 136 CV; 1.5 Hybrid 78 CV; 1.8 Plug-in 122 CV; 1.8 Plug-in Hybrid 122 CV; 2.0 Hybrid 196 CV; 2.0 Plug-in Hybrid 223 CV; 2.0 Plug-in 223 CV; 2.0 PHEV 223 CV; Prius+ 1.8 Hybrid 136 CV
+Proace | 1.6 D-4D 95 CV; 1.6 D-4D 115 CV; 2.0 D-4D 120 CV; 2.0 D-4D 128 CV; 2.0 D-4D 140 CV; 2.0 D-4D 177 CV; 2.0 D-4D 180 CV; 2.0 D-4D 163 CV; 2.0 D-4D 150 CV; 1.6 D-4D 90 CV; 1.5 D-4D 100 CV; 1.5 D-4D 120 CV; Electric 136 CV; Electric 50 kWh; Electric 75 kWh; Compact; Long; Furgón; Combi
+Proace City | 1.2 PureTech 110 CV; 1.2 PureTech 130 CV; 1.5 D-4D 75 CV; 1.5 D-4D 100 CV; 1.5 D-4D 130 CV; 1.5 D-4D 120 CV; 1.6 D-4D 75 CV; 1.6 D-4D 100 CV; 1.6 D-4D 115 CV; Electric 136 CV; Electric 50 kWh; Compact; Long; Furgón; Combi
+Proace Verso | 1.5 D-4D 120 CV; 1.6 D-4D 115 CV; 2.0 D-4D 150 CV; 2.0 D-4D 180 CV; 2.0 D-4D 177 CV; Electric 136 CV; Compact; Long; Combi
+RAV4 | 2.0 VVT-i 152 CV; 2.0 VVT-i 158 CV; 2.0 D-4D 124 CV; 2.0 D-4D 116 CV; 2.0 D-4D 136 CV; 2.0 D-4D 115; 2.2 D-4D 150 CV; 2.2 D-4D 177 CV; 2.2 D-4D 136 CV; 2.2 D-CAT 177 CV; 2.5 Hybrid 197 CV; 2.5 Hybrid 218 CV; 2.5 Hybrid 222 CV; 2.5 Hybrid AWD-i 222 CV; 2.5 PHEV 306 CV; 2.5 Plug-in Hybrid 306 CV; 2.5 Plug-in 306 CV; 2.5 VVT-i 181 CV; 2.5 4x4; 2.4 VVT-i 170 CV; 3.5 V6 272 CV; 3 puertas; 5 puertas
+Starlet | 1.3 16V
+Supra | 2.0 Turbo 258 CV; 3.0 Turbo 340 CV; 3.0 Turbo 387 CV
+Urban Cruiser | 1.0 VVT-i 69 CV; 1.5 Hybrid 116 CV; 1.33 VVT-i 101 CV; 1.4 D-4D 90 CV
+Verso | 1.6 VVT-i 132 CV; 1.8 VVT-i 147 CV; 2.0 D-4D 126 CV; 2.0 D-4D 124 CV; 2.2 D-4D 150 CV
+Verso-S | 1.33 VVT-i 99 CV; 1.4 D-4D 90 CV
+Yaris | 1.0 VVT-i 69 CV; 1.0 12V 69 CV; 1.3 VVT-i 87 CV; 1.3 VVT-i 100 CV; 1.3 VVT-i 101 CV; 1.3 VVT-i 99 CV; 1.3 16v 87 CV; 1.33 VVT-i 100 CV; 1.33 VVT-i 99 CV; 1.33 16V; 1.4 D-4D 75 CV; 1.4 D-4D 90 CV; 1.5 VVT-i 111 CV; 1.5 VVT-i 110 CV; 1.5 Hybrid 100 CV; 1.5 Hybrid 101 CV; 1.5 Hybrid 116 CV; 1.5 Hybrid 115 CV; 1.5 Hybrid 125; 1.5 Hybrid 130 CV; 1.6 GR 261 CV; 1.6 GR Sport 261 CV; 1.6 Turbo 261 CV; 1.6 Turbo GR 261 CV; Electric
+Yaris Cross | 1.5 Hybrid 116 CV; 1.5 Hybrid 130 CV; 1.5 VVT-i 125 CV; Electric
+# Volkswagen
+Amarok | 2.0 TDI 122 CV; 2.0 TDI 140 CV; 2.0 TDI 163 CV; 2.0 TDI 180 CV; 2.0 BiTDI 163 CV; 2.0 BiTDI 180 CV; 2.0 BiTDI 204 CV; 3.0 V6 TDI 204 CV; 3.0 V6 TDI 224 CV; 3.0 V6 TDI 225 CV; 3.0 V6 TDI 258 CV; 3.0 V6 TDI 240 CV; Cabina simple; Cabina extra; Doble cabina
+Arteon | 1.5 TSI 150 CV; 1.5 eTSI 150 CV; 2.0 TSI 190 CV; 2.0 TSI 280 CV; 2.0 TSI R 320 CV; 2.0 TDI 150 CV; 2.0 TDI 200 CV; 2.0 TDI 190 CV; 1.4 eHybrid 218 CV; Shooting Brake; R
+Beetle | 1.2 TSI 105 CV; 1.4 TSI 160 CV; 1.6 TDI 105 CV; 1.6 TDI 110 CV; 2.0 TDI 140 CV; 2.0 TSI 200 CV; 2.0 TSI 210 CV; 2.0 TSI 220 CV; 2.0 TFSI 200 CV; 1.6 102 CV; 1.9 TDI 105 CV; 1.9 TDI 100 CV; 2.0 115 CV; 2.0 150 CV; 2.5 150 CV; 2.5 170 CV; Cabrio; Turbo
+Bora | 1.4 16V 75 CV; 1.6 100 CV; 1.6 16V 105 CV; 1.8 T 150 CV; 1.9 TDI 90 CV; 1.9 TDI 100 CV; 1.9 TDI 110 CV; 1.9 TDI 115 CV; 1.9 TDI 130 CV; 2.0 115 CV; 2.0 TDI 140 CV; 2.3 VR5; 2.8 V6 4Motion; Variant
+Caddy | 1.0 TSI 102 CV; 1.2 TSI 105 CV; 1.4 TSI 125 CV; 1.4 TSI 160 CV; 1.4 TGI 110 CV; 1.5 TSI 114 CV; 1.5 TSI 116 CV; 1.5 TSI 130 CV; 1.5 TSI 150 CV; 1.6 75 CV; 1.6 102 CV; 1.6 TDI 75 CV; 1.6 TDI 102 CV; 1.6 TDI 100 CV; 1.9 TDI 75 CV; 1.9 TDI 105 CV; 1.9 SDI 64 CV; 1.9 D; 2.0 SDI 70 CV; 2.0 TDI 75 CV; 2.0 TDI 102 CV; 2.0 TDI 122 CV; 2.0 TDI 140 CV; 2.0 TDI 150 CV; 2.0 EcoFuel 109 CV; 2.0 TDI 4MOTION; Furgón; Kombi; Combi; 7 plazas; 5 plazas; Alltrack
+Caddy Maxi | 1.5 TSI 114 CV; 1.5 TSI 116 CV; 2.0 TDI 102 CV; 2.0 TDI 122 CV; 2.0 TDI 150 CV; 1.6 TDI 102 CV; 7 plazas
+California | 2.0 TDI 102 CV; 2.0 TDI 140 CV; 2.0 TDI 150 CV; 2.0 TDI 180 CV; 2.0 TDI 199 CV; 2.0 TDI 204 CV; 2.0 BiTDI 180 CV; 2.5 TDI 130 CV; 2.5 TDI 174 CV; 2.5 TDI 102 CV; 4MOTION
+Caravelle | 2.0 TDI 102 CV; 2.0 TDI 140 CV; 2.0 TDI 150 CV; 2.0 TDI 199 CV; 2.0 TDI 204 CV; 2.0 BiTDI 180 CV; 2.0 TSI 204 CV; 2.5 TDI 130 CV; 2.5 TDI 174 CV; 2.5 TDI 102 CV; 3.2 V6 235 CV; 7 plazas; 9 plazas; Largo; Corto
+Corrado | 1.8 G60; 2.0 16V; 2.9 VR6
+Crafter | 2.0 TDI 102 CV; 2.0 TDI 109 CV; 2.0 TDI 122 CV; 2.0 TDI 136 CV; 2.0 TDI 140 CV; 2.0 TDI 163 CV; 2.0 TDI 177 CV; 2.5 TDI 109 CV; 2.5 TDI 136 CV; 2.5 TDI 163 CV; e-Crafter Eléctrico 136 CV; Furgón; Kombi; Chasis cabina; Doble cabina; Corto; Largo; Extralargo; L1; L2; L3; L4; H1; H2; H3; 4MOTION
+Eos | 1.4 TSI 122 CV; 1.4 TSI 160 CV; 1.6 FSI 115 CV; 2.0 TDI 140 CV; 2.0 TDI 170 CV; 2.0 FSI 150 CV; 2.0 TFSI 200 CV; 3.2 V6 250 CV
+Fox | 1.2 55 CV; 1.2 54 CV; 1.2 60 CV; 1.2 12V 54 CV; 1.2 12V 55 CV; 1.2 12V 60 CV; 1.2 12V 70 CV; 1.4 TDI 70 CV; 1.4 16V 75 CV; 1.4 75 CV
+Golf | 1.0 TSI 110 CV; 1.0 TSI 115 CV; 1.0 TSI 90 CV; 1.0 eTSI 110 CV; 1.0 eTSI 130 CV; 1.2 TSI 85 CV; 1.2 TSI 105 CV; 1.4 TSI 122 CV; 1.4 TSI 125 CV; 1.4 TSI 140 CV; 1.4 TSI 150 CV; 1.4 TSI 160 CV; 1.4 TSI ACT 150 CV; 1.4 TGI 110 CV; 1.4 GTE 204 CV; 1.4 eHybrid 204 CV; 1.5 TSI 130 CV; 1.5 TSI 150 CV; 1.5 TSI Evo 130 CV; 1.5 TSI Evo 150 CV; 1.5 eTSI 150 CV; 1.5 TGI 130 CV; 1.6 102 CV; 1.6 FSI 115 CV; 1.6 TDI 90 CV; 1.6 TDI 105 CV; 1.6 TDI 110 CV; 1.6 TDI 115 CV; 1.6 TDI 120 CV; 1.9 TDI 90 CV; 1.9 TDI 100 CV; 1.9 TDI 105 CV; 1.9 TDI 110 CV; 1.9 TDI 130 CV; 1.9 TDI 150 CV; 2.0 TDI 110 CV; 2.0 TDI 115 CV; 2.0 TDI 140 CV; 2.0 TDI 143 CV; 2.0 TDI 150 CV; 2.0 TDI 170 CV; 2.0 TDI 184 CV; 2.0 TDI 200 CV GTD; 2.0 TDI GTD 184 CV; 2.0 TDI GTD 200 CV; 2.0 TSI GTI 220 CV; 2.0 TSI GTI 230 CV; 2.0 TSI GTI 245 CV; 2.0 TSI GTI 265 CV; 2.0 TSI GTI Clubsport 265 CV; 2.0 TSI GTI Clubsport 290 CV; 2.0 TSI GTI TCR 290 CV; 2.0 TSI R 300 CV; 2.0 TSI R 310 CV; 2.0 TSI R 320 CV; 2.0 TSI R 333 CV; 2.0 TFSI GTI 200 CV; 2.0 TFSI GTI 210 CV; 2.0 TFSI R 270 CV; 3.2 V6 R32 241 CV; 3.2 V6 R32 250 CV; e-Golf Eléctrico 115 CV; e-Golf Eléctrico 136 CV; e-Golf Eléctrico 100 kW; Variant; Alltrack; Cabrio; GTI; GTD; GTE; R
+Golf II | 1.6; 1.8 GTI; 1.6 D; 1.6 TD; 1.9 D; GTI 16V; G60
+Golf III | 1.4; 1.6; 1.8; 1.9 TDI 90 CV; 1.9 TDI 110 CV; 1.9 D; 2.0 GTI; 2.0 16V GTI; 2.8 VR6; Cabrio; Variant
+Golf IV | 1.4 16V 75 CV; 1.6 100 CV; 1.6 16V 105 CV; 1.8 T 150 CV; 1.9 SDI 68 CV; 1.9 TDI 90 CV; 1.9 TDI 101 CV; 1.9 TDI 110 CV; 1.9 TDI 115 CV; 1.9 TDI 130 CV; 1.9 TDI 150 CV; 2.0 115 CV; 2.3 V5 150 CV; 2.8 V6 4Motion 204 CV; 3.2 R32 241 CV; GTI 20 Aniversario; 4Motion; Variant; Cabrio
+Golf Plus | 1.4 80 CV; 1.4 TSI 122 CV; 1.4 TSI 140 CV; 1.6 TDI 105 CV; 1.9 TDI 105 CV; 2.0 TDI 140 CV; 1.6 FSI 115 CV
+Golf Sportsvan | 1.0 TSI 110 CV; 1.2 TSI 110 CV; 1.4 TSI 125 CV; 1.5 TSI 130 CV; 1.5 TSI 150 CV; 1.6 TDI 110 CV; 1.6 TDI 115 CV; 2.0 TDI 150 CV
+Golf Variant | 1.0 TSI 110 CV; 1.5 TSI 130 CV; 1.5 TSI 150 CV; 1.5 eTSI 150 CV; 1.6 TDI 105 CV; 1.6 TDI 115 CV; 2.0 TDI 115 CV; 2.0 TDI 150 CV; 2.0 TDI 200 CV; Alltrack
+ID. Buzz | Pro 77 kWh 204 CV; Pro Largo 77 kWh 204 CV; GTX 340 CV; 1st Edition
+ID.3 | Pure 45 kWh 150 CV; Pro 58 kWh 204 CV; Pro S 77 kWh 204 CV; GTX 77 kWh 326 CV; 1st; 1st Plus
+ID.4 | Pure 52 kWh 170 CV; Pro 77 kWh 204 CV; Pro 77 kWh 286 CV; GTX 77 kWh 299 CV; GTX 77 kWh 340 CV; 1st; 1st Plus; 4MOTION
+ID.5 | Pro 77 kWh 174 CV; Pro Performance 77 kWh 204 CV; GTX 77 kWh 299 CV
+ID.7 | Pro 77 kWh 286 CV; Pro S 86 kWh 286 CV; GTX 86 kWh 340 CV; Tourer
+Jetta | 1.2 TSI 105 CV; 1.4 TSI 122 CV; 1.4 TSI 160 CV; 1.6 TDI 105 CV; 1.9 TDI 105 CV; 2.0 TDI 140 CV; 2.0 TDI 150 CV; 2.0 TDI 170 CV; 2.0 TSI 200 CV; 2.5 170 CV; 2.0 TDI 143 CV; 1.4 TSI Hybrid 170 CV
+LT | 2.5 TDI 109 CV; 2.8 TDI 158 CV
+Lupo | 1.0 50 CV; 1.0 MPI 50 CV; 1.2 TDI 61 CV; 1.4 16V 75 CV; 1.4 16V 100 CV; 1.4 TDI 75 CV; 1.4 75 CV; 1.4 60 CV; 1.6 GTI 125 CV; 1.7 SDI 60 CV; 3L TDI; FSI 110 CV; 1.4 FSI 105 CV; GTI; 3L
+Multivan | 2.0 TDI 102 CV; 2.0 TDI 140 CV; 2.0 TDI 150 CV; 2.0 TDI 199 CV; 2.0 TDI 204 CV; 2.0 BiTDI 180 CV; 2.0 TSI 204 CV; 2.0 TSI 218 CV; 1.4 TSI eHybrid 218 CV; 2.5 TDI 130 CV; 2.5 TDI 174 CV; 3.2 V6 235 CV
+New Beetle | 1.4 75 CV; 1.6 102 CV; 1.8 T 150 CV; 1.9 TDI 90 CV; 1.9 TDI 100 CV; 1.9 TDI 105 CV; 2.0 115 CV; 2.0 TDI; Cabrio
+Passat | 1.4 TSI 125 CV; 1.4 TSI 150 CV; 1.4 TSI ACT 150 CV; 1.4 TSI 122 CV; 1.4 GTE 218 CV; 1.5 TSI 150 CV; 1.5 TSI Evo 150 CV; 1.5 eTSI 150 CV; 1.6 TDI 105 CV; 1.6 TDI 120 CV; 1.6 TDI 110 CV; 1.6 FSI 115 CV; 1.8 TSI 160 CV; 1.8 TSI 152 CV; 1.8 T 150 CV; 1.8 T 170 CV; 1.9 TDI 100 CV; 1.9 TDI 105 CV; 1.9 TDI 115 CV; 1.9 TDI 130 CV; 1.9 TDI 131 CV; 2.0 TSI 180 CV; 2.0 TSI 190 CV; 2.0 TSI 211 CV; 2.0 TSI 220 CV; 2.0 TSI 272 CV; 2.0 TDI 110 CV; 2.0 TDI 122 CV; 2.0 TDI 140 CV; 2.0 TDI 150 CV; 2.0 TDI 170 CV; 2.0 TDI 177 CV; 2.0 TDI 190 CV; 2.0 TDI 200 CV; 2.0 TDI 240 CV; 2.0 TDI Biturbo 240 CV; 2.0 TDI BiTDI 240 CV; 2.0 TDI 4MOTION; 2.5 TDI 150 CV; 2.5 TDI 180 CV; 3.6 V6 FSI 300 CV; 3.6 V6 FSI 280 CV; 3.6 V6 4MOTION; Variant; Alltrack; Sedán; GTE
+Passat CC | 1.8 TSI 160 CV; 2.0 TSI 200 CV; 2.0 TDI 140 CV; 2.0 TDI 170 CV; 2.0 TDI 177 CV; 3.6 V6 FSI 300 CV; 4MOTION
+Phaeton | 3.0 V6 TDI 225 CV; 3.0 V6 TDI 240 CV; 3.0 V6 TDI 245 CV; 3.2 V6 241 CV; 3.6 V6 280 CV; 4.2 V8 335 CV; 4.2 V8 350 CV; 5.0 V10 TDI 313 CV; 6.0 W12 420 CV; 6.0 W12 450 CV; 4Motion; Largo
+Polo | 1.0 MPI 65 CV; 1.0 MPI 75 CV; 1.0 MPI 80 CV; 1.0 TSI 90 CV; 1.0 TSI 95 CV; 1.0 TSI 110 CV; 1.0 TSI 115 CV; 1.0 TGI 90 CV; 1.2 60 CV; 1.2 65 CV; 1.2 12V 70 CV; 1.2 TSI 90 CV; 1.2 TSI 105 CV; 1.2 TDI 75 CV; 1.2 TDI 90 CV; 1.4 16V 75 CV; 1.4 16V 85 CV; 1.4 16V 100 CV; 1.4 TDI 70 CV; 1.4 TDI 80 CV; 1.4 TDI 90 CV; 1.4 TSI 180 CV GTI; 1.5 TSI 150 CV; 1.6 TDI 75 CV; 1.6 TDI 90 CV; 1.6 TDI 95 CV; 1.6 TDI 105 CV; 1.6 TDI 110 CV; 1.6 105 CV; 1.9 SDI 64 CV; 1.9 TDI 100 CV; 1.9 TDI 130 CV; 2.0 TSI 200 CV GTI; 2.0 TSI GTI 207 CV; GTI
+Scirocco | 1.4 TSI 122 CV; 1.4 TSI 160 CV; 2.0 TSI 200 CV; 2.0 TSI 210 CV; 2.0 TSI 220 CV; 2.0 TSI 280 CV R; 2.0 TDI 140 CV; 2.0 TDI 170 CV; 2.0 TDI 177 CV; R
+Sharan | 1.4 TSI 150 CV; 1.8 T 150 CV; 1.9 TDI 90 CV; 1.9 TDI 110 CV; 1.9 TDI 115 CV; 1.9 TDI 130 CV; 2.0 TDI 115 CV; 2.0 TDI 140 CV; 2.0 TDI 150 CV; 2.0 TDI 177 CV; 2.0 TDI 184 CV; 2.0 TSI 200 CV; 2.0 TSI 220 CV; 2.8 V6 204 CV; 7 plazas; 5 plazas
+T-Cross | 1.0 TSI 95 CV; 1.0 TSI 110 CV; 1.0 TSI 115 CV; 1.5 TSI 150 CV; 1.6 TDI 95 CV; 1.6 TDI 115 CV
+T-Roc | 1.0 TSI 110 CV; 1.0 TSI 115 CV; 1.5 TSI 150 CV; 1.5 TSI Evo 150 CV; 1.5 eTSI 150 CV; 2.0 TSI 190 CV; 2.0 TSI 300 CV R; 2.0 TSI R 300 CV; 1.6 TDI 115 CV; 2.0 TDI 115 CV; 2.0 TDI 150 CV; 2.0 TDI 190 CV; Cabrio; R
+Taigo | 1.0 TSI 95 CV; 1.0 TSI 110 CV; 1.0 TSI 115 CV; 1.5 TSI 150 CV
+Tiguan | 1.4 TSI 125 CV; 1.4 TSI 150 CV; 1.4 TSI ACT 150 CV; 1.4 TSI 160 CV; 1.4 TSI 122 CV; 1.5 TSI 130 CV; 1.5 TSI 150 CV; 1.5 TSI Evo 150 CV; 1.5 eTSI 150 CV; 1.5 eTSI 130 CV; 1.4 eHybrid 245 CV; 1.4 TSI PHEV 245 CV; 1.4 TSI eHybrid 245 CV; 1.5 eHybrid 272 CV; 1.5 TSI eHybrid 272 CV; 2.0 TSI 180 CV; 2.0 TSI 190 CV; 2.0 TSI 200 CV; 2.0 TSI 210 CV; 2.0 TSI 220 CV; 2.0 TSI 230 CV; 2.0 TSI 235 CV; 2.0 TSI 245 CV; 2.0 TSI 320 CV R; 2.0 TSI R 320 CV; 2.0 TDI 110 CV; 2.0 TDI 115 CV; 2.0 TDI 122 CV; 2.0 TDI 140 CV; 2.0 TDI 150 CV; 2.0 TDI 170 CV; 2.0 TDI 177 CV; 2.0 TDI 184 CV; 2.0 TDI 190 CV; 2.0 TDI 200 CV; 2.0 TDI 240 CV; 2.0 TDI 4MOTION; R; 4Motion; Allspace 7 plazas
+Tiguan Allspace | 1.4 TSI 150 CV; 1.5 TSI 150 CV; 2.0 TSI 180 CV; 2.0 TSI 190 CV; 2.0 TSI 220 CV; 2.0 TSI 245 CV; 2.0 TDI 150 CV; 2.0 TDI 190 CV; 2.0 TDI 200 CV; 7 plazas; R
+Touareg | 2.5 TDI 163 CV; 2.5 TDI 174 CV; 3.0 V6 TDI 204 CV; 3.0 V6 TDI 225 CV; 3.0 V6 TDI 240 CV; 3.0 V6 TDI 245 CV; 3.0 V6 TDI 262 CV; 3.0 V6 TDI 286 CV; 3.0 V6 TDI 231 CV; 3.0 V6 TDI 258 CV; 3.0 V6 TSI 340 CV; 3.0 V6 TSI Hybrid 380 CV; 3.0 TSI eHybrid 462 CV; 3.2 V6 FSI 220 CV; 3.2 V6 241 CV; 3.6 V6 FSI 249 CV; 3.6 V6 280 CV; 4.2 V8 FSI 350 CV; 4.2 V8 TDI 340 CV; 4.2 TDI 340 CV; 4.0 V8 TDI 421 CV; 5.0 V10 TDI 313 CV; 6.0 W12 450 CV; R
+Touran | 1.2 TSI 105 CV; 1.2 TSI 110 CV; 1.4 TSI 140 CV; 1.4 TSI 150 CV; 1.4 TSI 170 CV; 1.4 TSI EcoFuel 150 CV; 1.5 TSI 150 CV; 1.5 TSI Evo 150 CV; 1.6 102 CV; 1.6 FSI 115 CV; 1.6 TDI 105 CV; 1.6 TDI 110 CV; 1.6 TDI 115 CV; 1.6 TDI 116 CV; 1.9 TDI 90 CV; 1.9 TDI 100 CV; 1.9 TDI 105 CV; 2.0 TDI 136 CV; 2.0 TDI 140 CV; 2.0 TDI 143 CV; 2.0 TDI 150 CV; 2.0 TDI 170 CV; 2.0 TDI 190 CV; 2.0 TDI 177 CV; 2.0 FSI 150 CV; 7 plazas; 5 plazas
+Transporter | 2.0 TDI 84 CV; 2.0 TDI 102 CV; 2.0 TDI 110 CV; 2.0 TDI 114 CV; 2.0 TDI 140 CV; 2.0 TDI 150 CV; 2.0 TDI 170 CV; 2.0 TDI 177 CV; 2.0 TDI 199 CV; 2.0 TDI 204 CV; 2.0 BiTDI 180 CV; 2.0 BiTDI 204 CV; 2.0 TDI 90 CV; 2.5 TDI 130 CV; 2.5 TDI 174 CV; 2.5 TDI 102 CV; 2.5 TDI 88 CV; 2.5 TDI 131 CV; 2.5 TDI 163 CV; 1.9 TDI 84 CV; 1.9 TDI 105 CV; 1.9 D; 2.0 TSI 150 CV; 2.0 TSI 204 CV; 3.2 V6 235 CV; T4; T5; T6.1; T7; Furgón; Kombi; Pick-up; Corto; Largo
+up! | 1.0 MPI 60 CV; 1.0 MPI 75 CV; 1.0 MPI 65 CV; 1.0 TSI 90 CV; 1.0 TSI 115 CV GTI; 1.0 TGI 68 CV; 1.0 Eco 68 CV; 1.0 BlueMotion 60 CV; 1.0 BlueMotion 75 CV; e-up! Eléctrico 82 CV; e-up! Eléctrico 83 CV
+Vento | 1.4; 1.6; 1.8; 1.9 TDI 90 CV; 1.9 TDI 110 CV; 1.9 D; 2.0; 2.8 VR6
+# Volvo
+740 | 2.0; 2.3 Turbo; 2.4 TD
+850 | 2.0; 2.5; T5; R; 2.5 TDI
+940 | 2.0; 2.3; 2.4 TD
+960 | 2.5; 3.0
+C30 | 1.6 100 CV; 1.6 D 109 CV; 1.6 D2 115 CV; 2.0 145 CV; 2.0 D 136 CV; 2.4 D 180 CV; T5 230 CV; Electric 111 CV
+C40 | Recharge Single Motor 231 CV; Recharge Twin 408 CV
+C70 | 2.0 D 136 CV; 2.4 D5 180 CV; T5 220 CV; T5 230 CV; Cabrio
+EX30 | Single Motor 272 CV; Twin Motor Performance 428 CV; Single Motor Extended Range 272 CV
+EX40 | Single Motor 238 CV; Twin Motor 408 CV
+EX90 | Twin Motor 408 CV; Twin Motor Performance 517 CV
+S40 | 1.6 100 CV; 1.6 D 109 CV; 1.8 125 CV; 2.0 D 136 CV; 2.4 140 CV; T5 220 CV
+S60 | D2 120 CV; D3 150 CV; D4 163 CV; D4 190 CV; D5 215 CV; T3 152 CV; T4 190 CV; T5 245 CV; T6 304 CV; T8 Twin Engine; T6 Recharge 340 CV; T8 Recharge 455 CV; B3 163 CV; B4 197 CV; B5 250 CV; 2.0 D3 163 CV; 2.4 D5 163 CV; 2.4 D5 185 CV; 2.4 D5 205 CV; Cross Country
+S80 | D3 136 CV; D4 163 CV; D5 215 CV; T4 180 CV; T5 245 CV; T6 304 CV; 2.0 D 136 CV; 2.4 D5 185 CV; 2.4 D5 205 CV
+S90 | D3 150 CV; D4 190 CV; D5 235 CV; T4 190 CV; T5 254 CV; T6 320 CV; T8 Twin Engine 407 CV; T8 Recharge 455 CV; B4 197 CV; B5 250 CV; B6 300 CV; Recharge T8
+V40 | 1.6 D2 115 CV; D2 120 CV; D3 150 CV; D4 190 CV; T2 122 CV; T3 152 CV; T4 190 CV; T5 245 CV; 1.6 100 CV; 1.8 125 CV; 1.9 D 115 CV; 2.0 D 136 CV; Cross Country
+V50 | 1.6 D 109 CV; 1.6 D2 115 CV; 2.0 D 136 CV; 2.0 145 CV; 2.4 D5 180 CV; 2.4i 170 CV; T5 220 CV
+V60 | D2 120 CV; D3 136 CV; D4 163 CV; D4 190 CV; D5 215 CV; T3 152 CV; T4 190 CV; T5 245 CV; T6 304 CV; T8 Twin Engine 303 CV; T6 Recharge 340 CV; T8 Recharge 455 CV; B3 163 CV; B4 197 CV; B5 250 CV; D6 Twin Engine 285 CV; Cross Country
+V70 | D3 163 CV; D4 163 CV; D5 215 CV; 2.0 D 136 CV; 2.4 D5 163 CV; 2.4 D5 185 CV; 2.4 D5 205 CV; T4 180 CV; T5 245 CV; T6 304 CV; XC70
+V90 | D3 150 CV; D4 190 CV; D5 235 CV; T4 190 CV; T5 254 CV; T6 320 CV; T8 Twin Engine; B4 197 CV; B5 250 CV; B6 300 CV; Cross Country; T6 Recharge; T8 Recharge
+XC40 | T2 129 CV; T3 163 CV; T4 190 CV; T5 247 CV; T5 Twin Engine 262 CV; B3 163 CV; B4 197 CV; B5 250 CV; D3 150 CV; D4 190 CV; Recharge T4 211 CV; Recharge T5 262 CV; Recharge Single Motor 231 CV; Recharge Twin 408 CV
+XC60 | D3 136 CV; D3 150 CV; D4 163 CV; D4 190 CV; D5 215 CV; D5 235 CV; T4 190 CV; T5 245 CV; T6 304 CV; T6 320 CV; T8 Twin Engine 390 CV; T8 Recharge 455 CV; B4 197 CV; B5 250 CV; B6 300 CV; Recharge T6 340 CV; 2.0 D3 136 CV; 2.4 D5 163 CV; 2.4 D5 185 CV; 2.4 D5 205 CV; T6 285 CV
+XC70 | D4 181 CV; D5 215 CV; 2.4 D5 185 CV; 2.4 D5 205 CV; 2.4 D 163 CV; T6 304 CV; 3.2 238 CV
+XC90 | D4 190 CV; D5 225 CV; D5 235 CV; T5 254 CV; T6 320 CV; T8 Twin Engine 407 CV; T8 Recharge 455 CV; B5 250 CV; B6 300 CV; Recharge T8; 2.4 D5 163 CV; 2.4 D5 185 CV; 2.4 D5 200 CV; 3.2 238 CV; 4.4 V8 315 CV; 7 plazas
+# Xpeng
+G6 | 66 kWh 258 CV; 87 kWh 258 CV; 87 kWh AWD 476 CV
+G9 | 78 kWh 313 CV; 98 kWh 313 CV; 98 kWh AWD 551 CV
+P7 | 82 kWh 276 CV
+# Zeekr
+001 | 100 kWh 272 CV; 100 kWh AWD 544 CV
+X | 66 kWh 272 CV; 66 kWh AWD 428 CV

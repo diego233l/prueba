@@ -19,6 +19,11 @@
     return el;
   }
 
+  // replaceChildren() convertiría null/false en el texto "null": se filtran antes.
+  function show(...nodes) {
+    app.replaceChildren(...nodes.flat().filter((n) => n !== null && n !== undefined && n !== false));
+  }
+
   async function api(method, url, body, raw) {
     const opts = { method, headers: { "X-Requested-With": "mc" } };
     if (raw) { opts.body = raw; }
@@ -198,8 +203,120 @@
     });
   }
 
+  // ------------------------------------------------------------ catálogo de marcas / modelos / versiones
+  const OTHER = "__otro__";
+  let catalogPromise = null;
+  function loadCatalog() {
+    if (!catalogPromise) {
+      catalogPromise = fetch("/catalog.txt")
+        .then((r) => (r.ok ? r.text() : Promise.reject(new Error("HTTP " + r.status))))
+        .then((txt) => {
+          const cat = new Map();
+          let brand = null;
+          for (const line of txt.split("\n")) {
+            if (line.startsWith("# ")) { brand = new Map(); cat.set(line.slice(2).trim(), brand); }
+            else if (brand && line.trim() && !line.startsWith("#")) {
+              const [model, vers = ""] = line.split("|");
+              brand.set(model.trim(), vers.split(";").map((v) => v.trim()).filter(Boolean));
+            }
+          }
+          return cat;
+        })
+        .catch(() => new Map()); // sin catálogo: los campos pasan a texto libre
+    }
+    return catalogPromise;
+  }
+
+  // Desplegable con opción «Otro…» que muestra un campo de texto; el valor final va en un input oculto con el nombre del campo.
+  function combo(name, label, required, onChange) {
+    const id = "f_" + name;
+    const hidden = h("input", { type: "hidden", name });
+    const select = h("select", { id });
+    const text = h("input", { type: "text", maxlength: 80, autocomplete: "off", "aria-label": label });
+    let options = [], otherLabel = "Otro…";
+    const free = () => options.length === 0 || select.value === OTHER;
+    function sync() {
+      const isFree = free();
+      select.hidden = options.length === 0;
+      select.required = required && !select.hidden;
+      text.hidden = !isFree;
+      text.required = required && isFree;
+      hidden.value = isFree ? text.value.trim() : select.value;
+    }
+    select.addEventListener("change", () => { if (select.value === OTHER) text.value = ""; sync(); onChange && onChange(); if (!text.hidden) text.focus(); });
+    text.addEventListener("input", () => { sync(); onChange && onChange(true); });
+    const api = {
+      field: h("div", { class: "field" }, h("label", { for: id }, label), select, text, hidden),
+      get value() { return hidden.value; },
+      get isFree() { return free(); },
+      setOptions(list, other, placeholder) {
+        options = list;
+        otherLabel = other || "Otro…";
+        select.replaceChildren(h("option", { value: "" }, placeholder || "— elige —"),
+          ...list.map((o) => h("option", { value: o }, o)), h("option", { value: OTHER }, otherLabel));
+        select.value = "";
+        text.value = "";
+        text.placeholder = placeholder || "Escribe " + label.toLowerCase().replace(" *", "") + "…";
+        sync();
+      },
+      setValue(v) {
+        v = v || "";
+        if (!v) { select.value = ""; text.value = ""; }
+        else if (options.includes(v)) { select.value = v; text.value = ""; }
+        else { select.value = options.length ? OTHER : ""; text.value = v; }
+        sync();
+      },
+    };
+    api.setOptions([]);
+    return api;
+  }
+
+  const YEAR_MAX = new Date().getFullYear() + 1;
+  function yearSelect(value) {
+    const sel = h("select", { id: "f_anio", name: "anio" }, h("option", { value: "" }, "—"));
+    for (let y = YEAR_MAX; y >= 1950; y--) sel.append(h("option", { value: String(y) }, y));
+    if (value && !sel.querySelector('option[value="' + value + '"]')) sel.append(h("option", { value: String(value) }, value));
+    sel.value = value ? String(value) : "";
+    return h("div", { class: "field" }, h("label", { for: "f_anio" }, "Año"), sel);
+  }
+
+  // A partir del texto de la versión («2.0 TDI 150 CV») rellena cilindrada, potencia y combustible si están vacíos.
+  function fuelFromVersion(v) {
+    if (/kWh|Eléctrico|Electric|\bEV\b|\bE-Tech Eléctrico/i.test(v)) return "Eléctrico";
+    if (/Hidrógeno|FCEV/i.test(v)) return "Hidrógeno";
+    if (/PHEV|Plug-in|e-Hybrid|eHybrid|\b\d{2,3}e\b|\b\d{2,3}xe\b|Recharge|Twin Engine/i.test(v)) return "Híbrido enchufable";
+    if (/Hybrid|Híbrido|HEV|e-POWER|e-Boxer|MHEV|\bIMA\b/i.test(v)) return "Híbrido";
+    if (/TDI|dCi|HDi|CRDi|CDTI|JTD|D-4D|DDiS|Multijet|TDCi|CDI|SDI|VCDi|mHawk|e-XDi|JTDM|SKYACTIV-D|DiCOR|Diésel|Diesel|\b\d{2,3} ?d\b|\b[sx]Drive\d+d\b|\bD\d\b|\bd\d{3}\b/i.test(v)) return "Diésel";
+    if (/TGI|G-TEC|GNC|CNG|EcoFuel/i.test(v)) return "GNC";
+    if (/GLP|LPG/i.test(v)) return "GLP";
+    if (/TSI|TFSI|FSI|MPI|TCe|VVT|VTEC|GDi|T-GDI|PureTech|THP|EcoBoost|T-Jet|MultiAir|SCe|DIG-T|IG-T|Turbo|TwinAir|FireFly|\b\d{2,3}i\b|\b[sx]Drive\d+i\b|\bT\d\b|\b\d\.\d\b/i.test(v)) return "Gasolina";
+    return "";
+  }
+  function autofillFromVersion(form, version) {
+    if (!version) return;
+    const set = (name, value) => {
+      const el = form.elements[name];
+      if (el && value && !el.value) { el.value = value; el.classList.add("autofilled"); }
+    };
+    if (!/kWh|Eléctrico|Electric/i.test(version)) {
+      const cc = version.match(/\b(\d)[.,](\d{1,2})\b/);
+      if (cc) set("cilindrada_cc", Math.round(parseFloat(cc[1] + "." + cc[2]) * 1000));
+    }
+    const cv = version.match(/\b(\d{2,3}) ?CV\b/i);
+    if (cv) set("potencia_cv", cv[1]);
+    set("combustible", fuelFromVersion(version));
+  }
+
+  const DATALISTS = {
+    color: ["Blanco", "Negro", "Gris", "Plata", "Azul", "Rojo", "Verde", "Amarillo", "Naranja", "Marrón", "Beige", "Burdeos", "Dorado", "Violeta"],
+    tipo_aceite: ["0W-20", "0W-30", "0W-40", "5W-20", "5W-30", "5W-40", "10W-30", "10W-40", "15W-40", "10W-60"],
+    neumaticos: ["155/65 R14", "165/65 R14", "175/65 R14", "185/60 R15", "185/65 R15", "195/65 R15", "195/55 R16", "205/55 R16", "205/60 R16",
+      "215/55 R17", "215/60 R17", "225/45 R17", "225/50 R17", "225/45 R18", "225/55 R18", "235/45 R18", "235/50 R19", "235/55 R19", "255/40 R19", "265/50 R20"],
+  };
+
   // ------------------------------------------------------------ formulario de coche
-  function carForm(car) {
+  async function carForm(car) {
+    const catalog = await loadCatalog();
     const editing = !!car;
     let newPhoto = null, removePhoto = false;
     openDialog(editing ? "Editar coche" : "Añadir coche", (body) => {
@@ -222,11 +339,37 @@
       });
       body.append(h("fieldset", {}, h("legend", {}, "Foto (miniatura)"),
         h("div", { class: "photo-pick" }, preview, h("div", { class: "col" }, file, rm))));
+      const cat = catalog || new Map();
+      const brandNames = [...cat.keys()].sort((a, b) => a.localeCompare(b, "es"));
+      const modelsOf = (b) => (cat.has(b) ? [...cat.get(b).keys()].sort((a, c) => a.localeCompare(c, "es", { numeric: true })) : []);
+      const versionsOf = (b, m) => (cat.has(b) && cat.get(b).has(m) ? cat.get(b).get(m) : []);
+      const form = () => body.closest("form");
+      const refreshVersions = () => version.setOptions(versionsOf(marca.value, modelo.value), "Otra versión…", "— elige —");
+      const refreshModels = () => modelo.setOptions(modelsOf(marca.value), "Otro modelo…", "— elige —");
+      const marca = combo("marca", "Marca *", true, (typing) => { if (!typing) { refreshModels(); refreshVersions(); } });
+      const modelo = combo("modelo", "Modelo *", true, (typing) => { if (!typing) refreshVersions(); });
+      const version = combo("version", "Versión / motorización", false, () => autofillFromVersion(form(), version.value));
+      marca.setOptions(brandNames, "Otra marca…", "— elige —");
+      refreshModels(); refreshVersions();
+      if (car) {
+        marca.setValue(car.marca); refreshModels();
+        modelo.setValue(car.modelo); refreshVersions();
+        version.setValue(car.version);
+      }
+      const special = { marca: marca.field, modelo: modelo.field, version: version.field, anio: yearSelect(car && car.anio) };
       for (const [title, defs] of SECTIONS)
-        body.append(h("fieldset", {}, h("legend", {}, title), h("div", { class: "fields" }, defs.map((d) => inputFor(d, car && car[d[0]])))));
+        body.append(h("fieldset", {}, h("legend", {}, title), h("div", { class: "fields" },
+          defs.map((d) => special[d[0]] || inputFor(d, car && car[d[0]])))));
+      for (const [k, list] of Object.entries(DATALISTS)) {
+        const input = body.querySelector("#f_" + k);
+        if (!input) continue;
+        input.setAttribute("list", "dl_" + k);
+        body.append(h("datalist", { id: "dl_" + k }, list.map((o) => h("option", { value: o }))));
+      }
     }, async (form, dlg) => {
       const data = {};
       for (const [, defs] of SECTIONS) for (const d of defs) data[d[0]] = form.elements[d[0]].value;
+      if (!data.marca || !data.modelo) throw new Error("La marca y el modelo son obligatorios.");
       const saved = editing ? await api("PUT", "/api/cars/" + car.id, data) : await api("POST", "/api/cars", data);
       try {
         if (newPhoto) await api("PUT", "/api/cars/" + saved.id + "/photo", undefined, newPhoto);
@@ -303,7 +446,7 @@
 
   // ------------------------------------------------------------ vistas
   async function viewHome() {
-    app.replaceChildren(h("p", { class: "loading" }, "Cargando…"));
+    show(h("p", { class: "loading" }, "Cargando…"));
     const [cars, alerts] = await Promise.all([api("GET", "/api/cars"), api("GET", "/api/alerts")]);
     const search = h("input", { class: "search", type: "search", placeholder: "Buscar coche…", "aria-label": "Buscar coche" });
     const grid = h("div", { class: "grid" });
@@ -323,7 +466,7 @@
     search.addEventListener("input", render);
     render();
 
-    app.replaceChildren(
+    show(
       h("div", { class: "page-head" }, h("div", {}, h("h1", {}, "Mis coches"),
         h("p", { class: "muted" }, cars.length + (cars.length === 1 ? " vehículo registrado" : " vehículos registrados"))), cars.length ? search : null),
       alerts.length ? h("section", { class: "alerts", "aria-label": "Avisos" }, alerts.map((a) =>
@@ -337,7 +480,7 @@
   }
 
   async function viewCar(id) {
-    app.replaceChildren(h("p", { class: "loading" }, "Cargando…"));
+    show(h("p", { class: "loading" }, "Cargando…"));
     const car = await api("GET", "/api/cars/" + id);
     const ms = car.mantenimientos;
     const done = ms.filter((m) => m.estado === "realizado");
@@ -383,7 +526,7 @@
     };
     const sorted = (arr, dir) => arr.slice().sort((a, b) => dir * ((a.fecha || "9999").localeCompare(b.fecha || "9999")));
 
-    app.replaceChildren(
+    show(
       h("p", {}, h("a", { href: "#/" }, "← Todos los coches")),
       h("div", { class: "detail-hero" }, thumb(car, false),
         h("div", {}, h("h1", {}, carName(car)),
@@ -420,7 +563,7 @@
       if (m) await viewCar(m[1]); else await viewHome();
     } catch (e) {
       if (mine !== seq) return;
-      app.replaceChildren(h("div", { class: "empty" }, h("h2", {}, "Algo ha fallado"), h("p", { class: "muted" }, e.message),
+      show(h("div", { class: "empty" }, h("h2", {}, "Algo ha fallado"), h("p", { class: "muted" }, e.message),
         h("a", { class: "btn", href: "#/" }, "Volver al inicio")));
     }
   }

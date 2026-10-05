@@ -136,3 +136,7 @@ legend { font-weight: 700; color: var(--primary); margin-bottom: 10px; padding: 
   .alert .when { margin-left: 0; text-align: left; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+.field input.autofilled, .field select.autofilled { border-color: var(--primary); }
+.field select[hidden], .field input[hidden] { display: none; }
+.field select + input[type="text"] { margin-top: 6px; }
