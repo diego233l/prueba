@@ -1,5 +1,5 @@
-# Formato: '# Marca' abre una marca; cada línea 'Modelo | versión; versión; ...' es un modelo con sus versiones.
-# Las versiones son motorizaciones y variantes habituales; en la web siempre se puede escribir otra a mano.
+// Formato: '# Marca' abre una marca; cada línea 'Modelo | versión; versión; ...' es un modelo con sus versiones.
+// Las versiones son motorizaciones y variantes habituales; en la web siempre se puede escribir otra a mano.
 # Abarth
 124 Spider | 1.4 MultiAir 170 CV
 500 | 1.4 T-Jet 135 CV; 1.4 T-Jet 140 CV; 1.4 T-Jet 160 CV; 1.4 T-Jet 165 CV; 1.4 T-Jet 180 CV; 595; 595 Competizione; 595 Turismo; 595C; 695 Biposto; 695 Tributo
@@ -439,10 +439,7 @@ Trooper | 3.0 TD; 3.5 V6
 # Iveco
 Daily | 35S12 2.3 116 CV; 35S14 2.3 136 CV; 35S16 2.3 156 CV; 35S18 3.0 176 CV; 35C14; 35C16; 35C18; 50C15; 50C18; 65C18; 70C18; 72C18; Furgón; Combi; Chasis cabina
 eDaily | 2024 eléctrico
-Eurocargo | ML75E16; ML120E22; ML150E28
 Massif | 3.0 HPI
-S-Way | 460; 510
-Stralis | 440S42; 460S46
 # Jaecoo
 7 | 1.6 T-GDI 147 CV; 1.6 T-GDI AWD; Hybrid 7 SHS
 # Jaguar
@@ -849,9 +846,6 @@ RCZ | 1.6 THP 156 CV; 1.6 THP 200 CV; 1.6 THP 270 CV R; 2.0 HDi 163 CV; R
 RCZ R | 1.6 THP 270 CV
 Rifter | 1.2 PureTech 110 CV; 1.2 PureTech 130 CV; 1.5 BlueHDi 75 CV; 1.5 BlueHDi 100 CV; 1.5 BlueHDi 130 CV; e-Rifter Eléctrico 136 CV; Long; 7 plazas
 Traveller | 1.5 BlueHDi 120 CV; 2.0 BlueHDi 150 CV; 2.0 BlueHDi 180 CV; 1.6 BlueHDi 115 CV; 2.0 HDi 163 CV; e-Traveller Eléctrico 136 CV; Long; Compact
-# Piaggio
-Porter | 1.3 16V; 1.3 Electric; Pick-up; Furgón
-Porter NP6 | 1.5 Gasolina; 1.5 Híbrido
 # Polestar
 Polestar 1 | Híbrido 609 CV
 Polestar 2 | Standard Range Single Motor 272 CV; Long Range Single Motor 299 CV; Long Range Dual Motor 408 CV; Performance; Standard Range 231 CV

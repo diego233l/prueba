@@ -71,11 +71,21 @@
     for (const ch of str) x = (x * 31 + ch.codePointAt(0)) % 360;
     return x;
   }
-  function thumb(car, withBadge) {
-    const box = h("div", { class: "thumb" });
+  // fit=true: el marco toma la proporción de la foto (se ve entera y encaja exacta, sin recortes ni bandas).
+  // fit=false: marco de tamaño fijo; la foto se ve entera (contain) sobre su propia versión difuminada.
+  function thumb(car, withBadge, fit) {
+    const box = h("div", { class: "thumb" + (fit ? " fit" : "") });
     if (car.has_photo) {
-      box.append(h("img", { src: "/api/cars/" + car.id + "/photo?v=" + encodeURIComponent(car.photo_v || ""),
-        alt: carName(car), loading: "lazy" }));
+      const src = "/api/cars/" + car.id + "/photo?v=" + encodeURIComponent(car.photo_v || "");
+      const img = h("img", { class: "fg", src, alt: carName(car), loading: fit ? "eager" : "lazy" });
+      if (fit) {
+        img.addEventListener("load", () => {
+          if (img.naturalWidth && img.naturalHeight) box.style.setProperty("--ar", (img.naturalWidth / img.naturalHeight).toFixed(4));
+        });
+      } else {
+        box.append(h("img", { class: "bg", src, alt: "", "aria-hidden": "true", loading: "lazy" }));
+      }
+      box.append(img);
     } else {
       const hh = hue(carName(car));
       const ph = h("div", { class: "placeholder", "aria-hidden": "true" }, (car.marca[0] || "?").toUpperCase() + (car.modelo[0] || "").toUpperCase());
@@ -215,7 +225,7 @@
           let brand = null;
           for (const line of txt.split("\n")) {
             if (line.startsWith("# ")) { brand = new Map(); cat.set(line.slice(2).trim(), brand); }
-            else if (brand && line.trim() && !line.startsWith("#")) {
+            else if (brand && line.trim() && !line.startsWith("//") && !line.startsWith("#")) {
               const [model, vers = ""] = line.split("|");
               brand.set(model.trim(), vers.split(";").map((v) => v.trim()).filter(Boolean));
             }
@@ -322,7 +332,7 @@
     openDialog(editing ? "Editar coche" : "Añadir coche", (body) => {
       const preview = h("div", { class: "thumb" });
       const renderPreview = (url) => {
-        preview.replaceChildren(url ? h("img", { src: url, alt: "Vista previa" }) :
+        preview.replaceChildren(url ? h("img", { class: "fg", src: url, alt: "Vista previa" }) :
           h("div", { class: "placeholder", "aria-hidden": "true" }, "📷"));
       };
       renderPreview(editing && car.has_photo ? "/api/cars/" + car.id + "/photo?v=" + encodeURIComponent(car.photo_v || "") : null);
@@ -527,8 +537,8 @@
     const sorted = (arr, dir) => arr.slice().sort((a, b) => dir * ((a.fecha || "9999").localeCompare(b.fecha || "9999")));
 
     show(
-      h("p", {}, h("a", { href: "#/" }, "← Todos los coches")),
-      h("div", { class: "detail-hero" }, thumb(car, false),
+      h("p", {}, h("a", { class: "btn back", href: "#/" }, "← Todos los coches")),
+      h("div", { class: "detail-hero" }, thumb(car, false, true),
         h("div", {}, h("h1", {}, carName(car)),
           h("p", { class: "muted" }, [car.marca, car.modelo, car.version, car.anio].filter(Boolean).join(" · ")),
           car.matricula ? h("span", { class: "plate" }, car.matricula) : null,
@@ -557,6 +567,7 @@
   let seq = 0;
   async function route() {
     const mine = ++seq;
+    window.scrollTo(0, 0);
     document.title = "Mantenimiento coches";
     const m = location.hash.match(/^#\/coche\/(\d+)$/);
     try {

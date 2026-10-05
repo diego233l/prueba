@@ -56,7 +56,10 @@ main { max-width: 1180px; margin: 0 auto; padding: 24px 16px 64px; }
   box-shadow: var(--shadow); cursor: pointer; transition: transform .15s; text-decoration: none; color: inherit; display: block; }
 .car-card:hover { transform: translateY(-3px); }
 .thumb { aspect-ratio: 16 / 10; background: var(--surface2); display: grid; place-items: center; overflow: hidden; position: relative; }
-.thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.thumb img { display: block; }
+.thumb img.fg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
+.thumb img.bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transform: scale(1.2); filter: blur(18px) brightness(.85); }
+.thumb.fit { aspect-ratio: var(--ar, 1.6); width: min(100%, calc(72vh * var(--ar, 1.6))); height: auto; background: var(--surface2); align-self: start; }
 .thumb .placeholder { font-size: 3rem; font-weight: 800; color: #fff; width: 100%; height: 100%; display: grid; place-items: center;
   background: linear-gradient(135deg, var(--ph1, #3b82f6), var(--ph2, #8b5cf6)); letter-spacing: .05em; }
 .badge { position: absolute; top: 10px; right: 10px; background: var(--danger); color: #fff; font-size: .75rem; font-weight: 700;
@@ -140,3 +143,5 @@ legend { font-weight: 700; color: var(--primary); margin-bottom: 10px; padding: 
 .field input.autofilled, .field select.autofilled { border-color: var(--primary); }
 .field select[hidden], .field input[hidden] { display: none; }
 .field select + input[type="text"] { margin-top: 6px; }
+
+a.btn.back { margin-bottom: 4px; }
