@@ -170,6 +170,19 @@ def db():
     return conn
 
 
+# Migraciones de esquema: añadir al FINAL de la lista scripts SQL (nunca editar los anteriores).
+# Se aplican automáticamente al arrancar tras una actualización; PRAGMA user_version guarda el progreso.
+MIGRATIONS = [
+]
+
+
+def migrate(conn):
+    version = conn.execute("PRAGMA user_version").fetchone()[0]
+    for i in range(version, len(MIGRATIONS)):
+        conn.executescript("BEGIN;\n%s\nPRAGMA user_version = %d;\nCOMMIT;" % (MIGRATIONS[i], i + 1))
+        log.info("Migración de base de datos %d aplicada", i + 1)
+
+
 def init_db():
     os.makedirs(DATA_DIR, exist_ok=True)
     conn = sqlite3.connect(DB_PATH, timeout=15)
@@ -179,6 +192,7 @@ def init_db():
         except sqlite3.DatabaseError:
             pass
         conn.executescript(SCHEMA)
+        migrate(conn)
         conn.commit()
     finally:
         conn.close()

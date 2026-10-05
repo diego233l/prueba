@@ -32,10 +32,15 @@ if [[ "$YES" -eq 0 ]]; then
   [[ "$r" =~ ^[sSyY]$ ]] || { echo "Cancelado."; exit 0; }
 fi
 
-systemctl disable --now "${APP_NAME}-backup.timer" "${APP_NAME}.service" 2>/dev/null || true
-rm -f "/etc/systemd/system/${APP_NAME}.service" "/etc/systemd/system/${APP_NAME}-backup.service" \
-      "/etc/systemd/system/${APP_NAME}-backup.timer" "$ENV_FILE"
+REPO="$(sed -n 's|^ExecStart=\(.*\)/scripts/deploy.sh.*|\1|p' "/etc/systemd/system/${APP_NAME}-deploy.service" 2>/dev/null | head -n1)"
+
+systemctl disable --now "${APP_NAME}-deploy.path" "${APP_NAME}-pull.timer" "${APP_NAME}-backup.timer" "${APP_NAME}.service" 2>/dev/null || true
+for u in "" -backup -deploy -pull; do rm -f "/etc/systemd/system/${APP_NAME}${u}.service"; done
+rm -f "/etc/systemd/system/${APP_NAME}-backup.timer" "/etc/systemd/system/${APP_NAME}-pull.timer" \
+      "/etc/systemd/system/${APP_NAME}-deploy.path" "$ENV_FILE"
 systemctl daemon-reload 2>/dev/null || true
+# Se borra solo la carpeta de releases generada; el repositorio clonado no se toca.
+[[ -n "$REPO" && -d "$REPO/.deploy" ]] && rm -rf "$REPO/.deploy"
 rm -rf "$APP_DIR" "${APP_DIR}.previous"
 if command -v ufw >/dev/null && [[ -n "$PORT" ]] && ufw status 2>/dev/null | grep -q "^Status: active"; then
   ufw delete allow "${PORT}/tcp" >/dev/null 2>&1 || true
@@ -46,5 +51,5 @@ if [[ "$PURGE" -eq 1 ]]; then
   userdel "$SERVICE_USER" 2>/dev/null || true
   echo "Aplicación y datos eliminados."
 else
-  echo "Aplicación eliminada. Los datos siguen en $DATA_DIR (usa --purge para borrarlos)."
+  echo "Servicio eliminado (el repositorio clonado no se ha tocado). Los datos siguen en $DATA_DIR (usa --purge para borrarlos)."
 fi

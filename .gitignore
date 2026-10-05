@@ -2,3 +2,4 @@ __pycache__/
 *.pyc
 app/data/
 node_modules/
+.deploy/
