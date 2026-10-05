@@ -329,7 +329,22 @@ def route(method, pattern):
     return deco
 
 
-class Handler(BaseHTTPRequestHandler):
+class JsonMixin:
+    """Utilidades comunes a los dos modos de ejecución (servidor propio y CGI tras nginx)."""
+
+    def send_json(self, status, obj, extra=None):
+        self.send_bytes(status, json.dumps(obj, ensure_ascii=False).encode("utf-8"),
+                        "application/json; charset=utf-8", dict({"Cache-Control": "no-store"}, **(extra or {})))
+
+    def json_body(self):
+        raw = self.read_body(MAX_JSON)
+        try:
+            return json.loads(raw.decode("utf-8") or "null")
+        except (ValueError, UnicodeDecodeError):
+            raise ApiError(400, "JSON no válido")
+
+
+class Handler(JsonMixin, BaseHTTPRequestHandler):
     server_version = "MantenimientoCoches"
     sys_version = ""
     protocol_version = "HTTP/1.1"
@@ -350,10 +365,6 @@ class Handler(BaseHTTPRequestHandler):
         if self.command != "HEAD":
             self.wfile.write(body)
 
-    def send_json(self, status, obj, extra=None):
-        self.send_bytes(status, json.dumps(obj, ensure_ascii=False).encode("utf-8"),
-                        "application/json; charset=utf-8", dict({"Cache-Control": "no-store"}, **(extra or {})))
-
     def read_body(self, limit):
         self._body_read = True
         try:
@@ -364,13 +375,6 @@ class Handler(BaseHTTPRequestHandler):
             self.close_connection = True
             raise ApiError(413, "Contenido demasiado grande (máximo %d KB)" % (limit // 1024))
         return self.rfile.read(length) if length else b""
-
-    def json_body(self):
-        raw = self.read_body(MAX_JSON)
-        try:
-            return json.loads(raw.decode("utf-8") or "null")
-        except (ValueError, UnicodeDecodeError):
-            raise ApiError(400, "JSON no válido")
 
     def authorized(self):
         if not PASSWORD:
@@ -397,22 +401,14 @@ class Handler(BaseHTTPRequestHandler):
     def _dispatch(self):
         try:
             path = urlsplit(self.path).path
-            if path == "/api/health":
-                db().execute("SELECT 1")
-                return self.send_json(200, {"ok": True})
+            if path.startswith("/api/"):
+                if path != "/api/health" and not self.authorized():
+                    return self.send_bytes(401, b"Autenticacion requerida", "text/plain; charset=utf-8",
+                                           {"WWW-Authenticate": 'Basic realm="Mantenimiento coches", charset="UTF-8"'})
+                return handle_api(self, path)
             if not self.authorized():
                 return self.send_bytes(401, b"Autenticacion requerida", "text/plain; charset=utf-8",
                                        {"WWW-Authenticate": 'Basic realm="Mantenimiento coches", charset="UTF-8"'})
-            if path.startswith("/api/"):
-                if self.command in ("POST", "PUT", "DELETE") and self.headers.get("X-Requested-With") != "mc":
-                    raise ApiError(403, "Cabecera X-Requested-With ausente")
-                for method, rx, fn in ROUTES:
-                    m = rx.match(path)
-                    if m and method == ("GET" if self.command == "HEAD" else self.command):
-                        return fn(self, *[int(g) for g in m.groups()])
-                if any(rx.match(path) for _, rx, _ in ROUTES):
-                    raise ApiError(405, "Método no permitido")
-                raise ApiError(404, "Ruta no encontrada")
             if self.command not in ("GET", "HEAD"):
                 raise ApiError(405, "Método no permitido")
             return self.serve_static(path)
@@ -566,6 +562,33 @@ def api_alerts(h):
 def api_export(h):
     h.send_json(200, export_all(), {
         "Content-Disposition": 'attachment; filename="mantenimiento-coches-%s.json"' % date.today().isoformat()})
+
+
+def handle_api(req, path):
+    """Atiende una petición /api/* (la usan el servidor propio y api.cgi)."""
+    try:
+        if path == "/api/health":
+            db().execute("SELECT 1")
+            return req.send_json(200, {"ok": True})
+        if req.command in ("POST", "PUT", "DELETE") and req.headers.get("X-Requested-With") != "mc":
+            raise ApiError(403, "Cabecera X-Requested-With ausente")
+        for method, rx, fn in ROUTES:
+            m = rx.match(path)
+            if m and method == ("GET" if req.command == "HEAD" else req.command):
+                return fn(req, *[int(g) for g in m.groups()])
+        if any(rx.match(path) for _, rx, _ in ROUTES):
+            raise ApiError(405, "Método no permitido")
+        raise ApiError(404, "Ruta no encontrada")
+    except ApiError as exc:
+        req.send_json(exc.status, {"error": exc.message})
+    except sqlite3.OperationalError as exc:
+        log.exception("Error de base de datos")
+        req.send_json(503, {"error": "Base de datos no disponible: %s" % exc})
+    except (BrokenPipeError, ConnectionResetError):
+        pass
+    except Exception:
+        log.exception("Error interno")
+        req.send_json(500, {"error": "Error interno del servidor"})
 
 
 # ---------------------------------------------------------------- arranque

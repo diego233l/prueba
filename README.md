@@ -4,73 +4,73 @@ Aplicación web para guardar los datos de tus coches y llevar su mantenimiento: 
 ficha técnica completa (mecánica, compra, ITV, seguro, impuesto), historial de mantenimientos y mantenimientos
 futuros con avisos de vencimiento (por fecha o por kilómetros).
 
-- **Sin dependencias**: solo Python 3.8+ (biblioteca estándar) y SQLite. Interfaz moderna con modo claro/oscuro, adaptada a móvil.
-- **Datos** en un único archivo SQLite fuera del repositorio, con copia diaria automática y exportación JSON desde la interfaz.
+- **Alojada en nginx**: nginx sirve la interfaz (`app/static`) y ejecuta la API (`app/api.cgi`, Python estándar + SQLite) a través de fcgiwrap.
+  No hay servicio propio, ni instalador, ni nada que reiniciar.
+- **Datos en el servidor** (`/var/lib/mantenimiento-coches/coches.db`), fuera del repositorio, visibles desde cualquier dispositivo.
+- Interfaz moderna con modo claro/oscuro, adaptada a móvil.
 
-## Instalación en la VM Ubuntu (se hace una sola vez)
-
-```bash
-sudo apt-get update && sudo apt-get install -y git
-sudo mkdir -p /opt/apps
-sudo git clone --branch <rama> <url-del-repositorio> /opt/apps/mantenimiento-coches
-cd /opt/apps/mantenimiento-coches
-sudo ./install.sh                       # puerto 8080, contraseña generada
-# variantes: sudo ./install.sh --port 80 --password MiClave123
-```
-
-Todo lo de esta aplicación vive en su propia carpeta (`/opt/apps/mantenimiento-coches`) y en sus propias
-unidades systemd (`mantenimiento-coches*`), así que otras aplicaciones en la misma VM no se ven afectadas.
-Opciones de `install.sh`: `--port N`, `--password CLAVE`, `--no-password`, `--host IP`, `--data-dir RUTA`,
-`--branch RAMA`, `--interval MIN`, `--no-auto-pull`, `--no-firewall`.
-
-## Cómo se actualiza (sin volver a ejecutar nada)
-
-1. Se suben cambios a la rama que sigue el servidor (la que estaba activa al instalar; se guarda en `MC_BRANCH`).
-2. **Automático:** cada 5 minutos (configurable) el servidor hace `git fetch` + fast-forward de esa rama.
-3. **Inmediato:** si haces `sudo git pull` en la carpeta, systemd detecta el cambio y despliega al instante.
-4. Cada despliegue: toma el contenido **commiteado**, comprueba la sintaxis, hace una copia de seguridad de los datos,
-   crea una *release* en `.deploy/releases/<commit>`, reinicia el servicio y comprueba que responde.
-   Si no arranca, **vuelve solo a la versión anterior** y no reintenta ese commit hasta que haya otro nuevo.
-5. Los cambios de esquema de base de datos se aplican solos al arrancar (`MIGRATIONS` en `app/server.py`).
-
-Nunca se pisa trabajo local: solo se avanza por *fast-forward*. Los cambios sin commit en la carpeta del servidor no se despliegan.
-
-Historial de despliegues: `journalctl -u mantenimiento-coches-deploy -u mantenimiento-coches-pull`.
-Forzar un despliegue ahora: `sudo systemctl start mantenimiento-coches-pull` (o `sudo ./scripts/deploy.sh --pull`).
-
-### Repositorio privado
-El `git fetch` automático lo ejecuta root. Para que pueda autenticarse, guarda unas credenciales de solo lectura una vez:
+## Actualizar (un solo comando)
 
 ```bash
-sudo git config --global credential.helper store
-sudo git -C /opt/apps/mantenimiento-coches fetch origin     # pedirá usuario y token (permiso de solo lectura) y lo recordará
+git -C /opt/apps/mantenimiento-coches pull
 ```
-(o configura una *deploy key* SSH y cambia el remoto a `git@github.com:...`).
 
-### Cambiar de rama (p. ej. cuando se fusione a `main`)
+Como el código se lee del repositorio en cada petición, el cambio está en producción al instante. Los cambios de esquema
+de la base de datos se aplican solos (`MIGRATIONS` en `app/server.py`). Si cambia el archivo de nginx
+(`nginx/mantenimiento-coches.conf`) hay que recargar nginx: `sudo nginx -t && sudo systemctl reload nginx`.
+
+¿Quieres que ni siquiera haga falta ese comando? Una línea en cron actualiza el servidor cada 5 minutos:
+
 ```bash
-cd /opt/apps/mantenimiento-coches
-sudo git fetch origin && sudo git checkout main
-sudo ./install.sh --branch main         # conserva puerto, contraseña y datos
+(crontab -l 2>/dev/null; echo '*/5 * * * * git -C /opt/apps/mantenimiento-coches pull -q --ff-only') | crontab -
 ```
 
-## Dónde está cada cosa
+## Configuración inicial en la VM Ubuntu (una sola vez)
 
-| Qué | Dónde |
+```bash
+# 1. Paquetes
+sudo apt-get update && sudo apt-get install -y nginx fcgiwrap git openssl
+sudo systemctl enable --now fcgiwrap.socket
+
+# 2. Código (en su propia carpeta; el repositorio es tuyo, así que "git pull" no necesita sudo)
+sudo mkdir -p /opt/apps && sudo chown "$USER": /opt/apps
+git clone --branch claude/awesome-goldberg-kchtxi https://github.com/diego233l/prueba.git /opt/apps/mantenimiento-coches
+
+# 3. Carpeta de datos (la escribe nginx/fcgiwrap, que corre como www-data)
+sudo install -d -o www-data -g www-data -m 750 /var/lib/mantenimiento-coches
+
+# 4. Contraseña de acceso (usuario: admin)
+printf 'admin:%s\n' "$(openssl passwd -apr1 'CAMBIA_ESTA_CLAVE')" | sudo tee /etc/nginx/mantenimiento-coches.htpasswd >/dev/null
+sudo chgrp www-data /etc/nginx/mantenimiento-coches.htpasswd && sudo chmod 640 /etc/nginx/mantenimiento-coches.htpasswd
+
+# 5. Sitio nginx (puerto 8080, no toca tus otros sitios) y copia de seguridad diaria
+sudo ln -sf /opt/apps/mantenimiento-coches/nginx/mantenimiento-coches.conf /etc/nginx/sites-enabled/mantenimiento-coches
+echo '0 3 * * * www-data python3 /opt/apps/mantenimiento-coches/app/backup.py /var/lib/mantenimiento-coches 14' | sudo tee /etc/cron.d/mantenimiento-coches >/dev/null
+sudo nginx -t && sudo systemctl reload nginx
+
+# 6. Solo si usas el cortafuegos ufw
+sudo ufw allow 8080/tcp
+```
+
+Abre `http://IP-DE-LA-VM:8080/` (usuario `admin`). Para cambiar el puerto o el dominio edita `listen` / `server_name` en
+`nginx/mantenimiento-coches.conf` y recarga nginx. Para HTTPS pon certificados en ese mismo bloque (p. ej. con certbot).
+
+## Si algo no funciona
+
+| Síntoma | Qué mirar |
 | --- | --- |
-| Código y releases | `/opt/apps/mantenimiento-coches` (`.deploy/` = releases generadas, ignorada por git) |
-| Configuración (puerto, contraseña, rama) | `/etc/mantenimiento-coches.env` (tras editarla: `sudo systemctl restart mantenimiento-coches`) |
-| Datos y copias (`backups/`) | `/var/lib/mantenimiento-coches` |
+| `502 Bad Gateway` en `/api/...` | `systemctl status fcgiwrap.socket`; comprueba que existe `/run/fcgiwrap.socket` (si en tu Ubuntu está en otra ruta, cámbiala en `fastcgi_pass`) |
+| Error "No se pudo abrir la base de datos" | La carpeta `/var/lib/mantenimiento-coches` debe ser de `www-data` (paso 3) |
+| `403`/`404` en la web | Permisos de lectura de `/opt/apps` para www-data (`chmod o+rX`) y que el enlace de `sites-enabled` apunta bien |
+| Error tras un `git pull` | La API responde con un mensaje claro; mira `sudo tail /var/log/nginx/error.log` y haz `git revert`/`git checkout` del commit problemático |
+| `nginx -t` falla por `listen 8080` | Puerto ocupado por otro sitio: cambia el puerto en el archivo de nginx |
 
-Gestión: `systemctl status mantenimiento-coches`, `journalctl -u mantenimiento-coches -f`.
-Desinstalar: `sudo ./uninstall.sh` (conserva los datos) o `sudo ./uninstall.sh --purge` (los borra). No borra la carpeta del repositorio.
-
-> La aplicación sirve HTTP sin cifrar. Para acceso desde Internet ponla detrás de un proxy inverso con HTTPS (nginx, Caddy).
+Datos y copias: `/var/lib/mantenimiento-coches` (`backups/` guarda las 14 últimas). Desde la web también puedes **Exportar copia** (JSON).
 
 ## Desarrollo local
 
 ```bash
-MC_PORT=8080 python3 app/server.py     # datos en app/data/
+MC_PORT=8080 python3 app/server.py     # servidor propio de desarrollo, datos en app/data/
 ```
 
-Variables: `MC_HOST`, `MC_PORT`, `MC_DATA_DIR`, `MC_PASSWORD` (si se define, se pide por HTTP Basic; el usuario es indiferente).
+Variables: `MC_HOST`, `MC_PORT`, `MC_DATA_DIR`, `MC_PASSWORD` (solo para este modo de desarrollo; en producción lo hace nginx).
