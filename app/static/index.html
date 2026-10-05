@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Mantenimiento coches</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/" aria-label="Inicio">
+      <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path fill="currentColor" d="M5 11l1.6-4.4A2 2 0 0 1 8.5 5h7a2 2 0 0 1 1.9 1.6L19 11h.5A1.5 1.5 0 0 1 21 12.5V17a1 1 0 0 1-1 1h-1a2 2 0 0 1-4 0H9a2 2 0 0 1-4 0H4a1 1 0 0 1-1-1v-4.5A1.5 1.5 0 0 1 4.5 11H5zm2.2 0h9.6l-1-3H8.2l-1 3zM7 16.5a1 1 0 1 0 0-.01zm10 0a1 1 0 1 0 0-.01z"/></svg>
+      <span>Mantenimiento coches</span>
+    </a>
+    <div class="topbar-actions">
+      <a class="btn ghost" href="/api/export" download>Exportar copia</a>
+      <button class="btn primary" id="btn-new-car" type="button">+ Añadir coche</button>
+    </div>
+  </header>
+  <main id="app" aria-live="polite"></main>
+  <div id="toasts" role="status"></div>
+  <noscript><p class="noscript">Esta aplicación necesita JavaScript.</p></noscript>
+  <script src="/app.js"></script>
+</body>
+</html>
